@@ -7,7 +7,6 @@ const defaultUser = {
 }
 
 const user = (state: any = defaultUser, action: any) => {
-
   return state;
 }
 

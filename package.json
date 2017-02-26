@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "start": "node server.js"
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +21,9 @@
     "webpack-hot-middleware": "^2.17.1"
   },
   "dependencies": {
+    "@types/es6-promise": "0.0.32",
     "@types/material-ui": "^0.16.51",
+    "@types/node": "^7.0.5",
     "@types/react": "^15.0.12",
     "@types/react-dom": "^0.14.23",
     "@types/react-redux": "^4.4.36",

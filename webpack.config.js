@@ -4,19 +4,30 @@ var webpack = require('webpack');
 module.exports = {
     entry: [
         'react-hot-loader/patch',
-        'webpack-hot-middleware/client',
-        'react',
-        'react-dom',
+        'webpack-dev-server/client?http://localhost:8080',
+        //'webpack-hot-middleware/client',
+        'webpack/hot/only-dev-server',
         "./src/index.tsx"
     ],
 
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/static/'
+        publicPath: '/'
     },
+    devServer: {
+        hot: true,
+        // enable HMR on the server
+
+        contentBase: path.resolve(__dirname, 'dist'),
+        // match the output path
+
+        publicPath: '/'
+        // match the output `publicPath`
+    },
+
     // Enable sourcemaps for debugging webpack's output.
-    devtool: "source-map",
+    devtool: 'inline-source-map',
 
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
@@ -26,19 +37,13 @@ module.exports = {
     module: {
         rules: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
-            {test: /\.tsx?$/, use: ['awesome-typescript-loader'] },
-            {
-              test: /\.js$/,
-              use: [
-                'babel-loader',
-              ],
-              exclude: /node_modules/
-            },
+            {test: /\.tsx?$/, use: ['awesome-typescript-loader'] }
         ]
     },
 
     plugins: [
-      new webpack.HotModuleReplacementPlugin()
+      new webpack.HotModuleReplacementPlugin(),
+      new webpack.NamedModulesPlugin()
     ],
 
     // When importing a module whose path matches one of the following, just

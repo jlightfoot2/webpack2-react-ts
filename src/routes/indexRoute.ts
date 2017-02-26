@@ -1,4 +1,4 @@
-import {Hello as Intro} from '../Components/Hello';
+import Intro from '../Components/Hello';
 
 export default {
   path: '/',

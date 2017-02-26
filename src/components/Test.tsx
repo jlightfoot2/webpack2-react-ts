@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { Link } from 'react-router';
 export interface HelloProps { 
 
@@ -13,9 +14,9 @@ export interface HelloState {
 export default class Hello extends React.Component<HelloProps, HelloState> {
     render() {
         return (<div>
-                  <h1>Hello World Blah Blah!!!</h1>
-                  <Link to="test">Test asdf</Link>
-                  </div>
-                  );
+                  <h1>Test Test Test</h1>
+                    <Link to="/">Hello</Link>
+
+                  </div>);
     }
 }
