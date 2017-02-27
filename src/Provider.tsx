@@ -51,15 +51,6 @@ const siteRoutes = [
          System.import('./components/Test').then(loadRoute(cb)).catch(errorLoading);
        },
       }
-
-      //System.import('./routes/quickLoadRoute').then((comp: any) => comp.default),
-      /*
-      System.import('./routes/mainPageRoute'),
-      System.import('./routes/notFoundRoute.js')
-      */
-     // require('./routes/quickLoadRoute').default,
-      //require('./routes/mainPageRoute').default
-      //require('./routes/notFoundRoute.js').default
     ]
   }
 
@@ -67,22 +58,10 @@ const siteRoutes = [
 
 export default class AppProvider extends React.Component<MyProps,  MyState>{
   render(){
-   return (<Provider store={store}>
-               <Router history={browserHistory} routes={siteRoutes} />
+   return (
+            <Provider store={store}>
+              <Router history={hashHistory} routes={siteRoutes} />
             </Provider>
            );
   }
- /*
-   return (<Provider store={store}>
-               <Router routes={siteRoutes} />
-           </Provider>);
-
-  render(){
-    return <Theme>
-    <AppBarPage>
-        <Hello compiler="Webpack" framework="React" />
-    </AppBarPage>
-    </Theme>
-  }
-  */
 }
