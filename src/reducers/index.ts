@@ -13,6 +13,7 @@ const user = (state: any = defaultUser, action: any) => {
 
 const appHub = combineReducers({
   routing: routerReducer,
+  user
 });
 
 export default appHub;

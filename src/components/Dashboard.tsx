@@ -40,6 +40,7 @@ export default class HomePage extends React.Component<MyProps, MyState> {
       >
 
         {categories.map((tile) => (
+           <Link to={tile.path} >
             <GridTile
               key={tile.id}
         
@@ -49,6 +50,7 @@ export default class HomePage extends React.Component<MyProps, MyState> {
             >
             <img src={tile.img} />
             </GridTile>
+            </Link>
       
         ))}
       </GridList>
