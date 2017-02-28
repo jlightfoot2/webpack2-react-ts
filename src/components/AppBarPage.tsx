@@ -40,6 +40,8 @@ const styles = {
 interface MyProps {
  // dispatch(arg: any): any;
   appBarTitle?(msg: string): any;
+  categories: any[];
+  pathOnTouchTap(path:string): any
   //isAuthed: boolean;
 
 }
@@ -86,7 +88,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
   }
 
   render () {
-    const {} = this.props;
+    const {categories,pathOnTouchTap} = this.props;
     return (
        
         <div style={styles.wrapper}>
@@ -98,7 +100,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                  />
                 <div style={{'padding': '5px'} as any}>
                   <div style={styles.content as any}>
-                    {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle })}
+                    {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle, categories, pathOnTouchTap })}
                   </div>
                 </div>
                 {/*

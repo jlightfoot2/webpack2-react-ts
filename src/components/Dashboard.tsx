@@ -9,15 +9,9 @@ import { Link } from 'react-router';
 const styles = {
 };
 
-const categories = [
-  {id: 1, title: 'Videos', path: '/main/videos', featured: true, img: require('../res/images/film-596011_640.png')},
-  {id: 2, title: 'Assessments', path: '/main/assessment', featured: false, img: require('../res/images/2000px-Checklist_Noun_project_5166.svg.png')},
-  {id: 3, title: 'Library', path: '/main/library', featured: false, img: require('../res/images/2000px-Book_font_awesome.svg.png')},
-  {id: 4, title: 'Resources', path: '/main/resources', featured: false, img: require('../res/images/Sharing-icon.svg.png')}
-];
-
 interface MyProps {
   appBarTitle(msg: string): any;
+  categories: any[];
 }
 
 interface MyState {
@@ -34,7 +28,7 @@ export default class HomePage extends React.Component<MyProps, MyState> {
   }
 
   render () {
-    var {appBarTitle} = this.props;
+    var {appBarTitle,categories} = this.props;
 
     var cols = 2;
 
@@ -48,7 +42,7 @@ export default class HomePage extends React.Component<MyProps, MyState> {
         {categories.map((tile) => (
             <GridTile
               key={tile.id}
-               {...tile}
+        
               title={tile.title}
               titlePosition='bottom'
               style={{backgroundColor: 'grey'}}

@@ -2,6 +2,7 @@ import Theme from './components/Theme';
 import Hello from './components/Hello';
 import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
+import PageContainer from './containers/MainContainer';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -50,12 +51,11 @@ console.log(syncRoute('/',AppBarPage, quickRoutes,Hello));
 const siteRoutes = [
 
   {
-    path: null,
     component: Theme,
     indexRoute: Hello,
     childRoutes: [
-      syncRoute('/',AppBarPage, quickRoutes, Hello),
-      syncRoute('/main',AppBarPage, mainSubRoutes,Dashboard),
+      syncRoute('/',PageContainer, quickRoutes, Hello),
+      syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
     ]
   }
 ];
