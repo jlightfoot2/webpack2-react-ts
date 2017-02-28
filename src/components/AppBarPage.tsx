@@ -88,7 +88,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
   render () {
     const {} = this.props;
     return (
-        <Theme>
+       
         <div style={styles.wrapper}>
             <AppBar
                 title={this.state.title}
@@ -106,7 +106,6 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                 <SnackBarNotice flash={flash} />
                 */}
         </div>
-        </Theme>
     );
   }
 }
