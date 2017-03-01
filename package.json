@@ -37,6 +37,7 @@
     "babylonjs": "^2.5.0",
     "local-t2-navigation-redux": "0.0.3",
     "material-ui": "^0.17.0",
+    "normalizr": "^3.2.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",

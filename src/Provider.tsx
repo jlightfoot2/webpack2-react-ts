@@ -2,17 +2,25 @@ import Theme from './components/Theme';
 import Hello from './components/Hello';
 import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
-import PageContainer from './containers/MainContainer';
+import NotFound from './components/NotFound';
+import PageContainer from './containers/Main';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
+import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from 'local-t2-navigation-redux';
-import { createStore } from 'redux'
+import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
 
-let store = createStore(reducer)
+let store = createStore(reducer,applyMiddleware(routerMiddleware(hashHistory)));
+
+
+
+store.subscribe(() => {
+  console.log(store.getState()); // list entire state of app in js console. Essential for debugging.
+});
 interface MyProps {
   [propName: string]: any;
 }
@@ -44,10 +52,11 @@ const quickRoutes = [
 
 const mainSubRoutes = [
   asyncRoute('library',System.import('./components/Library'),[],Dashboard),
-  asyncRoute('assessments',System.import('./components/Assessments'),[],Dashboard)
+  asyncRoute('assessments',System.import('./containers/Assessments'),[],Dashboard),
+  asyncRoute('assessment/:id',System.import('./containers/Assessment'),[],Dashboard)
 ];
 
-console.log(syncRoute('/',AppBarPage, quickRoutes,Hello));
+
 const siteRoutes = [
 
   {
@@ -56,15 +65,16 @@ const siteRoutes = [
     childRoutes: [
       syncRoute('/',PageContainer, quickRoutes, Hello),
       syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
+      syncRoute('*',PageContainer,[],NotFound)
     ]
   }
 ];
-
+const history = syncHistoryWithStore(hashHistory, store)
 export default class AppProvider extends React.Component<MyProps,  MyState>{
   render(){
    return (
             <Provider store={store}>
-              <Router history={hashHistory} routes={siteRoutes} />
+              <Router history={history} routes={siteRoutes} />
             </Provider>
            );
   }

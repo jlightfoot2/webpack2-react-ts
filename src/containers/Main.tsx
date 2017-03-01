@@ -27,13 +27,13 @@ const stateToProps = (state) => {
     categories: categoriesData
   }
 }
-const dispatchToProps = (state) => {
+const dispatchToProps = (distatch,ownProps) => {
   return {
     pathOnTouchTap: (path) => {
       return (event) => {
         event.preventDefault();
         event.stopPropagation();
-        (path) => push(path)
+        distatch(push(path));
       }
     }
   }

@@ -2,6 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { connect } from 'react-redux';
 import IconMenu from 'material-ui/IconMenu';
+import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui/svg-icons/navigation/menu';
@@ -20,11 +21,9 @@ import {push} from 'react-router-redux';
  */
 
 interface MyProps {
-  paths: any;
-  submenu: any;
-  parent: any;
-  workbooks: any;
-  navigateTo(path:string): any
+  paths?: any;
+  submenu?: any;
+  pathOnTouchTap(path:string): any
 }
 
 interface MyState {
@@ -45,18 +44,19 @@ export default class AppBarMenuIconDrawer extends React.Component<MyProps, MySta
     }
 
 
-    handleClose = (path) => {
-      const {navigateTo} = this.props;
+    handleClosePath = (path) => {
+      const {pathOnTouchTap} = this.props;
       return (event) => {
-
-        event.preventDefault();
-        event.stopPropagation();
+        pathOnTouchTap(path)(event);
         this.setState({open: false});
-        navigateTo(path);
       }
     }
+
+    handleClose = () => {
+      this.setState({open: false});
+    }
     render(){
-      const {} = this.props;
+      const {pathOnTouchTap} = this.props;
         return (
           <div>
             <IconButton onTouchTap={this.handleToggle}><MenuIcon /></IconButton>
@@ -67,9 +67,12 @@ export default class AppBarMenuIconDrawer extends React.Component<MyProps, MySta
               onRequestChange={(open) => this.setState({open})}
               containerStyle={{paddingTop: 60}}
             >
-               <Divider />
-              <MenuItem key={'static_directors_message'} primaryText="Home" onTouchTap={this.handleClose('/main/home')}   />
-         
+              <Menu onItemTouchTap={this.handleClose} >
+                 <Divider />
+                  <MenuItem key={'static_home'} primaryText="Home" onTouchTap={pathOnTouchTap('/')}   />
+                  <Divider />
+                 {this.props.children}
+              </Menu>
             </Drawer>
           </div>
           );

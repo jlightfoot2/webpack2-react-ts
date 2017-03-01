@@ -4,10 +4,11 @@
  */
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
+import MenuDrawer from './MenuDrawer';
 import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
+import MenuItem from 'material-ui/MenuItem';
 //import SnackBarNotice from './SnackBarNoticeComponent';
 //import AppBarMenuIcon from './AppBarMenuIconDrawer';
 import HomeIcon from 'material-ui/svg-icons/action/home';
@@ -15,8 +16,7 @@ import IconButton from 'material-ui/IconButton';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import {push, replace} from 'react-router-redux';
-import { withRouter } from 'react-router';
-import Theme from './Theme';
+
 //import {FlashMessageInterface} from './data/workbook';
 
 
@@ -37,6 +37,21 @@ const styles = {
     justifyContent: 'center'
   }
 };
+
+const categoryItem = (categories,pathOnTouchTap) => {
+  console.log(categories);
+  const click = () => {
+
+  };
+  return(
+        <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
+          {categories.map(cat => {
+            return <MenuItem key={cat.id} primaryText={cat.title} onTouchTap={pathOnTouchTap(cat.path)} />
+          })}
+        </MenuDrawer>
+          );
+}
+
 interface MyProps {
  // dispatch(arg: any): any;
   appBarTitle?(msg: string): any;
@@ -50,6 +65,9 @@ interface MyState {
   title?: any,
   open?: boolean
 }
+
+
+
 export default class AppBarPage extends React.Component<MyProps, MyState>{
   static contextTypes: any = {
                                 router: React.PropTypes.object.isRequired
@@ -95,7 +113,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
             <AppBar
                 title={this.state.title}
                 titleStyle={{textAlign: 'center'}}
-                iconElementLeft={<IconButton containerElement={<Link to="/" />}><HomeIcon /></IconButton>}
+                iconElementLeft={categoryItem(categories,pathOnTouchTap)}
                
                  />
                 <div style={{'padding': '5px'} as any}>

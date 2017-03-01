@@ -24,7 +24,7 @@ export default class HomePage extends React.Component<MyProps, MyState> {
   }
 
   componentWillMount () {
-    this.props.appBarTitle && this.props.appBarTitle('Home');
+    this.props.appBarTitle('Home');
   }
 
   render () {
@@ -40,15 +40,16 @@ export default class HomePage extends React.Component<MyProps, MyState> {
       >
 
         {categories.map((tile) => (
+           <Link to={tile.path} >
             <GridTile
               key={tile.id}
         
               title={tile.title}
               titlePosition='bottom'
-              style={{backgroundColor: 'grey'}}
             >
             <img src={tile.img} />
             </GridTile>
+            </Link>
       
         ))}
       </GridList>

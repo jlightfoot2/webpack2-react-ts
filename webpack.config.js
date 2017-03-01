@@ -41,15 +41,20 @@ module.exports = {
 
             {
                 test: /\.(png|gif|jpe?g|svg)$/i,
-                use: ['url-loader']
+                use: ['url-loader?limit=2']
             }
 
         ]
     },
 
     plugins: [
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NamedModulesPlugin()
+        new webpack.DefinePlugin({
+          '__DEVTOOLS__': true,
+          '__INCLUDE_SERVICE_WORKER__': false,
+          '__APP_HUB_URL__': '"http://localhost:3000"'
+        }),
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NamedModulesPlugin()
     ],
 
     // When importing a module whose path matches one of the following, just
