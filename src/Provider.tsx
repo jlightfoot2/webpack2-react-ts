@@ -52,10 +52,11 @@ const quickRoutes = [
 
 const mainSubRoutes = [
   asyncRoute('library',System.import('./components/Library'),[],Dashboard),
-  asyncRoute('assessments',System.import('./containers/Assessments'),[],Dashboard)
+  asyncRoute('assessments',System.import('./containers/Assessments'),[],Dashboard),
+  asyncRoute('assessment/:id',System.import('./containers/Assessment'),[],Dashboard)
 ];
 
-console.log(syncRoute('/',AppBarPage, quickRoutes,Hello));
+
 const siteRoutes = [
 
   {

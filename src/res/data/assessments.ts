@@ -31,15 +31,17 @@ export interface AssessmentInterface{
   maxScore: number;
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
+  image: string;
 }
 
-export const makeAssessment = (id,title,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[]):AssessmentInterface => {
+export const makeAssessment = (id,title,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
   return {
     id,
     title,
     maxScore,
     scoring,
-    questions
+    questions,
+    image
   }
 }
 
@@ -94,10 +96,11 @@ const maritalSatisfactionQuestions: QuestionInterface[] = [
   makeQuestion(4,'QM4','text',choicesSet1)
 ];
 
-
+const friendsImage = require('../images/friends-form.png');
+const marriageIimage  = require('../images/married.jpeg');
 const assessments: AssessmentInterface[] = [
-  makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions),
-  makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions),
+  makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions,friendsImage),
+  makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions,marriageIimage),
 ];
 export default assessments;
 
