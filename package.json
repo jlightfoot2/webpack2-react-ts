@@ -34,6 +34,7 @@
     "@types/react-router-redux": "^4.0.41",
     "@types/react-tap-event-plugin": "0.0.30",
     "@types/systemjs": "^0.20.1",
+    "babylonjs": "^2.5.0",
     "local-t2-navigation-redux": "0.0.3",
     "material-ui": "^0.17.0",
     "react": "^15.4.2",
