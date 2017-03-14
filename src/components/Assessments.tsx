@@ -3,7 +3,7 @@ import {GridList, GridTile} from 'material-ui/GridList';
 import { Link } from 'react-router';
 
 export interface Props { 
-   assessments: any[];
+   assessments: any;
    appBarTitle(msg: string): any;
    pathOnTouchTap(path:string): any
 }

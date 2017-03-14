@@ -1,12 +1,12 @@
 import Assessments from '../components/Assessments';
-import assessmentsData from '../res/data/assessments';
+import {assessments, assessmentIds} from '../res/data/assessments';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 
 const stateToProps = (state) => {
-  console.log(assessmentsData);
+  console.log(assessments);
   return {
-    assessments: assessmentsData
+    assessments: assessmentIds.map(id => assessments[id])
   }
 }
 const dispatchToProps = (dispatch) => {

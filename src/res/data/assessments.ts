@@ -98,11 +98,18 @@ const maritalSatisfactionQuestions: QuestionInterface[] = [
 
 const friendsImage = require('../images/friends-form.png');
 const marriageIimage  = require('../images/married.jpeg');
-const assessments: AssessmentInterface[] = [
-  makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions,friendsImage),
-  makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions,marriageIimage),
-];
-export default assessments;
+
+
+interface AssessmentTreeInterface {
+  [propName: string]: AssessmentInterface;
+}
+
+export const assessments: AssessmentTreeInterface = {
+  "1": makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions,friendsImage),
+  "2": makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions,marriageIimage)
+}
+
+export const assessmentIds = ['1','2'];
 
 
 
