@@ -3,6 +3,8 @@ import { normalize, schema } from 'normalizr';
 
 import * as objectAssign from 'object-assign';
 
+const assessmentSchema = new schema.Entity('assessment');
+const assessmentListSchema = new schema.Array(assessmentSchema);
 
 export interface ScoringInterface{
   id: number;
@@ -103,13 +105,16 @@ const marriageIimage  = require('../images/married.jpeg');
 interface AssessmentTreeInterface {
   [propName: string]: AssessmentInterface;
 }
+const assessmentsRaw = [
+  makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions,friendsImage),
+  makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions,marriageIimage)
+]
 
-export const assessments: AssessmentTreeInterface = {
-  "1": makeAssessment(1,'Friendship Scale',100,scoringList1,friendShipQuestions,friendsImage),
-  "2": makeAssessment(2,'Marital Satisfaction',100,scoringList1,maritalSatisfactionQuestions,marriageIimage)
-}
+const normalData = normalize(assessmentsRaw,assessmentListSchema);
+console.log(normalData);
+export const assessments: AssessmentTreeInterface = normalData.entities.assessment;
 
-export const assessmentIds = ['1','2'];
+export const assessmentIds = normalData.result;
 
 
 

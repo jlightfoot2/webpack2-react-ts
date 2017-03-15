@@ -1,12 +1,14 @@
 import * as React from "react";
-
+import Form from './Form';
 export interface ItemInterface{
   title: string;
+  questions: any[];
 }
 
 export interface Props { 
   appBarTitle(msg: string): any;
   item: ItemInterface;
+  submitData(data: any): void; 
 }
 
 export interface State { 
@@ -21,11 +23,13 @@ export default class Assessment extends React.Component<Props, State> {
     }
 
     componentWillReceiveProps(nextProps) {
-      const {item} = nextProps;
+      const {item, submitData} = nextProps;
       console.log(item);
       this.props.appBarTitle(item.title);
     }
     render() {
-        return (<h1>An Assessment</h1>);
+        const {item, submitData} = this.props;
+
+        return (<Form items={item.questions} submitData={submitData} />);
     }
 }
