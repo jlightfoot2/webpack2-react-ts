@@ -18,13 +18,13 @@ export interface State {
 export default class Assessment extends React.Component<Props, State> {
     componentWillMount () {
       const {item} = this.props;
-      console.log(item);
+
       this.props.appBarTitle(item.title);
     }
 
     componentWillReceiveProps(nextProps) {
       const {item, submitData} = nextProps;
-      console.log(item);
+ 
       this.props.appBarTitle(item.title);
     }
     render() {

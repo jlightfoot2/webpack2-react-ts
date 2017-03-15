@@ -39,7 +39,7 @@ const styles = {
 };
 
 const categoryItem = (categories,pathOnTouchTap) => {
-  console.log(categories);
+
   const click = () => {
 
   };

@@ -111,7 +111,7 @@ const assessmentsRaw = [
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);
-console.log(normalData);
+
 export const assessments: AssessmentTreeInterface = normalData.entities.assessment;
 
 export const assessmentIds = normalData.result;
