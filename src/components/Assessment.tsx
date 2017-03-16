@@ -1,5 +1,5 @@
 import * as React from "react";
-import Form, {FormErrorInterface} from './Form';
+import Form, {ValidationResultInterface} from './Form';
 export interface ItemInterface{
   title: string;
   questions: any[];
@@ -10,7 +10,8 @@ export interface Props {
   appBarTitle(msg: string): any;
   item: ItemInterface;
   submitData(data: any): void;
-  validateData(data: any): FormErrorInterface; 
+  validateData(data: any): ValidationResultInterface; 
+  cancel(): void;
 }
 
 export interface State { 
@@ -30,8 +31,7 @@ export default class Assessment extends React.Component<Props, State> {
       this.props.appBarTitle(item.title);
     }
     render() {
-        const {item, submitData, validateData} = this.props;
-
-        return (<Form items={item.questions} validateData={validateData} submitData={submitData} />);
+        const {item, submitData, validateData,cancel} = this.props;
+        return (<Form items={item.questions} cancel={cancel} validateData={validateData} submitData={submitData} />);
     }
 }

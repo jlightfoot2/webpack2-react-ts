@@ -10,9 +10,15 @@ export interface FormErrorInterface {
   [propName: string]: {name: string,title: string};
 }
 
+export interface ValidationResultInterface {
+  isValid: boolean;
+  data: FormErrorInterface;
+}
+
 export interface Props { 
   submitData(data: any): void; 
-  validateData(data: any): FormErrorInterface;
+  validateData(data: any): ValidationResultInterface;
+  cancel(): any;
   items: any[]
 }
 
@@ -38,15 +44,23 @@ export default class Form extends React.Component<Props, State>{
 
     handleSubmit = (event) => {
       const {submitData,validateData} = this.props;
-      //const result = validateForm(this.state.values);
-      validateData(this.state.values);
-      submitData(this.state.values);
+      const validationResponse = validateData(this.state.values);
+
+      this.setState({errors: validationResponse.data});
+      if(validationResponse.isValid){
+        submitData(this.state.values)
+      }
       
       event.preventDefault();
     }
 
+    handleClear = (event) => {
+      this.setState({values: this.props.items.reduce(reduceCb,{})})
+    }
+
     handleChange = (name) => {
         return (event, index, value) => {
+          this.setState({errors: {...this.state.errors, [name]: ''}});
           this.setState({values: {...this.state.values,[name]: value}} as any)
         }
     }
@@ -64,10 +78,10 @@ export default class Form extends React.Component<Props, State>{
                         <RaisedButton primary={true} type="submit" label="Save" />
                       </div>
                       <div style={flexRowItemStyle as any}>
-                        <RaisedButton secondary={true} type="button" label="Cancel" />
+                        <RaisedButton onTouchTap={this.props.cancel} secondary={true} type="button" label="Cancel" />
                       </div>
                       <div style={flexRowItemStyle as any}>
-                        <RaisedButton type="button" label="Reset" />
+                        <RaisedButton  onTouchTap={this.handleClear} type="button" label="Clear" />
                       </div>
                     </div>
                   </form>
