@@ -9,6 +9,7 @@ export interface ItemInterface{
 export interface Props { 
   appBarTitle(msg: string): any;
   item: ItemInterface;
+  values: any;
   submitData(data: any): void;
   validateData(data: any): ValidationResultInterface; 
   cancel(): void;
@@ -31,7 +32,7 @@ export default class Assessment extends React.Component<Props, State> {
       this.props.appBarTitle(item.title);
     }
     render() {
-        const {item, submitData, validateData,cancel} = this.props;
-        return (<Form items={item.questions} cancel={cancel} validateData={validateData} submitData={submitData} />);
+        const {item, submitData, validateData,cancel,values} = this.props;
+        return (<Form values={values} items={item.questions} cancel={cancel} validateData={validateData} submitData={submitData} />);
     }
 }

@@ -4,6 +4,7 @@ import {assessments} from '../res/data/assessments';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 import {ValidationResultInterface} from '../components/Form';
+import {addAssessmentResult} from '../actions/assessments'
 
 function validate(data){
   let hasErrors = false;
@@ -30,14 +31,15 @@ function validate(data){
 
 const stateToProps = (state,ownProps) => {
   return {
-    item: assessments[ownProps.params.id] as ItemInterface
+    item: assessments[ownProps.params.id] as ItemInterface,
+    values: state.assessmentResults[ownProps.params.id] ? state.assessmentResults[ownProps.params.id] : false
   }
 }
 const dispatchToProps = (dispatch,ownProps) => {
   return {
     submitData: (data) => {
-
-      dispatch(push('/main/assessments'));
+      dispatch(addAssessmentResult(ownProps.params.id,data));
+      dispatch(push('/main/assessmentresult/' + ownProps.params.id));
     },
     validateData: (data: any): ValidationResultInterface => {
       return validate(data);

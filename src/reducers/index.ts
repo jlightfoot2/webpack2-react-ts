@@ -1,5 +1,6 @@
 import {combineReducers} from 'redux';
 import {routerReducer} from 'react-router-redux';
+import {assessmentResults,assessmentResultIds} from './assessment';
 
 
 const defaultUser = {
@@ -13,7 +14,9 @@ const user = (state: any = defaultUser, action: any) => {
 
 const appHub = combineReducers({
   routing: routerReducer,
-  user
+  user,
+  assessmentResults,
+  assessmentResultIds
 });
 
 export default appHub;

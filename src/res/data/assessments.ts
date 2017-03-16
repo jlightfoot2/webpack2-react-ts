@@ -125,8 +125,8 @@ const choicesSet4: ChoicesInterface[] = [
       {title: 'Slightly Unhappy', value: '3', score: 7},
       {title: 'Happy', value: '4', score: 15},
       {title: 'Pretty Happy', value: '5', score: 20},
-      {title: 'Very Happy', value: '4', score: 25},
-      {title: 'Perfectly Happy', value: '5', score: 35},
+      {title: 'Very Happy', value: '6', score: 25},
+      {title: 'Perfectly Happy', value: '7', score: 35},
 ];
 
 const choicesSet5: ChoicesInterface[] = [
@@ -261,7 +261,7 @@ const assessmentsRaw: AssessmentInterface[] = [
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);
-
+console.log(normalData.entities.assessment);
 export const assessments: AssessmentTreeInterface = normalData.entities.assessment;
 
 export const assessmentIds = normalData.result;

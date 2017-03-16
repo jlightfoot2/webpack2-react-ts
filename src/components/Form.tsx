@@ -20,6 +20,7 @@ export interface Props {
   validateData(data: any): ValidationResultInterface;
   cancel(): any;
   items: any[]
+  values: any;
 }
 
 export interface State { 
@@ -38,7 +39,7 @@ export default class Form extends React.Component<Props, State>{
 
       this.state = {
         errors: props.items.reduce(reduceCb,{}),
-        values: props.items.reduce(reduceCb,{})
+        values: props.values ? props.values : props.items.reduce(reduceCb,{})
       };
     }
 
