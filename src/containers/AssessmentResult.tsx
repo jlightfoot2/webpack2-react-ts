@@ -27,6 +27,8 @@ const computeScore = (assessment,results) => {
 
           let choiceValue = answers[question.id];
           let choices = questions[idx].choices;
+          console.log(choiceValue);
+          console.log(choices);
           choices.map((choice) => {
             if(choice.value === choiceValue){
               total += parseInt(choice.score);
@@ -37,27 +39,35 @@ const computeScore = (assessment,results) => {
       return total;
     }
 
-    function getScore (answers, questions) {
-      var tally = tallyScore(answers, questions);
 
-      return assessment.scoring.filter(function (criteria) {
+    return tallyScore(results,assessment.questions);
+}
+
+function getDescription(tally, assessment) {
+
+      let score = assessment.scoring.filter(function (criteria) {
         if (criteria.min <= tally && criteria.max >= tally) {
           return true;
         }
         return false;
-      })[0] || assessment.scoring[0];
-    }
+      })//[0] || assessment.scoring[0];
 
-    return getScore(results,assessment.questions);
+    
+      return score[0]
 }
 
 const stateToProps = (state,ownProps) => {
  // ownProps.params.id
-
+  let assessment = assessments[ownProps.params.id] ? assessments[ownProps.params.id] : assessments['1'];
+  let score = state.assessmentResults[ownProps.params.id] ? computeScore(assessment,state.assessmentResults[ownProps.params.id]) : 0;
+  let description = getDescription(score,assessment);
+  
   return {
-    minScore: assessments[ownProps.params.id] ? 0 : 0,
-    maxScore: assessments[ownProps.params.id] ? assessments[ownProps.params.id].maxScore : 100,
-    score: state.assessmentResults[ownProps.params.id] ? computeScore(assessments[ownProps.params.id],state.assessmentResults[ownProps.params.id]) : 0
+    minScore: assessment.minScore,
+    maxScore: assessment.maxScore,
+    score: score,
+    result: description,
+    assessment: assessment
   }
 }
 const dispatchToProps = (dispatch) => {

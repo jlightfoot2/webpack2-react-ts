@@ -12,6 +12,7 @@ export interface ScoringInterface{
   max: number;
   title: string;
   description: string;
+  recommendations: string;
 }
 
 export interface ChoicesInterface{
@@ -31,15 +32,17 @@ export interface AssessmentInterface{
   id: number;
   title: string;
   maxScore: number;
+  minScore: number;
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
   image: string;
 }
 
-export const makeAssessment = (id,title,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
+export const makeAssessment = (id,title, minScore: number,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
   return {
     id,
     title,
+    minScore,
     maxScore,
     scoring,
     questions,
@@ -47,13 +50,14 @@ export const makeAssessment = (id,title,maxScore: number, scoring: ScoringInterf
   }
 }
 
-export const makeScoring = (id: number,min,max,title,description=''): ScoringInterface => {
+export const makeScoring = (id: number,min,max,title,description='',recommendations=''): ScoringInterface => {
   return {
     id,
     min,
     max,
     title,
-    description
+    description,
+    recommendations
   }
 }
 
@@ -67,9 +71,32 @@ export const makeQuestion = (id: number,title,type='text',choices = []): Questio
 }
 
 const scoringList1: ScoringInterface[] = [
-    makeScoring(1,0,22,'LOW'),
+    makeScoring(1,0,22,'LOW',
+      'Your score is in a range typically associated with low social support, and suggests that you do not feel socially connected or supported by the people in your life.',
+
+
+      `After a stressful experience, some people withdraw from friends and family and from activities. However, caring and encouragement from others can boost health and well-being. People who feel connected are less likely to be depressed and are more likely to live longer. Because you are reporting a low level of social support, we encourage you to meet with a health care provider. If you do not have a provider, you can locate a provider or a clinic near you by clicking on the LOCATE tab in the upper right corner of the main page. We recommend you take a copy of the results of this assessment and share them during your appointment.
+
+      If you have more immediate concerns, you can talk with a professional right now by clicking on the CALL or CHAT tabs, also found in the upper right corner of the main page. Both the CALL and CHAT options are available 24-7.
+
+      We encourage you to check out the materials in AfterDeployments "Families and Friendships" topic.
+
+      Social isolation can occur alongside problems in relationships, life stress, depression, and post-traumatic stress, the reaction that many people experience after a major trauma. A good way to determine if you are having problems in these areas is to take additional assessments. We also suggest that you complete the Friendship Scale again in a month to track how you are doing.
+
+      You can find links to these tools under the RESOURCES tab located below
+
+      You may find it helpful to join the AfterDeployment Facebook page where you can network with others on a range of topics.`
+      ),
     makeScoring(2,23,42,'MODERATE'),
-    makeScoring(3,43,56,'HIGH')
+    makeScoring(3,43,56,'HIGH',
+      'Your score is in a range reflecting few problems with social connections. Your responses suggest that youre socially connected and do not feel isolated from others.',
+
+      `Your results suggest you are managing this area of your life. Because maintaining healthy habits means a lifestyle that includes stress management and finding balance, we encourage you to check out the many tools in the "Life Stress" topic. 
+
+        You are also encouraged to check out other assessments on AfterDeployment to learn if you are having problems in other areas. You can find links to these tools under the RESOURCES tab located above.
+
+        You may find it helpful to join the AfterDeployment Facebook page where you can network with others on a range of topics.`
+      )
 ];
 
 const scoringList2: ScoringInterface[] = [
@@ -252,11 +279,11 @@ interface AssessmentTreeInterface {
 }
 
 const assessmentsRaw: AssessmentInterface[] = [
-  makeAssessment(1,'Friendship Scale',24,scoringList1,friendShipQuestions,friendsImage),
-  makeAssessment(2,'Marital Satisfaction',158,scoringList2,maritalSatisfactionQuestions,marriageImage),
+  makeAssessment(1,'Friendship Scale', 0, 24,scoringList1,friendShipQuestions,friendsImage),
+  makeAssessment(2,'Marital Satisfaction', 2, 158,scoringList2,maritalSatisfactionQuestions,marriageImage),
 
-  makeAssessment(3,'Perceived Social Support',84,scoringList2,percSocialSupportQuestions, socialImage),
-  makeAssessment(4,'Post Deployment Social Support',75,scoringList4,postDepSupportQuestions,postDepSocialImage)
+  makeAssessment(3,'Perceived Social Support', 7, 84,scoringList2,percSocialSupportQuestions, socialImage),
+  makeAssessment(4,'Post Deployment Social Support', 15, 75,scoringList4,postDepSupportQuestions,postDepSocialImage)
 
 ]
 

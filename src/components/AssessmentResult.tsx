@@ -5,6 +5,8 @@ export interface Props {
   minScore: number;
   maxScore: number;
   score: number;
+  assessment: any;
+  result: any;
 }
 
 export interface State { 
@@ -24,8 +26,19 @@ export default class Assessment extends React.Component<Props, State> {
       this.props.appBarTitle("The result page");
     }
     render() {
-        const {minScore,maxScore,score} = this.props;
+        const {minScore,maxScore,score,result} = this.props;
+        console.log(score,result);
 
-        return (<LinearGauge minScore={minScore} maxScore={maxScore} result={score} />);
+        return (
+          <div>
+            <LinearGauge minScore={minScore} maxScore={maxScore} result={score} />
+            <h2>{result.title}</h2>
+            <p>{result.description}</p>
+            <h3>Recommendations</h3>
+            <p dangerouslySetInnerHTML={{__html: result.recommendations.replace(/(?:\r\n|\r|\n)/g, '<br />')}} />
+          
+          </div>
+        );
     }
 }
+
