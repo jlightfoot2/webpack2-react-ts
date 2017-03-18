@@ -71,7 +71,7 @@ export const makeQuestion = (id: number,title,type='text',choices = []): Questio
 }
 
 const scoringList1: ScoringInterface[] = [
-    makeScoring(1,0,22,'LOW',
+    makeScoring(1,0,15,'LOW',
       'Your score is in a range typically associated with low social support, and suggests that you do not feel socially connected or supported by the people in your life.',
 
 
@@ -87,8 +87,8 @@ const scoringList1: ScoringInterface[] = [
 
       You may find it helpful to join the AfterDeployment Facebook page where you can network with others on a range of topics.`
       ),
-    makeScoring(2,23,42,'MODERATE'),
-    makeScoring(3,43,56,'HIGH',
+    makeScoring(2,16,18,'MODERATE'),
+    makeScoring(3,19,24,'HIGH',
       'Your score is in a range reflecting few problems with social connections. Your responses suggest that youre socially connected and do not feel isolated from others.',
 
       `Your results suggest you are managing this area of your life. Because maintaining healthy habits means a lifestyle that includes stress management and finding balance, we encourage you to check out the many tools in the "Life Stress" topic. 
@@ -288,7 +288,7 @@ const assessmentsRaw: AssessmentInterface[] = [
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);
-console.log(normalData.entities.assessment);
+
 export const assessments: AssessmentTreeInterface = normalData.entities.assessment;
 
 export const assessmentIds = normalData.result;

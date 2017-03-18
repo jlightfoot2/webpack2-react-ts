@@ -33,10 +33,14 @@ export default class D3LinearaGauge extends React.Component<MyProps, MyState> {
   }
 
   getChartState () {
+    const width = window.innerWidth
+                                    || document.documentElement.clientWidth
+                                    || document.body.clientWidth || 500;
     return {
       data: this.props.result,
       domain: {x: [this.props.minScore, this.props.maxScore], y: [0, 100]},
-      width: this.props.width || 500
+      width: this.props.width || width - 20
+
     };
   }
 
