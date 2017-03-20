@@ -13,10 +13,23 @@ import {navigationCreateMiddleware} from 'local-t2-navigation-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
+import {windowResize} from './actions/device';
 
 let store = createStore(reducer,applyMiddleware(routerMiddleware(hashHistory)));
 
-
+var _timeOutResizeId = null;
+window.onresize = () => {
+   if(_timeOutResizeId){
+     clearTimeout(_timeOutResizeId);
+   }
+   _timeOutResizeId = setTimeout(
+          function(){
+              console.log('resize called');
+              store.dispatch(windowResize(window.innerWidth,window.innerHeight));
+          },
+        1000);
+  
+}
 
 store.subscribe(() => {
   console.log(store.getState()); // list entire state of app in js console. Essential for debugging.

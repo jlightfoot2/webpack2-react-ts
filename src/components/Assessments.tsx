@@ -6,6 +6,7 @@ export interface Props {
    assessments: any;
    appBarTitle(msg: string): any;
    pathOnTouchTap(path:string): any
+   cols: number;
 }
 
 export interface State { 
@@ -22,11 +23,11 @@ export default class Assessments extends React.Component<Props, State> {
       this.props.appBarTitle('Assessments');
     }
     render() {
-      const {assessments,pathOnTouchTap} = this.props;
+      const {assessments,pathOnTouchTap,cols} = this.props;
       return (
 
           <GridList
-            cols={1}
+            cols={cols}
             cellHeight={200}
           >
             {assessments.map(tile => {

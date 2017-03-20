@@ -14,6 +14,7 @@ import CheckBox from 'material-ui/svg-icons/toggle/check-box';
 interface MyProps {
   appBarTitle(title: string): any;
   videos: any[];
+  cols: number;
 }
 
 interface MyState {
@@ -30,9 +31,8 @@ export default class Videos extends React.Component<MyProps, MyState> {
 
   render(){
 
-  var {videos, appBarTitle} = this.props;
-
-    var cols = 2;
+  var {videos, appBarTitle, cols} = this.props;
+    console.log(cols);
     return (
     <div>
       <GridList
