@@ -1,5 +1,5 @@
 import Theme from './components/Theme';
-import Hello from './components/Hello';
+import Home from './containers/Home';
 import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
@@ -55,7 +55,9 @@ const mainSubRoutes = [
   asyncRoute('library/:open',System.import('./containers/Book'),[],Dashboard),
   asyncRoute('assessments',System.import('./containers/Assessments'),[],Dashboard),
   asyncRoute('assessment/:id',System.import('./containers/Assessment'),[],Dashboard),
-  asyncRoute('assessmentresult/:id',System.import('./containers/AssessmentResult'),[],Dashboard)
+  asyncRoute('assessmentresult/:id',System.import('./containers/AssessmentResult'),[],Dashboard),
+  asyncRoute('videos',System.import('./containers/Videos'),[],Dashboard),
+  asyncRoute('videos/:id',System.import('./containers/Video'),[],Dashboard)
 ];
 
 
@@ -63,9 +65,9 @@ const siteRoutes = [
 
   {
     component: Theme,
-    indexRoute: Hello,
+    indexRoute: Home,
     childRoutes: [
-      syncRoute('/',PageContainer, quickRoutes, Hello),
+      syncRoute('/',PageContainer, quickRoutes, Home),
       syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
       syncRoute('*',PageContainer,[],NotFound)
     ]

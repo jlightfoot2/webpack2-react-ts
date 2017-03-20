@@ -47,7 +47,7 @@ export default class Book extends React.Component<Props, State> {
 
     componentWillReceiveProps(nextProps) {
       const {book,isOpen} = nextProps;
-      console.log(nextProps);
+
       this.props.appBarTitle(book.title);
       this.setState({isOpen});
     }
@@ -64,24 +64,39 @@ export default class Book extends React.Component<Props, State> {
       this.setState({isOpen: false});
     }
 
+    handlePageNext = (event) => {
+      let nextPage = this.state.currentPage + 1;
+      if(nextPage < this.state.numPages){
+        window.scrollTo(0,0);
+        this.setState({currentPage: nextPage});
+      }
+    }
+
+    handlePagePrevious = (event) => {
+      let prevPage = this.state.currentPage - 1;
+      if(prevPage > -1){
+        window.scrollTo(0,0);
+        this.setState({currentPage: prevPage});
+      }
+    }
+
+
     render() {
       const {book} = this.props;
         const page = book.pages[this.state.currentPage] ? book.pages[this.state.currentPage] : book.pages[0];
-        const currentPageContent = <Page page={page} />;
+        const currentPageContent = <Page next={this.handlePageNext} previous={this.handlePagePrevious} close={this.handleBookClose} pageIndex={this.state.currentPage} numPages={this.state.numPages} page={page} />;
         let content = currentPageContent;
         if(!this.state.isOpen){
           content = pageMenu(book.pages,this.handlePageClick);
           return (<div>
                       <BookCover book={book} />
-                      <Paper>
+                      
                         {content}
-                      </Paper>
+                  
                   </div>
                 );
         } else {
           return currentPageContent
         }
-
-
     }
 }

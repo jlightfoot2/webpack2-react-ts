@@ -117,6 +117,19 @@ const scoringList4: ScoringInterface[] = [
     makeScoring(3,60,75,'High Acuity')
 ];
 
+const scoringList5: ScoringInterface[] = [
+    makeScoring(1,0,50,'Low Parental-Confidence',`
+After a stressful experience, some people withdraw from friends and family and from activities. However, caring and encouragement from others can boost health and well-being. People who feel connected are less likely to be depressed and are more likely to live longer. Because you are reporting a low level of social support, we encourage you to meet with a health care provider. If you do not have a provider, you can locate a provider or a clinic near you by clicking on the LOCATE tab in the upper right corner of the main page. We recommend you take a copy of the results of this assessment and share them during your appointment.
+If you have more immediate concerns, you can talk with a professional right now by clicking on the CALL or CHAT tabs, also found in the upper right corner of the main page. Both the CALL and CHAT options are available 24-7.
+We encourage you to check out the materials in AfterDeployments "Families and Friendships" topic.
+Social isolation can occur alongside problems in relationships, life stress, depression, and post-traumatic stress, the reaction that many people experience after a major trauma. A good way to determine if you are having problems in these areas is to take additional assessments. We also suggest that you complete the Friendship Scale again in a month to track how you are doing.
+You can find links to these tools under the RESOURCES tab located above
+You may find it helpful to join the AfterDeployment Facebook page where you can network with others on a range of topics.
+      `),
+    makeScoring(2,51,69,'Moderate Parental-Confidence '),
+    makeScoring(3,70,96,'High Parental-Confidence',``)
+];
+
 
 const choicesSet1: ChoicesInterface[] = [
       {title: '0 - Not at all', value: '1', score: 0},
@@ -199,6 +212,30 @@ const choicesSet9: ChoicesInterface[] = [
       {title: 'Strongly agree', value: '5', score: 5}
 ];
 
+const choicesSet10: ChoicesInterface[] = [
+      {title: 'Mother', value: '1', score: 0},
+      {title: 'Father', value: '2', score: 0},
+      {title: 'Other', value: '3', score: 0}
+];
+
+const choicesSet11: ChoicesInterface[] = [
+      {title: 'Strongly Agree', value: '1', score: 1},
+      {title: 'Agree', value: '2', score: 2},
+      {title: 'Mildly Agree', value: '3', score: 3},
+      {title: 'Mildly Disagree', value: '4', score: 4},
+      {title: 'Disagree', value: '5', score: 5},
+      {title: 'Strongly Disagree', value: '6', score: 6}
+];
+
+const choicesSet12: ChoicesInterface[] = [
+      {title: 'Strongly Agree', value: '1', score: 6},
+      {title: 'Agree', value: '2', score: 5},
+      {title: 'Mildly Agree', value: '3', score: 4},
+      {title: 'Mildly Disagree', value: '4', score: 3},
+      {title: 'Disagree', value: '5', score: 2},
+      {title: 'Strongly Disagree', value: '6', score: 1}
+];
+
 const friendShipQuestions: QuestionInterface[] = [
   makeQuestion(1,'It has been easy to relate to others.','select',choicesSet2),
   makeQuestion(2,'I felt isolated from other people.','select',choicesSet3),
@@ -266,12 +303,31 @@ const postDepSupportQuestions: QuestionInterface[] = [
   makeQuestion(15,'When I am ill, friends or family members will help out until I am well.','select',choicesSet9)
 ];
 
-
+const parentingConfidenceAssessment: QuestionInterface[] = [
+  makeQuestion(1,'Are you a Mother/Father/Other?','select',choicesSet10),
+  makeQuestion(2,'The problems of taking care of a child are easy to solve once you know how your actions affect your child, an understanding I have acquired.','select',choicesSet12),
+  makeQuestion(3,'Even though being a parent could be rewarding, I am frustrated now while my child is at his/her present age.','select',choicesSet11),
+  makeQuestion(4,'I go to bed the same way I wake up in the morning—feeling I have not accomplished a whole lot.','select',choicesSet11),
+  makeQuestion(5,'I do not know what it is, but sometimes when I’m supposed to be in control, I feel more like the one being manipulated.','select',choicesSet11),
+  makeQuestion(6,'My parent was better prepared to be a good parent than I am.','select',choicesSet11),
+  makeQuestion(7,'I would make a fine model for a new parent to follow in order to learn what she/he would need to know in order to be a good parent.','select',choicesSet12),
+  makeQuestion(8,'Being a parent is manageable, and any problems are easily solved.','select',choicesSet12),
+  makeQuestion(9,'A difficult problem in being a parent is not knowing whether you’re doing a good job or a bad one.','select',choicesSet11),
+  makeQuestion(10,'Sometimes I feel like I’m not getting anything done.','select',choicesSet11),
+  makeQuestion(11,'I meet my own personal expectations for expertise in caring for my child.','select',choicesSet12),
+  makeQuestion(12,'If anyone can find the answer to what is troubling my child, I am the one.','select',choicesSet12),
+  makeQuestion(13,'My talents and interests are in other areas, not in being a parent.','select',choicesSet11),
+  makeQuestion(14,' Considering how long I’ve been a parent, I feel thoroughly familiar with this role.','select',choicesSet12),
+  makeQuestion(15,'If being a parent of a child were only more interesting, I would be motivated to do a better job as a parent.','select',choicesSet11),
+  makeQuestion(16,' I honestly believe I have all the skills necessary to be a good parent to my child.','select',choicesSet12),
+  makeQuestion(17,'Being a parent makes me tense and anxious.','select',choicesSet11),
+]
 
 const friendsImage = require('../images/friends-form.png');
 const marriageImage  = require('../images/married.jpeg');
 const socialImage  = require('../images/Social-Society-Community-Cooperation-Network-1020332.jpg');
 const postDepSocialImage = require('../images/post-dep-social.jpg');
+const parentingConfidenceImage = require('../images/duck_parenting.jpg');
 
 
 interface AssessmentTreeInterface {
@@ -283,8 +339,8 @@ const assessmentsRaw: AssessmentInterface[] = [
   makeAssessment(2,'Marital Satisfaction', 2, 158,scoringList2,maritalSatisfactionQuestions,marriageImage),
 
   makeAssessment(3,'Perceived Social Support', 7, 84,scoringList2,percSocialSupportQuestions, socialImage),
-  makeAssessment(4,'Post Deployment Social Support', 15, 75,scoringList4,postDepSupportQuestions,postDepSocialImage)
-
+  makeAssessment(4,'Post Deployment Social Support', 15, 75,scoringList4,postDepSupportQuestions,postDepSocialImage),
+  makeAssessment(5,'Parenting Confidence', 16, 96,scoringList5,parentingConfidenceAssessment,parentingConfidenceImage)
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);

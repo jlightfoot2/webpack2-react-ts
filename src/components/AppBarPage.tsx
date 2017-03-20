@@ -24,19 +24,6 @@ import {push, replace} from 'react-router-redux';
 //import Eula from './Eula';
 
 
-const styles = {
-  wrapper: {
-    maxWidth: '1500px',
-    margin: '0 auto 0 auto'
-  },
-  content: {
-    paddingTop: '10px',
-    padding: '5px',
-    display: 'flex',
-    flexFlow: 'row wrap',
-    justifyContent: 'center'
-  }
-};
 
 const categoryItem = (categories,pathOnTouchTap) => {
 
@@ -109,7 +96,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
     const {categories,pathOnTouchTap} = this.props;
     return (
        
-        <div style={styles.wrapper}>
+        <div>
             <AppBar
                 title={this.state.title}
                 titleStyle={{textAlign: 'center'}}
@@ -117,7 +104,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                
                  />
                 <div style={{'padding': '5px'} as any}>
-                  <div style={styles.content as any}>
+                  <div>
                     {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle, categories, pathOnTouchTap })}
                   </div>
                 </div>
