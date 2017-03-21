@@ -7,6 +7,7 @@ interface Props {
   appBarTitle(msg: string): any;
   categories: any[];
   pathOnTouchTap(path:string): any
+  appConfig: any;
 }
 
 interface State {
@@ -15,8 +16,8 @@ interface State {
 
 class AppContainer extends React.Component<Props, State>{
   render(){
-    const {categories,pathOnTouchTap} = this.props;
-    return <AppBarPage categories={categories} pathOnTouchTap={pathOnTouchTap}>
+    const {categories,pathOnTouchTap,appConfig} = this.props;
+    return <AppBarPage categories={categories} pathOnTouchTap={pathOnTouchTap} appConfig={appConfig}>
               {this.props.children}
            </AppBarPage>
   }
@@ -24,7 +25,10 @@ class AppContainer extends React.Component<Props, State>{
 
 const stateToProps = (state) => {
   return {
-    categories: categoriesData
+    categories: categoriesData,
+    appConfig: {
+      parentSite: 'http://afterdeployment.dcoe.mil'
+    }
   }
 }
 const dispatchToProps = (distatch,ownProps) => {
