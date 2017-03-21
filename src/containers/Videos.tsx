@@ -17,6 +17,7 @@ const getCols = (device) => {
   }
   return 1
 }
+
 const stateToProps = (state) => {
   return {
     videos: videoIds.map(id => videos[id]),

@@ -16,6 +16,7 @@ export default class BookCover extends React.Component<Props, State> {
     render() {
       const {book} = this.props;
         return (<div>
+                  <h2>{book.title}</h2>
                   <p>{book.description}</p>
                   {this.props.children}
                 </div>

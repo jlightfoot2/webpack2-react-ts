@@ -1,7 +1,18 @@
-import BasicPage from '../components/BasicPage';
+import * as React from 'react';
+
+import PageWithLinks from '../components/PageWithLinks';
 import {resourcesPage} from '../res/data/page';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
+
+export const resourcesLinks = [
+  {title: 'Library', link: '', attributes: {}},
+  {title: 'Links and Books', link: '', attributes: {}},
+  {title: 'Forum', link: '', attributes: {}},
+  {title: 'Facts', link: '', attributes: {}},
+  {title: 'Articles', link: '', attributes: {}},
+  {title: 'Tips', link: '', attributes: {}},
+];
 
 const externalUrlClick = (url) => {
   return (event) => {
@@ -9,15 +20,14 @@ const externalUrlClick = (url) => {
     event.preventDefault();
   }
 }
+
 const stateToProps = (state, ownProps) => {
   return {
     title: 'Resources',
-    subtitle: 'Family & Friends Module',
+    page: {title: resourcesPage.title, subtitle: 'Family & Friends Module', content: resourcesPage.content},
     content: resourcesPage.content,
     image: resourcesPage.image,
-    actions: [
-      {label: 'Test AD Link', action: externalUrlClick(ownProps.appConfig.parentSite)}
-    ]
+    actions: []
   }
 }
 const dispatchToProps = (dispatch) => {
@@ -26,4 +36,4 @@ const dispatchToProps = (dispatch) => {
 }
 export default connect(stateToProps,dispatchToProps)
 
-(BasicPage);
+(PageWithLinks);

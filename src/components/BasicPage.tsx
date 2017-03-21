@@ -6,7 +6,7 @@ import FlatButton from 'material-ui/FlatButton';
 export interface Props { 
   appBarTitle(msg: string): any;
   title: string;
-  subtitle: string;
+  page: {title: string, content: string, subtitle: string}
   content: string;
   image: string;
   actions: any[];
@@ -32,21 +32,27 @@ export default class BasicPage extends React.Component<Props, State> {
     }
     //<CardTitle title={subtitle} />
     render() {
-      const {content,title,subtitle,image,actions} = this.props;
-      let cardMedia = null;
+      const {content,page,image,actions} = this.props;
+      let cardHeader = null;
       if(image){
-        cardMedia = (<CardMedia
-                      overlay={<CardTitle title={title} subtitle={subtitle} />}
+        cardHeader = (<CardMedia
+                      overlay={<CardTitle title={page.title} subtitle={page.subtitle} />}
                       >
                       <img src={image} />
                     </CardMedia>);
+      } else {
+        cardHeader = <CardHeader
+                title={page.title}
+                subtitle={page.subtitle}
+              />
       }
       return (
                 <Card>
-                    {cardMedia}
+                    {cardHeader}
                     
                     <CardText>
-                      {content}
+                      {page.content}
+                      {this.props.children}
                     </CardText>
                     <CardActions>
                       {actions.map(act => <FlatButton key={act.label} onTouchTap={act.action} label={act.label} />)}

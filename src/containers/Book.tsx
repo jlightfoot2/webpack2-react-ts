@@ -6,6 +6,7 @@ import Book from '../components/Book';
 const stateToProps = (state,ownProps) => {
   const isOpen = typeof ownProps.params.open !== 'undefined' ? true : false
   return {
+    title: 'Library',
     book: book,
     isOpen: isOpen
   }

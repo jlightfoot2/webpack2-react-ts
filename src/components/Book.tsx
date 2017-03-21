@@ -11,6 +11,7 @@ export interface Props {
   book: any;
   isOpen: boolean;
   pageOpen(any): void;
+  title: string;
   //currentPage: number;
 }
 
@@ -41,14 +42,14 @@ export default class Book extends React.Component<Props, State> {
       }
     }
     componentWillMount () {
-      const {book} = this.props;
-      this.props.appBarTitle(book.title);
+      const {title} = this.props;
+      this.props.appBarTitle(title);
     }
 
     componentWillReceiveProps(nextProps) {
-      const {book,isOpen} = nextProps;
+      const {book,isOpen,title} = nextProps;
 
-      this.props.appBarTitle(book.title);
+      this.props.appBarTitle(title);
       this.setState({isOpen});
     }
 
