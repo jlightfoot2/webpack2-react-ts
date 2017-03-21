@@ -37,7 +37,7 @@ module.exports = {
         new webpack.DefinePlugin({
           '__DEVTOOLS__': true,
           '__INCLUDE_SERVICE_WORKER__': true,
-          '__APP_HUB_URL__': '"http://localhost:3000"'
+          '__APP_HUB_URL__': '"https://apphub.tee2.org"'
         }),
         new webpack.NamedModulesPlugin(),
         new webpack.optimize.UglifyJsPlugin()
