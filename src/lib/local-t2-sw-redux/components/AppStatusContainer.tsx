@@ -4,7 +4,16 @@ import { connect } from 'react-redux';
 /**
  * Alerts user to updates
  */
-class AppStatusContainer extends React.Component {
+
+export interface MyProps {
+  migrations: any;
+  app: any;
+}
+
+export interface MyState {
+  
+}
+class AppStatusContainer extends React.Component<MyProps, MyState> {
 
   render () {
     var {migrations, app} = this.props;
