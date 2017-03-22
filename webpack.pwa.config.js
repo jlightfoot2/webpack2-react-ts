@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 
 module.exports = {
     entry: [
@@ -35,33 +36,35 @@ module.exports = {
 
     plugins: [
         new webpack.DefinePlugin({
-          '__DEVTOOLS__': true,
+          'process.env': {
+            'NODE_ENV': JSON.stringify('production')
+          },
+          '__DEVTOOLS__': false,
           '__INCLUDE_SERVICE_WORKER__': true,
           '__APP_HUB_URL__': '"https://apphub.tee2.org"'
         }),
-        /*
+
+       
         new webpack.optimize.CommonsChunkPlugin({
           children: true, // Look for common dependencies in all children,
           minChunks: 2 // How many times a dependency must come up before being extracted
         }),
 
-        // This plugin looks for similar chunks and files
-        // and merges them for better caching by the user
-        new webpack.optimize.DedupePlugin(),
-
         // This plugins optimizes chunks and modules by
         // how much they are used in your app
-        new webpack.optimize.OccurenceOrderPlugin(),
+        //new webpack.optimize.OccurenceOrderPlugin(),
 
         // This plugin prevents Webpack from creating chunks
         // that would be too small to be worth loading separately
+        //
+        /*
         new webpack.optimize.MinChunkSizePlugin({
           minChunkSize: 51200 // ~50kb
-        }),
+        }), */
 
 
 
-        */
+      
         new SWPrecacheWebpackPlugin(
           {
             cacheId: 'ad-family-pwa',
