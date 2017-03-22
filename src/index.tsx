@@ -17,7 +17,7 @@ const render = (Component: any) => {
 }
 
 render(Provider);
-// Hot Module Replacement API
+// Hot Module Replacement API. Only used when running the dev server.
 if ((module as any).hot) {
   (module as any).hot.accept('./Provider', () => {
     render(Provider)

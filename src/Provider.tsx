@@ -71,7 +71,6 @@ if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NA
      * registerPromise takes the serviceWorker promise and listens for
      * certain events which will trigger redux dispatch events
      *
-     * @see https://github.com/jlightfoot2/local-t2-app-redux/blob/master/src/lib/serviceWorker.js
      */
    
     registerPromise(registrationPromise, store).then(function (res) {
