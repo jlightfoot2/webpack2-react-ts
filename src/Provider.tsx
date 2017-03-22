@@ -10,6 +10,7 @@ import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from 'local-t2-navigation-redux';
+import {registerPromise} from './lib/local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
@@ -54,6 +55,36 @@ function errorLoading(err) {
 function loadRoute(cb) {
  return (module) => cb(null, module.default);
 }
+
+
+if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NAME__ variables are used by webpack durring the build process. See <root>/webpack-production.config.js
+  if ('serviceWorker' in navigator) {
+    /**
+     * Service workers are not supported currently in an iOS browsers
+     */
+    const registrationPromise = navigator.serviceWorker.register('./sw.js');
+    /**
+     * registerPromise takes the serviceWorker promise and listens for
+     * certain events which will trigger redux dispatch events
+     *
+     * @see https://github.com/jlightfoot2/local-t2-app-redux/blob/master/src/lib/serviceWorker.js
+     */
+    /*
+    registerPromise(registrationPromise, store).then(function (res) {
+      if (__DEVTOOLS__) {
+        console.log(res);
+      }
+    }).catch(function (e) {
+      if (__DEVTOOLS__) {
+        console.log(e);
+      }
+      throw e;
+    });
+    */
+  }
+}
+
+
 const asyncRoute = asynRouteMaker({});
 
 

@@ -16,6 +16,7 @@ import IconButton from 'material-ui/IconButton';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import {push, replace} from 'react-router-redux';
+import {UpdateDialogContainer} from '../lib/local-t2-sw-redux/components';
 
 //import {FlashMessageInterface} from './data/workbook';
 
@@ -109,6 +110,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                     {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle, categories, pathOnTouchTap, appConfig: appConfig })}
                   </div>
                 </div>
+                <UpdateDialogContainer />
                 {/*
                 <Eula />
                 <SnackBarNotice flash={flash} />

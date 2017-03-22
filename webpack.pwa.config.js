@@ -39,6 +39,49 @@ module.exports = {
           '__INCLUDE_SERVICE_WORKER__': true,
           '__APP_HUB_URL__': '"https://apphub.tee2.org"'
         }),
+        /*
+        new webpack.optimize.CommonsChunkPlugin({
+          children: true, // Look for common dependencies in all children,
+          minChunks: 2 // How many times a dependency must come up before being extracted
+        }),
+
+        // This plugin looks for similar chunks and files
+        // and merges them for better caching by the user
+        new webpack.optimize.DedupePlugin(),
+
+        // This plugins optimizes chunks and modules by
+        // how much they are used in your app
+        new webpack.optimize.OccurenceOrderPlugin(),
+
+        // This plugin prevents Webpack from creating chunks
+        // that would be too small to be worth loading separately
+        new webpack.optimize.MinChunkSizePlugin({
+          minChunkSize: 51200 // ~50kb
+        }),
+
+
+
+        */
+        new SWPrecacheWebpackPlugin(
+          {
+            cacheId: 'ad-family-pwa',
+            filename: 'sw.js',
+            maximumFileSizeToCacheInBytes: 104857600, // 100Mb
+            staticFileGlobs: [
+              'dist/manifest.json',
+              'dist/**/*.{html,css,js}',
+              'dist/**/*.{png,jpg,jpeg,svg,gif}'
+            ],
+            runtimeCaching: [
+              {
+                handler: 'cacheFirst',
+                urlPattern: /dynamic\/[\w_-]+\.(gif|jpg|jpeg|png|svg)$/i
+              }
+            ],
+            'stripPrefix': 'dist/'
+          }
+        ),
+
         new webpack.NamedModulesPlugin(),
         new webpack.optimize.UglifyJsPlugin()
     ],
