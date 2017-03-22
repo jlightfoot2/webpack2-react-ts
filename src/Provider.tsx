@@ -28,13 +28,16 @@ window.onresize = () => {
               console.log('resize called');
               store.dispatch(windowResize(window.innerWidth,window.innerHeight));
           },
-        1000);
+        500);
   
 }
 
-store.subscribe(() => {
-  console.log(store.getState()); // list entire state of app in js console. Essential for debugging.
-});
+if (__DEVTOOLS__) {
+  store.subscribe(() => {
+    console.log(store.getState()); // list entire state of app in js console. Essential for debugging.
+  });
+}
+
 interface MyProps {
   [propName: string]: any;
 }
@@ -70,7 +73,7 @@ if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NA
      *
      * @see https://github.com/jlightfoot2/local-t2-app-redux/blob/master/src/lib/serviceWorker.js
      */
-    /*
+   
     registerPromise(registrationPromise, store).then(function (res) {
       if (__DEVTOOLS__) {
         console.log(res);
@@ -81,7 +84,7 @@ if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NA
       }
       throw e;
     });
-    */
+  
   }
 }
 
@@ -119,7 +122,10 @@ const siteRoutes = [
     ]
   }
 ];
-const history = syncHistoryWithStore(hashHistory, store)
+
+
+const history = syncHistoryWithStore(hashHistory, store);
+
 export default class AppProvider extends React.Component<MyProps,  MyState>{
   render(){
    return (
