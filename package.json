@@ -14,8 +14,11 @@
   "license": "ISC",
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.7",
+    "clean-webpack-plugin": "^0.1.16",
     "eslint": "^3.16.1",
+    "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",
+    "html-loader": "^0.4.5",
     "react-hot-loader": "^3.0.0-beta.6",
     "send-seekable": "^1.0.4",
     "source-map-loader": "^0.1.6",
@@ -24,7 +27,8 @@
     "url-loader": "^0.5.8",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1",
-    "webpack-hot-middleware": "^2.17.1"
+    "webpack-hot-middleware": "^2.17.1",
+    "webpack-path-rewriter": "^1.1.4"
   },
   "dependencies": {
     "@types/es6-promise": "0.0.32",

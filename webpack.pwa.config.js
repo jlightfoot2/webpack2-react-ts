@@ -1,7 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
 var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+var ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    PathRewriterPlugin = require('webpack-path-rewriter')
 
+var CleanWebpackPlugin = require('clean-webpack-plugin');   
 module.exports = {
     entry: [
         "./src/index.tsx"
@@ -29,6 +32,12 @@ module.exports = {
             {
                 test: /\.(png|gif|jpe?g|svg)$/i,
                 use: ['url-loader?limit=2']
+            },
+            {
+              test: /\.(html|json)$/,
+              loader: PathRewriterPlugin.rewriteAndEmit({
+                name: '[name].[ext]'
+              })
             }
 
         ]
@@ -44,7 +53,13 @@ module.exports = {
           '__APP_HUB_URL__': '"https://apphub.tee2.org"'
         }),
 
-       
+        new CleanWebpackPlugin(['dist'], {
+        //  root: '/full/project/path',
+        //  verbose: true,
+        //  dry: false,
+        //  exclude: ['shared.js']
+        }),
+
         new webpack.optimize.CommonsChunkPlugin({
           children: true, // Look for common dependencies in all children,
           minChunks: 2 // How many times a dependency must come up before being extracted
@@ -86,7 +101,8 @@ module.exports = {
         ),
 
         new webpack.NamedModulesPlugin(),
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin(),
+        new PathRewriterPlugin()
     ],
 
     // When importing a module whose path matches one of the following, just

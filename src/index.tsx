@@ -4,6 +4,8 @@ import { AppContainer } from 'react-hot-loader';
 import Provider from './Provider';
 import * as injectTapEventPlugin from 'react-tap-event-plugin';
 
+require('./index.html');
+require('./manifest.json');
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();

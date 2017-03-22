@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
-
+var ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    PathRewriterPlugin = require('webpack-path-rewriter');
 module.exports = {
     entry: [
         'react-hot-loader/patch',
@@ -42,6 +43,12 @@ module.exports = {
             {
                 test: /\.(png|gif|jpe?g|svg)$/i,
                 use: ['url-loader?limit=2']
+            },
+            {
+              test: /[.]html$/,
+              loader: PathRewriterPlugin.rewriteAndEmit({
+                name: '[name].html'
+              })
             }
 
         ]
@@ -54,7 +61,8 @@ module.exports = {
           '__APP_HUB_URL__': '"http://localhost:3000"'
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NamedModulesPlugin()
+        new webpack.NamedModulesPlugin(),
+        new PathRewriterPlugin()
     ],
 
     // When importing a module whose path matches one of the following, just

@@ -5,7 +5,7 @@
 * [Reduxjs](http://redux.js.org/docs/basics/)
 * [Material UI](http://www.material-ui.com/)
 * [Typescript](https://www.typescriptlang.org/)
-* [Webpack2](https://webpack.js.org/)
+* [Webpack 2](https://webpack.js.org/)
 
 ## Recommended Tutorials/Prerequisites
 * [Reactjs Tutorial](https://facebook.github.io/react/tutorial/tutorial.html)
@@ -15,16 +15,6 @@
 ### Installation
 
 ```npm install```
-
-### make distribution dir
-
-```mkdir dist```
-
-### Add index.html to ./dist folder
-Currently you need to add index.html to the ./dist directory
-Eventually this file will be added by a script or added to git (haven't decided yet)
-
-```cp index.html ./dist```
 
 ## Development
 ### Run In Development mode

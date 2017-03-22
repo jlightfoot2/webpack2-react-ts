@@ -92,8 +92,7 @@ const asyncRoute = asynRouteMaker({});
 
 
 const quickRoutes = [
-  asyncRoute('hello',System.import('./components/Hello'),[],Dashboard),
-  asyncRoute('test',System.import('./components/Test'),[],Dashboard),
+
 ];
 
 
