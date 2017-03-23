@@ -41,7 +41,7 @@ ns.create = function (el, props, state) {
 
   gradient.append('svg:stop')
       .attr('offset', '0%')
-      .attr('stop-color', '#0c0')
+      .attr('stop-color', '#c00')
       .attr('stop-opacity', 1);
 
   gradient.append('svg:stop')
@@ -51,7 +51,7 @@ ns.create = function (el, props, state) {
 
   gradient.append('svg:stop')
       .attr('offset', '100%')
-      .attr('stop-color', '#c00')
+      .attr('stop-color', '#0c0')
       .attr('stop-opacity', 1);
 
   svg.append('g')

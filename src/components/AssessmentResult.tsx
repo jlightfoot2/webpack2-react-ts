@@ -33,9 +33,9 @@ export default class Assessment extends React.Component<Props, State> {
           <div>
             <LinearGauge minScore={minScore} maxScore={maxScore} result={score} />
             <h2>{result.title}</h2>
-            <p>{result.description}</p>
+            <div dangerouslySetInnerHTML={{__html: result.description}} />
             <h3>Recommendations</h3>
-            <p dangerouslySetInnerHTML={{__html: result.recommendations.replace(/(?:\r\n|\r|\n)/g, '<br />')}} />
+            <div dangerouslySetInnerHTML={{__html: result.recommendations}} />
           
           </div>
         );
