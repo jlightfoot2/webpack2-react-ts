@@ -1,4 +1,4 @@
-[{"id":1,"img":"923136676001_3137671824001_vs-52ed3fabe4b070fdbbc31af3-672293877001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137691624001_1041122098001-1124017557001-01-Family-Friendships.mp4?pubId=923136676001&videoId=3137337014001","title":"01-Family_Friendships","author":"T2","url":"","featured":false},
+const data = [{"id":1,"img":"923136676001_3137671824001_vs-52ed3fabe4b070fdbbc31af3-672293877001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137691624001_1041122098001-1124017557001-01-Family-Friendships.mp4?pubId=923136676001&videoId=3137337014001","title":"01-Family_Friendships","author":"T2","url":"","featured":false},
 {"id":2,"img":"923136676001_3137691607001_vs-52ed4012e4b070fdbbc31b07-672293876001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137691609001_1041122098001-1124012307001-02-Pre-deployment-communication.mp4?pubId=923136676001&videoId=3137337016001","title":"02-Pre-deployment_communication","author":"T2","url":"","featured":false},
 {"id":3,"img":"923136676001_3137700130001_vs-52ed409be4b01a5cc05a3bfe-767904724001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137671839001_1041122098001-1124004909001-03-The-value-of-brotherhood.mp4?pubId=923136676001&videoId=3137199471001","title":"03-The_value_of_brotherhood","author":"T2","url":"","featured":false},
 {"id":4,"img":"923136676001_3137710948001_vs-52ed411ee4b0d1f8aa9adb26-782203297001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137710946001_1041122098001-1123999075001-04-Importance-of-the-family.mp4?pubId=923136676001&videoId=3137394476001","title":"04-Importance_of_the_family","author":"T2","url":"","featured":false},
@@ -63,4 +63,6 @@
 {"id":63,"img":"923136676001_3137658360001_vs-52ed3d66e4b01a5cc05a3ba6-782203294001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137658358001_1041122098001-1123802059001-63---Fam-Cranmer.mp4?pubId=923136676001&videoId=3137199460001","title":"63 - Fam_Cranmer","author":"T2","url":"","featured":false},
 {"id":64,"img":"923136676001_3137675401001_vs-52ed3eb7e4b070fdbbc31ada-782203287001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137675399001_1041122098001-1123804844001-64---Fam-KSall1.mp4?pubId=923136676001&videoId=3137337011001","title":"64 - Fam_KSall1","author":"T2","url":"","featured":false},
 {"id":65,"img":"923136676001_3137675416001_vs-52ed3f14e4b070fdbbc31ae9-1592194011001.jpg","src":"https://udso-a.akamaihd.net/923136676001/923136676001_3137671797001_1041122098001-1123802056001-65---Fam-GLewis2.mp4?pubId=923136676001&videoId=3137337013001","title":"65 - Fam_GLewis2","author":"T2","url":"","featured":false}
-]
+];
+
+export default data;

@@ -1,7 +1,6 @@
 import { normalize, schema } from 'normalizr';
 
-
-var videosRaw = require('./videos.json');
+import videosRaw from './videos';
 
 var videosRaw2 = videosRaw.map(item => { //run images through webpack
   item.img = require('../images/videos/' + item.img);
