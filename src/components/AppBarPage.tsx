@@ -46,6 +46,7 @@ interface MyProps {
   categories: any[];
   pathOnTouchTap(path:string): any;
   appConfig: any;
+  leftIcon: any;
   //isAuthed: boolean;
 
 }
@@ -95,14 +96,14 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
   }
 
   render () {
-    const {categories,pathOnTouchTap,appConfig} = this.props;
+    const {categories,pathOnTouchTap,appConfig,leftIcon} = this.props;
     return (
        
         <div>
             <AppBar
                 title={this.state.title}
                 titleStyle={{textAlign: 'center'}}
-                iconElementLeft={categoryItem(categories,pathOnTouchTap)}
+                iconElementLeft={leftIcon}
                
                  />
                 <div style={{'padding': '5px'} as any}>

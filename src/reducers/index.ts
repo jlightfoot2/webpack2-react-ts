@@ -3,6 +3,7 @@ import {routerReducer} from 'react-router-redux';
 import {assessmentResults,assessmentResultIds} from './assessment';
 import {device} from './device';
 import {appReducer} from '../lib/local-t2-sw-redux';
+import {navigationReducer} from '../lib/local-t2-navigation';
 
 
 const defaultUser = {
@@ -20,7 +21,8 @@ const appHub = combineReducers({
   assessmentResults,
   assessmentResultIds,
   device,
-  app: appReducer
+  app: appReducer,
+  navigation: navigationReducer
 });
 
 export default appHub;

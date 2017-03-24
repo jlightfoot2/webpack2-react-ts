@@ -4,7 +4,6 @@ import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 
 const stateToProps = (state, ownProps) => {
- // let currentVid = typeof videos[ownProps.params.id] !== 'undefined' ? videos[ownProps.params.id] : null;
   return {
     video: videos[ownProps.params.id]
   }

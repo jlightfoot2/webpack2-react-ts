@@ -3,7 +3,6 @@ import {videos, videoIds} from '../res/data/video';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 
-
 const getCols = (device) => {
   const width = device.width;
   if(!width){

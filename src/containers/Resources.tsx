@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import PageWithLinks from '../components/PageWithLinks';
 import {resourcesPage} from '../res/data/page';
 import {connect} from 'react-redux';
