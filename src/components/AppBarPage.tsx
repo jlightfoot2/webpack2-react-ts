@@ -27,10 +27,6 @@ import {UpdateDialogContainer} from '../lib/local-t2-sw-redux/components';
 
 
 const categoryItem = (categories,pathOnTouchTap) => {
-
-  const click = () => {
-
-  };
   return(
         <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
           {categories.map(cat => {
@@ -41,13 +37,12 @@ const categoryItem = (categories,pathOnTouchTap) => {
 }
 
 interface MyProps {
- // dispatch(arg: any): any;
+  
   appBarTitle?(msg: string): any;
   categories: any[];
   pathOnTouchTap(path:string): any;
   appConfig: any;
   leftIcon: any;
-  //isAuthed: boolean;
 
 }
 

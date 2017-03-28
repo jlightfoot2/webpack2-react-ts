@@ -22,6 +22,11 @@ export const flexRowItemStyle = {
   marginTop: '10px',
   flex: '0 0'
 }
+export const flexParentRowCenterStyle = {
+  display: 'flex',
+  flexFlow: 'row nowrap',
+  justifyContent: 'center'
+}
 
 
 export const fullWidthDialagStyle = {

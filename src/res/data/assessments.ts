@@ -32,17 +32,19 @@ export interface AssessmentInterface{
   id: number;
   title: string;
   maxScore: number;
+  middleScore: number;
   minScore: number;
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
   image: string;
 }
 
-export const makeAssessment = (id,title, minScore: number,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
+export const makeAssessment = (id,title, minScore: number,middleScore: number,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
   return {
     id,
     title,
     minScore,
+    middleScore,
     maxScore,
     scoring,
     questions,
@@ -385,11 +387,11 @@ const parentingConfidenceAssessment: QuestionInterface[] = [
   makeQuestion(17,'Being a parent makes me tense and anxious.','select',choicesSet11),
 ]
 
-const friendsImage = require('../images/friends-form.png');
-const marriageImage  = require('../images/married.jpeg');
-const socialImage  = require('../images/Social-Society-Community-Cooperation-Network-1020332.jpg');
-const postDepSocialImage = require('../images/post-dep-social.jpg');
-const parentingConfidenceImage = require('../images/duck_parenting.jpg');
+const friendsImage = require('../images/Friendship_Scale.jpg');
+const marriageImage  = require('../images/Marital_Satisfaction.jpg');
+const socialImage  = require('../images/Perceived_Social_Support.jpg');
+const postDepSocialImage = require('../images/Post_Deployment_Social_Support.jpg');
+const parentingConfidenceImage = require('../images/Parenting_Confidence.jpg');
 
 
 interface AssessmentTreeInterface {
@@ -397,12 +399,12 @@ interface AssessmentTreeInterface {
 }
 
 const assessmentsRaw: AssessmentInterface[] = [
-  makeAssessment(1,'Friendship Scale', 0, 24,scoringList1,friendShipQuestions,friendsImage),
-  makeAssessment(2,'Marital Satisfaction', 2, 158,scoringList2,maritalSatisfactionQuestions,marriageImage),
+  makeAssessment(1,'Friendship Scale', 0, 17, 24,scoringList1,friendShipQuestions,friendsImage),
+  makeAssessment(2,'Marital Satisfaction', 2, 92, 158,scoringList2,maritalSatisfactionQuestions,marriageImage),
 
-  makeAssessment(3,'Perceived Social Support', 7, 84,scoringList2,percSocialSupportQuestions, socialImage),
-  makeAssessment(4,'Post Deployment Social Support', 15, 75,scoringList4,postDepSupportQuestions,postDepSocialImage),
-  makeAssessment(5,'Parenting Confidence', 16, 96,scoringList5,parentingConfidenceAssessment,parentingConfidenceImage)
+  makeAssessment(3,'Perceived Social Support', 7, 58, 84,scoringList3,percSocialSupportQuestions, socialImage),
+  makeAssessment(4,'Post Deployment Social Support', 15, 49, 75,scoringList4,postDepSupportQuestions,postDepSocialImage),
+  makeAssessment(5,'Parenting Confidence', 16, 60, 96,scoringList5,parentingConfidenceAssessment,parentingConfidenceImage)
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);
