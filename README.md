@@ -39,12 +39,14 @@ The static data used in this app is stored in src/res/data. Images are in src/re
 
 Some non-static data is stored using redux store. For example the assessment results.
 ## Containers (Container Components)
-[containers](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.2jdt8rkz0)
+[Containers](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.2jdt8rkz0)
+
 Data is fed to the app and its various components from container components in the src/containers directory. 
 
 
 ## Components (Presentation Components)
-[components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.2jdt8rkz0)
+[Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.2jdt8rkz0)
+
 In the src/components directory are the Presentation components. The goal of these components is that they are supposed to be "dumb" and reusable.
 
 
