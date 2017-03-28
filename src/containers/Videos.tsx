@@ -14,7 +14,7 @@ const getCols = (device) => {
   if(width > 600){
     return 2;
   }
-  return 1
+  return 1;
 }
 
 const stateToProps = (state) => {

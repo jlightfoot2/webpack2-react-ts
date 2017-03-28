@@ -21,7 +21,7 @@ export const assessmentResults = (state: any = defaultAssessResults, action: any
       state = {...state,[action.id]: action.data}
       break;
     default:
-      // code...
+      // code ...
       break;
   }
   return state;
@@ -36,7 +36,7 @@ export const assessmentResultIds = (state: any = [], action: any) => {
       }
       break;
     default:
-      // code...
+      // code ...
       break;
   }
   return state;
