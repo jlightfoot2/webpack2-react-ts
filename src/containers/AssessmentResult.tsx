@@ -53,7 +53,7 @@ function getDescription(tally, assessment) {
       })//[0] || assessment.scoring[0];
 
     
-      return score[0]
+      return score.length ? score[0] : assessment.scoring[0];
 }
 
 const stateToProps = (state,ownProps) => {
