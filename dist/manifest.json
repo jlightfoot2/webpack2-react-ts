@@ -1,0 +1,29 @@
+{
+  "name": "Family & Friends Module",
+  "short_name": "Family Module",
+  "icons": [{
+    "src": "/b935810a57b2bd4596e58d75cbdabdf3.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/4326ebadc97c0a1624e83ffe859c9ae9.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/fedb3956a6db81b7ebbbb666f426c8de.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/15c14705a2816613a8af6fdb57d0fc76.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/ce317bda912022b8927a54d641f23586.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#4CAF50",
+  "theme_color": "#607D8B"
+}

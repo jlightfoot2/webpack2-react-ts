@@ -15,6 +15,9 @@ const getCols = (device) => {
   }
   return 1
 }
+
+
+
 const stateToProps = (state) => {
   console.log(assessments);
   return {
