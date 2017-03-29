@@ -23,6 +23,7 @@
     "react-hot-loader": "^3.0.0-beta.6",
     "send-seekable": "^1.0.4",
     "source-map-loader": "^0.1.6",
+    "style-loader": "^0.16.1",
     "sw-precache-webpack-plugin": "^0.9.1",
     "typescript": "^2.2.1",
     "url-loader": "^0.5.8",

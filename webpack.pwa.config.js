@@ -21,7 +21,7 @@ module.exports = {
 
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
-        extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+        extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js",".css"]
     },
 
     module: {
@@ -33,6 +33,10 @@ module.exports = {
                 test: /\.(png|gif|jpe?g|svg)$/i,
                 use: ['url-loader?limit=2']
             },
+          {
+            test: /\.css$/,
+            use: [ 'file-loader' ]
+          },
             {
               test: /\.(html|json)$/,
               loader: PathRewriterPlugin.rewriteAndEmit({
