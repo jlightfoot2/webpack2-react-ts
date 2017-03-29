@@ -44,10 +44,14 @@ module.exports = {
                 test: /\.(png|gif|jpe?g|svg)$/i,
                 use: ['url-loader?limit=2']
             },
+          {
+            test: /\.css$/,
+            use: [ 'file-loader' ]
+          },
             {
-              test: /[.]html$/,
+              test: /\.(html|json)$/,
               loader: PathRewriterPlugin.rewriteAndEmit({
-                name: '[name].html'
+                name: '[name].[ext]'
               })
             }
 
