@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "a14e5c940832fe70360b",
+  "hash": "cd4008e7912d50f6d51e",
   "publicPath": "/",
   "assetsByChunkName": {
     "main": "bundle.js"
   },
   "assets": [
     {
-      "name": "05431d4fe8d6b1090ac4e6b5dd7fd670.jpg",
-      "size": 12311,
+      "name": "a20578b657960578984d9af9d6113b1b.jpg",
+      "size": 9048,
       "chunks": [],
       "chunkNames": []
     },
@@ -273,14 +273,14 @@
       "chunkNames": []
     },
     {
-      "name": "07d145172a2845743ac15a9f3d7ddbaf.png",
-      "size": 61339,
+      "name": "05431d4fe8d6b1090ac4e6b5dd7fd670.jpg",
+      "size": 12311,
       "chunks": [],
       "chunkNames": []
     },
     {
-      "name": "a20578b657960578984d9af9d6113b1b.jpg",
-      "size": 9048,
+      "name": "07d145172a2845743ac15a9f3d7ddbaf.png",
+      "size": 61339,
       "chunks": [],
       "chunkNames": []
     },
@@ -495,6 +495,12 @@
       "chunkNames": []
     },
     {
+      "name": "04312762f51e2ceefa7ee046a1f1e37d.css",
+      "size": 96,
+      "chunks": [],
+      "chunkNames": []
+    },
+    {
       "name": "0.bundle.js",
       "size": 31874,
       "chunks": [
@@ -552,7 +558,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 681481,
+      "size": 681611,
       "chunks": [
         7
       ],
@@ -780,14 +786,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1653828,
+      "size": 1653958,
       "names": [
         "main"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "8c1f56b15e15fc49111f",
+      "hash": "69da002842553677e0f5",
       "parents": [],
       "origins": [
         {
@@ -1145,15 +1151,6 @@
           "loc": "19:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "19:22-78"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -1163,6 +1160,15 @@
           "loc": "7:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "19:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -1170,15 +1176,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "7:22-78"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -1217,6 +1214,24 @@
           "loc": "15:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "7:22-78"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -1230,15 +1245,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1762,15 +1768,6 @@
           "loc": "23:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "23:23-70"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -1780,6 +1777,15 @@
           "loc": "11:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "23:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -1787,15 +1793,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "11:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -1834,6 +1831,24 @@
           "loc": "19:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "11:23-70"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -1859,15 +1874,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "8:23-70"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/RaisedButton/RaisedButton.js",
@@ -2213,15 +2219,6 @@
           "loc": "27:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "27:20-64"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -2231,6 +2228,15 @@
           "loc": "15:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "27:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -2238,15 +2244,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "15:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -2285,6 +2282,24 @@
           "loc": "23:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "15:20-64"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -2310,15 +2325,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "12:20-64"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/RaisedButton/RaisedButton.js",
@@ -2575,19 +2581,19 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
-          "module": "./~/material-ui/GridList/GridTile.js",
-          "moduleName": "./~/material-ui/GridList/GridTile.js",
+          "moduleId": "./node_modules/material-ui/IconButton/IconButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/IconButton/IconButton.js",
+          "module": "./~/material-ui/IconButton/IconButton.js",
+          "moduleName": "./~/material-ui/IconButton/IconButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/IconButton/IconButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/IconButton/IconButton.js",
-          "module": "./~/material-ui/IconButton/IconButton.js",
-          "moduleName": "./~/material-ui/IconButton/IconButton.js",
+          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
+          "module": "./~/material-ui/GridList/GridTile.js",
+          "moduleName": "./~/material-ui/GridList/GridTile.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2746,19 +2752,19 @@
           "loc": "11:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -3053,15 +3059,6 @@
           "loc": "35:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "35:17-58"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -3071,6 +3068,15 @@
           "loc": "23:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "35:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -3078,15 +3084,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "23:17-58"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -3125,6 +3122,24 @@
           "loc": "31:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "23:17-58"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -3138,15 +3153,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3369,19 +3375,19 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
-          "module": "./~/material-ui/GridList/GridTile.js",
-          "moduleName": "./~/material-ui/GridList/GridTile.js",
+          "moduleId": "./node_modules/material-ui/IconButton/IconButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/IconButton/IconButton.js",
+          "module": "./~/material-ui/IconButton/IconButton.js",
+          "moduleName": "./~/material-ui/IconButton/IconButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/IconButton/IconButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/IconButton/IconButton.js",
-          "module": "./~/material-ui/IconButton/IconButton.js",
-          "moduleName": "./~/material-ui/IconButton/IconButton.js",
+          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
+          "module": "./~/material-ui/GridList/GridTile.js",
+          "moduleName": "./~/material-ui/GridList/GridTile.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3540,19 +3546,19 @@
           "loc": "7:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3856,15 +3862,6 @@
           "loc": "31:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "31:34-92"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -3874,6 +3871,15 @@
           "loc": "19:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "31:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -3881,15 +3887,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "19:34-92"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -3928,6 +3925,24 @@
           "loc": "27:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "19:34-92"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -3941,15 +3956,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -9950,15 +9956,6 @@
           "loc": "21:16-45"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
-          "module": "./~/react-dom/lib/CallbackQueue.js",
-          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "20:16-45"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/PooledClass.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/PooledClass.js",
           "module": "./~/react-dom/lib/PooledClass.js",
@@ -9975,6 +9972,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "16:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
+          "module": "./~/react-dom/lib/CallbackQueue.js",
+          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "20:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactNodeTypes.js",
@@ -10550,15 +10556,6 @@
           "loc": "22:14-41"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
-          "module": "./~/react-dom/lib/ReactDOMOption.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "19:14-41"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMSelect.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMSelect.js",
           "module": "./~/react-dom/lib/ReactDOMSelect.js",
@@ -10575,6 +10572,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
           "loc": "21:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
+          "module": "./~/react-dom/lib/ReactDOMOption.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "19:14-41"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/validateDOMNesting.js",
@@ -10685,8 +10691,8 @@
       "id": "./node_modules/file-loader/index.js?name=[name].[ext]!./src/favicon.ico",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/file-loader/index.js?name=[name].[ext]!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/favicon.ico",
       "name": "./~/file-loader?name=[name].[ext]!./src/favicon.ico",
-      "index": 687,
-      "index2": 685,
+      "index": 688,
+      "index2": 686,
       "size": 57,
       "cacheable": true,
       "built": true,
@@ -10712,7 +10718,7 @@
           "moduleName": "./src/index.tsx",
           "type": "cjs require",
           "userRequest": "file-loader?name=[name].[ext]!./favicon.ico",
-          "loc": "15:0-54"
+          "loc": "16:0-54"
         }
       ],
       "usedExports": true,
@@ -10853,19 +10859,19 @@
           "loc": "13:23-51"
         },
         {
-          "moduleId": "./node_modules/history/lib/RefreshProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/RefreshProtocol.js",
-          "module": "./~/history/lib/RefreshProtocol.js",
-          "moduleName": "./~/history/lib/RefreshProtocol.js",
+          "moduleId": "./node_modules/history/lib/HashProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
+          "module": "./~/history/lib/HashProtocol.js",
+          "moduleName": "./~/history/lib/HashProtocol.js",
           "type": "cjs require",
           "userRequest": "./BrowserProtocol",
           "loc": "6:23-51"
         },
         {
-          "moduleId": "./node_modules/history/lib/HashProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
-          "module": "./~/history/lib/HashProtocol.js",
-          "moduleName": "./~/history/lib/HashProtocol.js",
+          "moduleId": "./node_modules/history/lib/RefreshProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/RefreshProtocol.js",
+          "module": "./~/history/lib/RefreshProtocol.js",
+          "moduleName": "./~/history/lib/RefreshProtocol.js",
           "type": "cjs require",
           "userRequest": "./BrowserProtocol",
           "loc": "6:23-51"
@@ -10891,22 +10897,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
-      "issuerId": "./node_modules/history/lib/BrowserProtocol.js",
-      "issuerName": "./~/history/lib/BrowserProtocol.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
+      "issuerId": "./node_modules/history/lib/HashProtocol.js",
+      "issuerName": "./~/history/lib/HashProtocol.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
-          "module": "./~/history/lib/BrowserProtocol.js",
-          "moduleName": "./~/history/lib/BrowserProtocol.js",
-          "type": "cjs require",
-          "userRequest": "./DOMStateStorage",
-          "loc": "10:23-51"
-        },
         {
           "moduleId": "./node_modules/history/lib/HashProtocol.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
@@ -10915,6 +10912,15 @@
           "type": "cjs require",
           "userRequest": "./DOMStateStorage",
           "loc": "29:23-51"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
+          "module": "./~/history/lib/BrowserProtocol.js",
+          "moduleName": "./~/history/lib/BrowserProtocol.js",
+          "type": "cjs require",
+          "userRequest": "./DOMStateStorage",
+          "loc": "10:23-51"
         }
       ],
       "usedExports": true,
@@ -10937,22 +10943,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-      "issuerId": "./node_modules/history/lib/createBrowserHistory.js",
-      "issuerName": "./~/history/lib/createBrowserHistory.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
+      "issuerId": "./node_modules/history/lib/createHashHistory.js",
+      "issuerName": "./~/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-          "module": "./~/history/lib/createBrowserHistory.js",
-          "moduleName": "./~/history/lib/createBrowserHistory.js",
-          "type": "cjs require",
-          "userRequest": "./DOMUtils",
-          "loc": "21:16-37"
-        },
         {
           "moduleId": "./node_modules/history/lib/createHashHistory.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
@@ -10963,13 +10960,13 @@
           "loc": "17:16-37"
         },
         {
-          "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
-          "module": "./~/history/lib/BrowserProtocol.js",
-          "moduleName": "./~/history/lib/BrowserProtocol.js",
+          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
+          "module": "./~/history/lib/createBrowserHistory.js",
+          "moduleName": "./~/history/lib/createBrowserHistory.js",
           "type": "cjs require",
           "userRequest": "./DOMUtils",
-          "loc": "8:16-37"
+          "loc": "21:16-37"
         },
         {
           "moduleId": "./node_modules/history/lib/HashProtocol.js",
@@ -10979,6 +10976,15 @@
           "type": "cjs require",
           "userRequest": "./DOMUtils",
           "loc": "27:16-37"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
+          "module": "./~/history/lib/BrowserProtocol.js",
+          "moduleName": "./~/history/lib/BrowserProtocol.js",
+          "type": "cjs require",
+          "userRequest": "./DOMUtils",
+          "loc": "8:16-37"
         }
       ],
       "usedExports": true,
@@ -11001,22 +11007,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-      "issuerId": "./node_modules/history/lib/createBrowserHistory.js",
-      "issuerName": "./~/history/lib/createBrowserHistory.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
+      "issuerId": "./node_modules/history/lib/createHashHistory.js",
+      "issuerName": "./~/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-          "module": "./~/history/lib/createBrowserHistory.js",
-          "moduleName": "./~/history/lib/createBrowserHistory.js",
-          "type": "cjs require",
-          "userRequest": "./ExecutionEnvironment",
-          "loc": "11:28-61"
-        },
         {
           "moduleId": "./node_modules/history/lib/createHashHistory.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
@@ -11025,6 +11022,15 @@
           "type": "cjs require",
           "userRequest": "./ExecutionEnvironment",
           "loc": "15:28-61"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
+          "module": "./~/history/lib/createBrowserHistory.js",
+          "moduleName": "./~/history/lib/createBrowserHistory.js",
+          "type": "cjs require",
+          "userRequest": "./ExecutionEnvironment",
+          "loc": "11:28-61"
         },
         {
           "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
@@ -11119,6 +11125,24 @@
           "loc": "15:21-47"
         },
         {
+          "moduleId": "./node_modules/history/lib/HashProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
+          "module": "./~/history/lib/HashProtocol.js",
+          "moduleName": "./~/history/lib/HashProtocol.js",
+          "type": "cjs require",
+          "userRequest": "./LocationUtils",
+          "loc": "25:21-47"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/createHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHistory.js",
+          "module": "./~/history/lib/createHistory.js",
+          "moduleName": "./~/history/lib/createHistory.js",
+          "type": "cjs require",
+          "userRequest": "./LocationUtils",
+          "loc": "15:21-47"
+        },
+        {
           "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
           "module": "./~/history/lib/BrowserProtocol.js",
@@ -11135,24 +11159,6 @@
           "type": "cjs require",
           "userRequest": "./LocationUtils",
           "loc": "21:21-47"
-        },
-        {
-          "moduleId": "./node_modules/history/lib/createHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHistory.js",
-          "module": "./~/history/lib/createHistory.js",
-          "moduleName": "./~/history/lib/createHistory.js",
-          "type": "cjs require",
-          "userRequest": "./LocationUtils",
-          "loc": "15:21-47"
-        },
-        {
-          "moduleId": "./node_modules/history/lib/HashProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
-          "module": "./~/history/lib/HashProtocol.js",
-          "moduleName": "./~/history/lib/HashProtocol.js",
-          "type": "cjs require",
-          "userRequest": "./LocationUtils",
-          "loc": "25:21-47"
         }
       ],
       "usedExports": true,
@@ -11219,6 +11225,24 @@
           "loc": "18:17-39"
         },
         {
+          "moduleId": "./node_modules/history/lib/HashProtocol.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
+          "module": "./~/history/lib/HashProtocol.js",
+          "moduleName": "./~/history/lib/HashProtocol.js",
+          "type": "cjs require",
+          "userRequest": "./PathUtils",
+          "loc": "31:17-39"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/createHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHistory.js",
+          "module": "./~/history/lib/createHistory.js",
+          "moduleName": "./~/history/lib/createHistory.js",
+          "type": "cjs require",
+          "userRequest": "./PathUtils",
+          "loc": "7:17-39"
+        },
+        {
           "moduleId": "./node_modules/history/lib/BrowserProtocol.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/BrowserProtocol.js",
           "module": "./~/history/lib/BrowserProtocol.js",
@@ -11235,24 +11259,6 @@
           "type": "cjs require",
           "userRequest": "./PathUtils",
           "loc": "23:17-39"
-        },
-        {
-          "moduleId": "./node_modules/history/lib/createHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHistory.js",
-          "module": "./~/history/lib/createHistory.js",
-          "moduleName": "./~/history/lib/createHistory.js",
-          "type": "cjs require",
-          "userRequest": "./PathUtils",
-          "loc": "7:17-39"
-        },
-        {
-          "moduleId": "./node_modules/history/lib/HashProtocol.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/HashProtocol.js",
-          "module": "./~/history/lib/HashProtocol.js",
-          "moduleName": "./~/history/lib/HashProtocol.js",
-          "type": "cjs require",
-          "userRequest": "./PathUtils",
-          "loc": "31:17-39"
         }
       ],
       "usedExports": true,
@@ -11390,27 +11396,27 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-      "issuerId": "./node_modules/history/lib/createBrowserHistory.js",
-      "issuerName": "./~/history/lib/createBrowserHistory.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
+      "issuerId": "./node_modules/history/lib/createHashHistory.js",
+      "issuerName": "./~/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-          "module": "./~/history/lib/createBrowserHistory.js",
-          "moduleName": "./~/history/lib/createBrowserHistory.js",
+          "moduleId": "./node_modules/history/lib/createHashHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
+          "module": "./~/history/lib/createHashHistory.js",
+          "moduleName": "./~/history/lib/createHashHistory.js",
           "type": "cjs require",
           "userRequest": "./createHistory",
           "loc": "23:21-47"
         },
         {
-          "moduleId": "./node_modules/history/lib/createHashHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
-          "module": "./~/history/lib/createHashHistory.js",
-          "moduleName": "./~/history/lib/createHashHistory.js",
+          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
+          "module": "./~/history/lib/createBrowserHistory.js",
+          "moduleName": "./~/history/lib/createBrowserHistory.js",
           "type": "cjs require",
           "userRequest": "./createHistory",
           "loc": "23:21-47"
@@ -12762,19 +12768,19 @@
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flex.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/flex.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/flex.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/sizing.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/sizing.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/sizing.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/sizing.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/sizing.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/sizing.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/sizing.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/sizing.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/flex.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/flex.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -12936,10 +12942,10 @@
           "loc": "8:25-65"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "module": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "module": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
           "type": "cjs require",
           "userRequest": "../../utils/joinPrefixedValue",
           "loc": "8:25-65"
@@ -12954,10 +12960,10 @@
           "loc": "8:25-65"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "module": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "module": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
           "type": "cjs require",
           "userRequest": "../../utils/joinPrefixedValue",
           "loc": "8:25-65"
@@ -13119,19 +13125,19 @@
           "loc": "3:0-34"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Redirect.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
-          "module": "./~/react-router/es/Redirect.js",
-          "moduleName": "./~/react-router/es/Redirect.js",
+          "moduleId": "./node_modules/react-router/es/Route.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
+          "module": "./~/react-router/es/Route.js",
+          "moduleName": "./~/react-router/es/Route.js",
           "type": "harmony import",
           "userRequest": "invariant",
           "loc": "2:0-34"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Route.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
-          "module": "./~/react-router/es/Route.js",
-          "moduleName": "./~/react-router/es/Route.js",
+          "moduleId": "./node_modules/react-router/es/Redirect.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
+          "module": "./~/react-router/es/Redirect.js",
+          "moduleName": "./~/react-router/es/Redirect.js",
           "type": "harmony import",
           "userRequest": "invariant",
           "loc": "2:0-34"
@@ -13173,15 +13179,6 @@
           "loc": "12:0-34"
         },
         {
-          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
-          "module": "./~/history/lib/createBrowserHistory.js",
-          "moduleName": "./~/history/lib/createBrowserHistory.js",
-          "type": "cjs require",
-          "userRequest": "invariant",
-          "loc": "7:17-37"
-        },
-        {
           "moduleId": "./node_modules/history/lib/createHashHistory.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createHashHistory.js",
           "module": "./~/history/lib/createHashHistory.js",
@@ -13189,6 +13186,15 @@
           "type": "cjs require",
           "userRequest": "invariant",
           "loc": "11:17-37"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/createBrowserHistory.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/createBrowserHistory.js",
+          "module": "./~/history/lib/createBrowserHistory.js",
+          "moduleName": "./~/history/lib/createBrowserHistory.js",
+          "type": "cjs require",
+          "userRequest": "invariant",
+          "loc": "7:17-37"
         },
         {
           "moduleId": "./node_modules/history/lib/createMemoryHistory.js",
@@ -13229,22 +13235,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-      "issuerId": "./node_modules/material-ui/Menu/Menu.js",
-      "issuerName": "./~/material-ui/Menu/Menu.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
+      "issuerId": "./node_modules/material-ui/Drawer/Drawer.js",
+      "issuerName": "./~/material-ui/Drawer/Drawer.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "keycode",
-          "loc": "59:15-33"
-        },
         {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
@@ -13253,6 +13250,15 @@
           "type": "cjs require",
           "userRequest": "keycode",
           "loc": "43:15-33"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "keycode",
+          "loc": "59:15-33"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -17264,19 +17270,19 @@
           "loc": "15:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
+          "module": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "15:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
-          "module": "./~/material-ui/TextField/TextFieldLabel.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "15:19-51"
@@ -18193,19 +18199,19 @@
           "loc": "61:17-46"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
           "type": "cjs require",
           "userRequest": "../utils/propTypes",
           "loc": "63:17-46"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
           "type": "cjs require",
           "userRequest": "../utils/propTypes",
           "loc": "63:17-46"
@@ -18304,27 +18310,27 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/video.ts",
-      "issuerId": "./src/res/data/video.ts",
-      "issuerName": "./src/res/data/video.ts",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/assessments.ts",
+      "issuerId": "./src/res/data/assessments.ts",
+      "issuerName": "./src/res/data/assessments.ts",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": "./src/res/data/video.ts",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/video.ts",
-          "module": "./src/res/data/video.ts",
-          "moduleName": "./src/res/data/video.ts",
+          "moduleId": "./src/res/data/assessments.ts",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/assessments.ts",
+          "module": "./src/res/data/assessments.ts",
+          "moduleName": "./src/res/data/assessments.ts",
           "type": "cjs require",
           "userRequest": "normalizr",
           "loc": "3:18-38"
         },
         {
-          "moduleId": "./src/res/data/assessments.ts",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/assessments.ts",
-          "module": "./src/res/data/assessments.ts",
-          "moduleName": "./src/res/data/assessments.ts",
+          "moduleId": "./src/res/data/video.ts",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/video.ts",
+          "module": "./src/res/data/video.ts",
+          "moduleName": "./src/res/data/video.ts",
           "type": "cjs require",
           "userRequest": "normalizr",
           "loc": "3:18-38"
@@ -18698,15 +18704,6 @@
           "loc": "14:14-38"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "13:14-38"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -18714,6 +18711,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "16:14-38"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:14-38"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMTextComponent.js",
@@ -18797,15 +18803,6 @@
           "loc": "14:14-38"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
-          "module": "./~/react-dom/lib/ReactDOMOption.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "13:14-38"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMSelect.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMSelect.js",
           "module": "./~/react-dom/lib/ReactDOMSelect.js",
@@ -18822,6 +18819,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "14:14-38"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
+          "module": "./~/react-dom/lib/ReactDOMOption.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:14-38"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactServerRenderingTransaction.js",
@@ -19136,15 +19142,6 @@
           "loc": "43:16-36"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react-dom",
-          "loc": "47:16-36"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -19152,6 +19149,15 @@
           "type": "cjs require",
           "userRequest": "react-dom",
           "loc": "35:16-36"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "loc": "47:16-36"
         },
         {
           "moduleId": "./node_modules/material-ui/Popover/Popover.js",
@@ -19622,15 +19628,6 @@
           "loc": "15:18-42"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "type": "cjs require",
-          "userRequest": "./DOMLazyTree",
-          "loc": "15:18-42"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -19638,6 +19635,15 @@
           "type": "cjs require",
           "userRequest": "./DOMLazyTree",
           "loc": "20:18-42"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "type": "cjs require",
+          "userRequest": "./DOMLazyTree",
+          "loc": "15:18-42"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMTextComponent.js",
@@ -20988,15 +20994,6 @@
           "loc": "14:28-62"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
-          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
-          "type": "cjs require",
-          "userRequest": "./ReactDOMComponentTree",
-          "loc": "16:28-62"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -21004,6 +21001,15 @@
           "type": "cjs require",
           "userRequest": "./ReactDOMComponentTree",
           "loc": "28:28-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMEmptyComponent.js",
+          "module": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMEmptyComponent.js",
+          "type": "cjs require",
+          "userRequest": "./ReactDOMComponentTree",
+          "loc": "16:28-62"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMTextComponent.js",
@@ -21087,15 +21093,6 @@
           "loc": "18:28-62"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
-          "module": "./~/react-dom/lib/ReactDOMOption.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
-          "type": "cjs require",
-          "userRequest": "./ReactDOMComponentTree",
-          "loc": "16:28-62"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMSelect.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMSelect.js",
           "module": "./~/react-dom/lib/ReactDOMSelect.js",
@@ -21112,6 +21109,15 @@
           "type": "cjs require",
           "userRequest": "./ReactDOMComponentTree",
           "loc": "17:28-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDOMOption.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMOption.js",
+          "module": "./~/react-dom/lib/ReactDOMOption.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMOption.js",
+          "type": "cjs require",
+          "userRequest": "./ReactDOMComponentTree",
+          "loc": "16:28-62"
         }
       ],
       "usedExports": true,
@@ -22398,6 +22404,141 @@
       "providedExports": null,
       "depth": 6,
       "source": "/**\n * Copyright 2013-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n * \n */\n\n'use strict';\n\nvar _prodInvariant = require('./reactProdInvariant');\n\nvar invariant = require('fbjs/lib/invariant');\n\n/**\n * @param {?object} object\n * @return {boolean} True if `object` is a valid owner.\n * @final\n */\nfunction isValidOwner(object) {\n  return !!(object && typeof object.attachRef === 'function' && typeof object.detachRef === 'function');\n}\n\n/**\n * ReactOwners are capable of storing references to owned components.\n *\n * All components are capable of //being// referenced by owner components, but\n * only ReactOwner components are capable of //referencing// owned components.\n * The named reference is known as a \"ref\".\n *\n * Refs are available when mounted and updated during reconciliation.\n *\n *   var MyComponent = React.createClass({\n *     render: function() {\n *       return (\n *         <div onClick={this.handleClick}>\n *           <CustomComponent ref=\"custom\" />\n *         </div>\n *       );\n *     },\n *     handleClick: function() {\n *       this.refs.custom.handleClick();\n *     },\n *     componentDidMount: function() {\n *       this.refs.custom.initialize();\n *     }\n *   });\n *\n * Refs should rarely be used. When refs are used, they should only be done to\n * control data that is not handled by React's data flow.\n *\n * @class ReactOwner\n */\nvar ReactOwner = {\n  /**\n   * Adds a component by ref to an owner component.\n   *\n   * @param {ReactComponent} component Component to reference.\n   * @param {string} ref Name by which to refer to the component.\n   * @param {ReactOwner} owner Component on which to record the ref.\n   * @final\n   * @internal\n   */\n  addComponentAsRefTo: function (component, ref, owner) {\n    !isValidOwner(owner) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'addComponentAsRefTo(...): Only a ReactOwner can have refs. You might be adding a ref to a component that was not created inside a component\\'s `render` method, or you have multiple copies of React loaded (details: https://fb.me/react-refs-must-have-owner).') : _prodInvariant('119') : void 0;\n    owner.attachRef(ref, component);\n  },\n\n  /**\n   * Removes a component by ref from an owner component.\n   *\n   * @param {ReactComponent} component Component to dereference.\n   * @param {string} ref Name of the ref to remove.\n   * @param {ReactOwner} owner Component on which the ref is recorded.\n   * @final\n   * @internal\n   */\n  removeComponentAsRefFrom: function (component, ref, owner) {\n    !isValidOwner(owner) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'removeComponentAsRefFrom(...): Only a ReactOwner can have refs. You might be removing a ref to a component that was not created inside a component\\'s `render` method, or you have multiple copies of React loaded (details: https://fb.me/react-refs-must-have-owner).') : _prodInvariant('120') : void 0;\n    var ownerPublicInstance = owner.getPublicInstance();\n    // Check that `component`'s owner is still alive and that `component` is still the current ref\n    // because we do not want to detach the ref if another component stole it.\n    if (ownerPublicInstance && ownerPublicInstance.refs[ref] === component.getPublicInstance()) {\n      owner.detachRef(ref);\n    }\n  }\n\n};\n\nmodule.exports = ReactOwner;"
+    },
+    {
+      "id": "./node_modules/react/lib/ReactCurrentOwner.js",
+      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactCurrentOwner.js",
+      "name": "./~/react/lib/ReactCurrentOwner.js",
+      "index": 10,
+      "index2": 4,
+      "size": 623,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [],
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
+      "issuerId": "./node_modules/react/lib/ReactElement.js",
+      "issuerName": "./~/react/lib/ReactElement.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "./node_modules/react/lib/ReactElement.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
+          "module": "./~/react/lib/ReactElement.js",
+          "moduleName": "./~/react/lib/ReactElement.js",
+          "type": "cjs require",
+          "userRequest": "./ReactCurrentOwner",
+          "loc": "15:24-54"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
+          "module": "./~/react-dom/lib/ReactMount.js",
+          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "19:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/findDOMNode.js",
+          "module": "./~/react-dom/lib/findDOMNode.js",
+          "moduleName": "./~/react-dom/lib/findDOMNode.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "15:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
+          "module": "./~/react/lib/traverseAllChildren.js",
+          "moduleName": "./~/react/lib/traverseAllChildren.js",
+          "type": "cjs require",
+          "userRequest": "./ReactCurrentOwner",
+          "loc": "15:24-54"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactUpdateQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactUpdateQueue.js",
+          "module": "./~/react-dom/lib/ReactUpdateQueue.js",
+          "moduleName": "./~/react-dom/lib/ReactUpdateQueue.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "15:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactMultiChild.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMultiChild.js",
+          "module": "./~/react-dom/lib/ReactMultiChild.js",
+          "moduleName": "./~/react-dom/lib/ReactMultiChild.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "19:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactCompositeComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactCompositeComponent.js",
+          "module": "./~/react-dom/lib/ReactCompositeComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactCompositeComponent.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "18:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/traverseAllChildren.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/traverseAllChildren.js",
+          "module": "./~/react-dom/lib/traverseAllChildren.js",
+          "moduleName": "./~/react-dom/lib/traverseAllChildren.js",
+          "type": "cjs require",
+          "userRequest": "react/lib/ReactCurrentOwner",
+          "loc": "15:24-62"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/ReactComponentTreeHook.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponentTreeHook.js",
+          "module": "./~/react/lib/ReactComponentTreeHook.js",
+          "moduleName": "./~/react/lib/ReactComponentTreeHook.js",
+          "type": "cjs require",
+          "userRequest": "./ReactCurrentOwner",
+          "loc": "16:24-54"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 5,
+      "source": "/**\n * Copyright 2013-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n * \n */\n\n'use strict';\n\n/**\n * Keeps track of the current owner.\n *\n * The current owner is the component who should own any components that are\n * currently being constructed.\n */\nvar ReactCurrentOwner = {\n\n  /**\n   * @internal\n   * @type {ReactComponent}\n   */\n  current: null\n\n};\n\nmodule.exports = ReactCurrentOwner;"
+    },
+    {
+      "id": 0,
+      "identifier": "multi ./src/index.tsx",
+      "name": "multi ./src/index.tsx",
+      "index": 0,
+      "index2": 688,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0
     },
     {
       "id": "./node_modules/react-dom/lib/ReactPropTypesSecret.js",
@@ -24874,15 +25015,6 @@
           "loc": "13:21-52"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
-          "module": "./~/react-dom/lib/CallbackQueue.js",
-          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
-          "type": "cjs require",
-          "userRequest": "./reactProdInvariant",
-          "loc": "14:21-52"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/PooledClass.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/PooledClass.js",
           "module": "./~/react-dom/lib/PooledClass.js",
@@ -24896,6 +25028,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/Transaction.js",
           "module": "./~/react-dom/lib/Transaction.js",
           "moduleName": "./~/react-dom/lib/Transaction.js",
+          "type": "cjs require",
+          "userRequest": "./reactProdInvariant",
+          "loc": "14:21-52"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
+          "module": "./~/react-dom/lib/CallbackQueue.js",
+          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "14:21-52"
@@ -26107,15 +26248,6 @@
           "loc": "5:20-42"
         },
         {
-          "moduleId": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
-          "module": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
-          "moduleName": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
-          "type": "cjs require",
-          "userRequest": "react-redux",
-          "loc": "14:20-42"
-        },
-        {
           "moduleId": "./src/lib/local-t2-sw-redux/components/UpdateDialogContainer.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/lib/local-t2-sw-redux/components/UpdateDialogContainer.tsx",
           "module": "./src/lib/local-t2-sw-redux/components/UpdateDialogContainer.tsx",
@@ -26123,6 +26255,15 @@
           "type": "cjs require",
           "userRequest": "react-redux",
           "loc": "4:20-42"
+        },
+        {
+          "moduleId": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
+          "module": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
+          "moduleName": "./src/lib/local-t2-sw-redux/components/AppStatusContainer.tsx",
+          "type": "cjs require",
+          "userRequest": "react-redux",
+          "loc": "14:20-42"
         }
       ],
       "usedExports": true,
@@ -26909,15 +27050,6 @@
           "loc": "5:0-67"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Redirect.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
-          "module": "./~/react-router/es/Redirect.js",
-          "moduleName": "./~/react-router/es/Redirect.js",
-          "type": "harmony import",
-          "userRequest": "./InternalPropTypes",
-          "loc": "5:0-44"
-        },
-        {
           "moduleId": "./node_modules/react-router/es/Route.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
           "module": "./~/react-router/es/Route.js",
@@ -26925,6 +27057,15 @@
           "type": "harmony import",
           "userRequest": "./InternalPropTypes",
           "loc": "4:0-60"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/Redirect.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
+          "module": "./~/react-router/es/Redirect.js",
+          "moduleName": "./~/react-router/es/Redirect.js",
+          "type": "harmony import",
+          "userRequest": "./InternalPropTypes",
+          "loc": "5:0-44"
         }
       ],
       "usedExports": [
@@ -27338,15 +27479,6 @@
           "loc": "4:0-91"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Redirect.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
-          "module": "./~/react-router/es/Redirect.js",
-          "moduleName": "./~/react-router/es/Redirect.js",
-          "type": "harmony import",
-          "userRequest": "./RouteUtils",
-          "loc": "3:0-91"
-        },
-        {
           "moduleId": "./node_modules/react-router/es/Route.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
           "module": "./~/react-router/es/Route.js",
@@ -27354,6 +27486,15 @@
           "type": "harmony import",
           "userRequest": "./RouteUtils",
           "loc": "3:0-59"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/Redirect.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
+          "module": "./~/react-router/es/Redirect.js",
+          "moduleName": "./~/react-router/es/Redirect.js",
+          "type": "harmony import",
+          "userRequest": "./RouteUtils",
+          "loc": "3:0-91"
         },
         {
           "moduleId": "./node_modules/react-router/es/RouterContext.js",
@@ -28916,115 +29057,6 @@
       "source": "/**\n * Copyright 2016-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n * \n */\n\n'use strict';\n\nvar _prodInvariant = require('./reactProdInvariant');\n\nvar ReactCurrentOwner = require('./ReactCurrentOwner');\n\nvar invariant = require('fbjs/lib/invariant');\nvar warning = require('fbjs/lib/warning');\n\nfunction isNative(fn) {\n  // Based on isNative() from Lodash\n  var funcToString = Function.prototype.toString;\n  var hasOwnProperty = Object.prototype.hasOwnProperty;\n  var reIsNative = RegExp('^' + funcToString\n  // Take an example native function source for comparison\n  .call(hasOwnProperty)\n  // Strip regex characters so we can use it for regex\n  .replace(/[\\\\^$.*+?()[\\]{}|]/g, '\\\\$&')\n  // Remove hasOwnProperty from the template to make it generic\n  .replace(/hasOwnProperty|(function).*?(?=\\\\\\()| for .+?(?=\\\\\\])/g, '$1.*?') + '$');\n  try {\n    var source = funcToString.call(fn);\n    return reIsNative.test(source);\n  } catch (err) {\n    return false;\n  }\n}\n\nvar canUseCollections =\n// Array.from\ntypeof Array.from === 'function' &&\n// Map\ntypeof Map === 'function' && isNative(Map) &&\n// Map.prototype.keys\nMap.prototype != null && typeof Map.prototype.keys === 'function' && isNative(Map.prototype.keys) &&\n// Set\ntypeof Set === 'function' && isNative(Set) &&\n// Set.prototype.keys\nSet.prototype != null && typeof Set.prototype.keys === 'function' && isNative(Set.prototype.keys);\n\nvar setItem;\nvar getItem;\nvar removeItem;\nvar getItemIDs;\nvar addRoot;\nvar removeRoot;\nvar getRootIDs;\n\nif (canUseCollections) {\n  var itemMap = new Map();\n  var rootIDSet = new Set();\n\n  setItem = function (id, item) {\n    itemMap.set(id, item);\n  };\n  getItem = function (id) {\n    return itemMap.get(id);\n  };\n  removeItem = function (id) {\n    itemMap['delete'](id);\n  };\n  getItemIDs = function () {\n    return Array.from(itemMap.keys());\n  };\n\n  addRoot = function (id) {\n    rootIDSet.add(id);\n  };\n  removeRoot = function (id) {\n    rootIDSet['delete'](id);\n  };\n  getRootIDs = function () {\n    return Array.from(rootIDSet.keys());\n  };\n} else {\n  var itemByKey = {};\n  var rootByKey = {};\n\n  // Use non-numeric keys to prevent V8 performance issues:\n  // https://github.com/facebook/react/pull/7232\n  var getKeyFromID = function (id) {\n    return '.' + id;\n  };\n  var getIDFromKey = function (key) {\n    return parseInt(key.substr(1), 10);\n  };\n\n  setItem = function (id, item) {\n    var key = getKeyFromID(id);\n    itemByKey[key] = item;\n  };\n  getItem = function (id) {\n    var key = getKeyFromID(id);\n    return itemByKey[key];\n  };\n  removeItem = function (id) {\n    var key = getKeyFromID(id);\n    delete itemByKey[key];\n  };\n  getItemIDs = function () {\n    return Object.keys(itemByKey).map(getIDFromKey);\n  };\n\n  addRoot = function (id) {\n    var key = getKeyFromID(id);\n    rootByKey[key] = true;\n  };\n  removeRoot = function (id) {\n    var key = getKeyFromID(id);\n    delete rootByKey[key];\n  };\n  getRootIDs = function () {\n    return Object.keys(rootByKey).map(getIDFromKey);\n  };\n}\n\nvar unmountedIDs = [];\n\nfunction purgeDeep(id) {\n  var item = getItem(id);\n  if (item) {\n    var childIDs = item.childIDs;\n\n    removeItem(id);\n    childIDs.forEach(purgeDeep);\n  }\n}\n\nfunction describeComponentFrame(name, source, ownerName) {\n  return '\\n    in ' + (name || 'Unknown') + (source ? ' (at ' + source.fileName.replace(/^.*[\\\\\\/]/, '') + ':' + source.lineNumber + ')' : ownerName ? ' (created by ' + ownerName + ')' : '');\n}\n\nfunction getDisplayName(element) {\n  if (element == null) {\n    return '#empty';\n  } else if (typeof element === 'string' || typeof element === 'number') {\n    return '#text';\n  } else if (typeof element.type === 'string') {\n    return element.type;\n  } else {\n    return element.type.displayName || element.type.name || 'Unknown';\n  }\n}\n\nfunction describeID(id) {\n  var name = ReactComponentTreeHook.getDisplayName(id);\n  var element = ReactComponentTreeHook.getElement(id);\n  var ownerID = ReactComponentTreeHook.getOwnerID(id);\n  var ownerName;\n  if (ownerID) {\n    ownerName = ReactComponentTreeHook.getDisplayName(ownerID);\n  }\n  process.env.NODE_ENV !== 'production' ? warning(element, 'ReactComponentTreeHook: Missing React element for debugID %s when ' + 'building stack', id) : void 0;\n  return describeComponentFrame(name, element && element._source, ownerName);\n}\n\nvar ReactComponentTreeHook = {\n  onSetChildren: function (id, nextChildIDs) {\n    var item = getItem(id);\n    !item ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Item must have been set') : _prodInvariant('144') : void 0;\n    item.childIDs = nextChildIDs;\n\n    for (var i = 0; i < nextChildIDs.length; i++) {\n      var nextChildID = nextChildIDs[i];\n      var nextChild = getItem(nextChildID);\n      !nextChild ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected hook events to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('140') : void 0;\n      !(nextChild.childIDs != null || typeof nextChild.element !== 'object' || nextChild.element == null) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onSetChildren() to fire for a container child before its parent includes it in onSetChildren().') : _prodInvariant('141') : void 0;\n      !nextChild.isMounted ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onMountComponent() to fire for the child before its parent includes it in onSetChildren().') : _prodInvariant('71') : void 0;\n      if (nextChild.parentID == null) {\n        nextChild.parentID = id;\n        // TODO: This shouldn't be necessary but mounting a new root during in\n        // componentWillMount currently causes not-yet-mounted components to\n        // be purged from our tree data so their parent id is missing.\n      }\n      !(nextChild.parentID === id) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Expected onBeforeMountComponent() parent and onSetChildren() to be consistent (%s has parents %s and %s).', nextChildID, nextChild.parentID, id) : _prodInvariant('142', nextChildID, nextChild.parentID, id) : void 0;\n    }\n  },\n  onBeforeMountComponent: function (id, element, parentID) {\n    var item = {\n      element: element,\n      parentID: parentID,\n      text: null,\n      childIDs: [],\n      isMounted: false,\n      updateCount: 0\n    };\n    setItem(id, item);\n  },\n  onBeforeUpdateComponent: function (id, element) {\n    var item = getItem(id);\n    if (!item || !item.isMounted) {\n      // We may end up here as a result of setState() in componentWillUnmount().\n      // In this case, ignore the element.\n      return;\n    }\n    item.element = element;\n  },\n  onMountComponent: function (id) {\n    var item = getItem(id);\n    !item ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Item must have been set') : _prodInvariant('144') : void 0;\n    item.isMounted = true;\n    var isRoot = item.parentID === 0;\n    if (isRoot) {\n      addRoot(id);\n    }\n  },\n  onUpdateComponent: function (id) {\n    var item = getItem(id);\n    if (!item || !item.isMounted) {\n      // We may end up here as a result of setState() in componentWillUnmount().\n      // In this case, ignore the element.\n      return;\n    }\n    item.updateCount++;\n  },\n  onUnmountComponent: function (id) {\n    var item = getItem(id);\n    if (item) {\n      // We need to check if it exists.\n      // `item` might not exist if it is inside an error boundary, and a sibling\n      // error boundary child threw while mounting. Then this instance never\n      // got a chance to mount, but it still gets an unmounting event during\n      // the error boundary cleanup.\n      item.isMounted = false;\n      var isRoot = item.parentID === 0;\n      if (isRoot) {\n        removeRoot(id);\n      }\n    }\n    unmountedIDs.push(id);\n  },\n  purgeUnmountedComponents: function () {\n    if (ReactComponentTreeHook._preventPurging) {\n      // Should only be used for testing.\n      return;\n    }\n\n    for (var i = 0; i < unmountedIDs.length; i++) {\n      var id = unmountedIDs[i];\n      purgeDeep(id);\n    }\n    unmountedIDs.length = 0;\n  },\n  isMounted: function (id) {\n    var item = getItem(id);\n    return item ? item.isMounted : false;\n  },\n  getCurrentStackAddendum: function (topElement) {\n    var info = '';\n    if (topElement) {\n      var name = getDisplayName(topElement);\n      var owner = topElement._owner;\n      info += describeComponentFrame(name, topElement._source, owner && owner.getName());\n    }\n\n    var currentOwner = ReactCurrentOwner.current;\n    var id = currentOwner && currentOwner._debugID;\n\n    info += ReactComponentTreeHook.getStackAddendumByID(id);\n    return info;\n  },\n  getStackAddendumByID: function (id) {\n    var info = '';\n    while (id) {\n      info += describeID(id);\n      id = ReactComponentTreeHook.getParentID(id);\n    }\n    return info;\n  },\n  getChildIDs: function (id) {\n    var item = getItem(id);\n    return item ? item.childIDs : [];\n  },\n  getDisplayName: function (id) {\n    var element = ReactComponentTreeHook.getElement(id);\n    if (!element) {\n      return null;\n    }\n    return getDisplayName(element);\n  },\n  getElement: function (id) {\n    var item = getItem(id);\n    return item ? item.element : null;\n  },\n  getOwnerID: function (id) {\n    var element = ReactComponentTreeHook.getElement(id);\n    if (!element || !element._owner) {\n      return null;\n    }\n    return element._owner._debugID;\n  },\n  getParentID: function (id) {\n    var item = getItem(id);\n    return item ? item.parentID : null;\n  },\n  getSource: function (id) {\n    var item = getItem(id);\n    var element = item ? item.element : null;\n    var source = element != null ? element._source : null;\n    return source;\n  },\n  getText: function (id) {\n    var element = ReactComponentTreeHook.getElement(id);\n    if (typeof element === 'string') {\n      return element;\n    } else if (typeof element === 'number') {\n      return '' + element;\n    } else {\n      return null;\n    }\n  },\n  getUpdateCount: function (id) {\n    var item = getItem(id);\n    return item ? item.updateCount : 0;\n  },\n\n\n  getRootIDs: getRootIDs,\n  getRegisteredIDs: getItemIDs\n};\n\nmodule.exports = ReactComponentTreeHook;"
     },
     {
-      "id": "./node_modules/react/lib/ReactCurrentOwner.js",
-      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactCurrentOwner.js",
-      "name": "./~/react/lib/ReactCurrentOwner.js",
-      "index": 10,
-      "index2": 4,
-      "size": 623,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        7
-      ],
-      "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
-      "issuerId": "./node_modules/react/lib/ReactElement.js",
-      "issuerName": "./~/react/lib/ReactElement.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": "./node_modules/react/lib/ReactElement.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
-          "module": "./~/react/lib/ReactElement.js",
-          "moduleName": "./~/react/lib/ReactElement.js",
-          "type": "cjs require",
-          "userRequest": "./ReactCurrentOwner",
-          "loc": "15:24-54"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
-          "module": "./~/react-dom/lib/ReactMount.js",
-          "moduleName": "./~/react-dom/lib/ReactMount.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "19:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/findDOMNode.js",
-          "module": "./~/react-dom/lib/findDOMNode.js",
-          "moduleName": "./~/react-dom/lib/findDOMNode.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "15:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
-          "module": "./~/react/lib/traverseAllChildren.js",
-          "moduleName": "./~/react/lib/traverseAllChildren.js",
-          "type": "cjs require",
-          "userRequest": "./ReactCurrentOwner",
-          "loc": "15:24-54"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactUpdateQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactUpdateQueue.js",
-          "module": "./~/react-dom/lib/ReactUpdateQueue.js",
-          "moduleName": "./~/react-dom/lib/ReactUpdateQueue.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "15:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactMultiChild.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMultiChild.js",
-          "module": "./~/react-dom/lib/ReactMultiChild.js",
-          "moduleName": "./~/react-dom/lib/ReactMultiChild.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "19:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactCompositeComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactCompositeComponent.js",
-          "module": "./~/react-dom/lib/ReactCompositeComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactCompositeComponent.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "18:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/traverseAllChildren.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/traverseAllChildren.js",
-          "module": "./~/react-dom/lib/traverseAllChildren.js",
-          "moduleName": "./~/react-dom/lib/traverseAllChildren.js",
-          "type": "cjs require",
-          "userRequest": "react/lib/ReactCurrentOwner",
-          "loc": "15:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/ReactComponentTreeHook.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponentTreeHook.js",
-          "module": "./~/react/lib/ReactComponentTreeHook.js",
-          "moduleName": "./~/react/lib/ReactComponentTreeHook.js",
-          "type": "cjs require",
-          "userRequest": "./ReactCurrentOwner",
-          "loc": "16:24-54"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 5,
-      "source": "/**\n * Copyright 2013-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n * \n */\n\n'use strict';\n\n/**\n * Keeps track of the current owner.\n *\n * The current owner is the component who should own any components that are\n * currently being constructed.\n */\nvar ReactCurrentOwner = {\n\n  /**\n   * @internal\n   * @type {ReactComponent}\n   */\n  current: null\n\n};\n\nmodule.exports = ReactCurrentOwner;"
-    },
-    {
       "id": "./node_modules/react/lib/ReactDOMFactories.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactDOMFactories.js",
       "name": "./~/react/lib/ReactDOMFactories.js",
@@ -30011,19 +30043,19 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/Assessments.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Assessments.tsx",
-          "module": "./src/components/Assessments.tsx",
-          "moduleName": "./src/components/Assessments.tsx",
+          "moduleId": "./src/components/Book.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Book.tsx",
+          "module": "./src/components/Book.tsx",
+          "moduleName": "./src/components/Book.tsx",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/Book.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Book.tsx",
-          "module": "./src/components/Book.tsx",
-          "moduleName": "./src/components/Book.tsx",
+          "moduleId": "./src/components/Assessments.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Assessments.tsx",
+          "module": "./src/components/Assessments.tsx",
+          "moduleName": "./src/components/Assessments.tsx",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
@@ -30074,15 +30106,6 @@
           "loc": "21:12-28"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-back.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-back.js",
-          "module": "./~/material-ui/svg-icons/navigation/arrow-back.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-back.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "7:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/styles/MuiThemeProvider.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/styles/MuiThemeProvider.js",
           "module": "./~/material-ui/styles/MuiThemeProvider.js",
@@ -30090,6 +30113,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "27:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-back.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-back.js",
+          "module": "./~/material-ui/svg-icons/navigation/arrow-back.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-back.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/svg-icons/navigation/menu.js",
@@ -30191,19 +30223,19 @@
           "loc": "1:0-26"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Redirect.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
-          "module": "./~/react-router/es/Redirect.js",
-          "moduleName": "./~/react-router/es/Redirect.js",
+          "moduleId": "./node_modules/react-router/es/Route.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
+          "module": "./~/react-router/es/Route.js",
+          "moduleName": "./~/react-router/es/Route.js",
           "type": "harmony import",
           "userRequest": "react",
           "loc": "1:0-26"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Route.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Route.js",
-          "module": "./~/react-router/es/Route.js",
-          "moduleName": "./~/react-router/es/Route.js",
+          "moduleId": "./node_modules/react-router/es/Redirect.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/Redirect.js",
+          "module": "./~/react-router/es/Redirect.js",
+          "moduleName": "./~/react-router/es/Redirect.js",
           "type": "harmony import",
           "userRequest": "react",
           "loc": "1:0-26"
@@ -30290,15 +30322,6 @@
           "loc": "1:0-34"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-forward.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-forward.js",
-          "module": "./~/material-ui/svg-icons/navigation/arrow-forward.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-forward.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "7:13-29"
-        },
-        {
           "moduleId": "./src/components/Select.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Select.tsx",
           "module": "./src/components/Select.tsx",
@@ -30306,6 +30329,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-forward.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-forward.js",
+          "module": "./~/material-ui/svg-icons/navigation/arrow-forward.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-forward.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/GridList/GridList.js",
@@ -30452,15 +30484,6 @@
           "loc": "45:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "43:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -30468,6 +30491,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "43:13-29"
         },
         {
           "moduleId": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -30524,15 +30556,6 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "31:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/EnhancedButton.js",
           "module": "./~/material-ui/internal/EnhancedButton.js",
@@ -30578,6 +30601,24 @@
           "loc": "5:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -30591,15 +30632,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "39:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30839,6 +30871,15 @@
           "loc": "11:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
+          "module": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "11:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
           "module": "./~/material-ui/TextField/TextFieldUnderline.js",
@@ -30846,15 +30887,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "11:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "module": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "7:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/ClearFix.js",
@@ -30866,15 +30898,6 @@
           "loc": "15:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
-          "module": "./~/material-ui/TextField/TextFieldLabel.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "11:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
           "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
@@ -30882,6 +30905,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "module": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -31732,15 +31764,6 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
-          "module": "./~/material-ui/GridList/GridTile.js",
-          "moduleName": "./~/material-ui/GridList/GridTile.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "39:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/IconButton/IconButton.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/IconButton/IconButton.js",
           "module": "./~/material-ui/IconButton/IconButton.js",
@@ -31748,6 +31771,15 @@
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/GridList/GridTile.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/GridList/GridTile.js",
+          "module": "./~/material-ui/GridList/GridTile.js",
+          "moduleName": "./~/material-ui/GridList/GridTile.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "39:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/MenuItem/MenuItem.js",
@@ -31858,15 +31890,6 @@
           "loc": "41:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "39:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -31876,6 +31899,15 @@
           "loc": "27:20-44"
         },
         {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "39:20-44"
+        },
+        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -31883,15 +31915,6 @@
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
-          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "27:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -31930,19 +31953,28 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/FlatButton/FlatButtonLabel.js",
+          "module": "./~/material-ui/FlatButton/FlatButtonLabel.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButtonLabel.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
-          "loc": "35:20-44"
+          "loc": "27:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/Overlay.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
           "module": "./~/material-ui/internal/Overlay.js",
           "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "35:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32101,19 +32133,19 @@
           "loc": "7:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
+          "module": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
-          "module": "./~/material-ui/TextField/TextFieldLabel.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
@@ -32324,15 +32356,6 @@
           "loc": "16:15-33"
         },
         {
-          "moduleId": "./node_modules/material-ui/utils/callOnce.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/utils/callOnce.js",
-          "module": "./~/material-ui/utils/callOnce.js",
-          "moduleName": "./~/material-ui/utils/callOnce.js",
-          "type": "cjs require",
-          "userRequest": "warning",
-          "loc": "8:15-33"
-        },
-        {
           "moduleId": "./node_modules/material-ui/utils/autoprefixer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/utils/autoprefixer.js",
           "module": "./~/material-ui/utils/autoprefixer.js",
@@ -32340,6 +32363,15 @@
           "type": "cjs require",
           "userRequest": "warning",
           "loc": "68:15-33"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/utils/callOnce.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/utils/callOnce.js",
+          "module": "./~/material-ui/utils/callOnce.js",
+          "moduleName": "./~/material-ui/utils/callOnce.js",
+          "type": "cjs require",
+          "userRequest": "warning",
+          "loc": "8:15-33"
         },
         {
           "moduleId": "./node_modules/react-router/es/routerWarning.js",
@@ -33901,8 +33933,8 @@
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/index.html",
       "name": "./src/index.html",
       "index": 685,
-      "index2": 683,
-      "size": 118,
+      "index2": 684,
+      "size": 141,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -33931,15 +33963,15 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 2,
-      "source": "require(\"./res/images/Icon_Family_152.png\")\nrequire(\"./res/images/Icon_Family_144.png\")\nmodule.exports = \"/index.html\""
+      "source": "require(\"./res/images/Icon_Family_152.png\")\nrequire(\"./res/images/Icon_Family_144.png\")\nrequire(\"./style.css\")\nmodule.exports = \"/index.html\""
     },
     {
       "id": "./src/index.tsx",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/index.tsx",
       "name": "./src/index.tsx",
       "index": 1,
-      "index2": 686,
-      "size": 1171,
+      "index2": 687,
+      "size": 1196,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -33968,7 +34000,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 1,
-      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar ReactDOM = require(\"react-dom\");\r\nvar react_hot_loader_1 = require(\"react-hot-loader\");\r\nvar Provider_1 = require(\"./Provider\");\r\nvar injectTapEventPlugin = require(\"react-tap-event-plugin\");\r\nrequire('./res/images/Icon_Family_128.png');\r\nrequire('./res/images/Icon_Family_144.png');\r\nrequire('./res/images/Icon_Family_152.png');\r\nrequire('./res/images/Icon_Family_192.png');\r\nrequire('./res/images/Icon_Family_256.png');\r\nrequire('./index.html');\r\nrequire('./manifest.json');\r\nrequire(\"file-loader?name=[name].[ext]!./favicon.ico\");\r\n// Needed for onTouchTap\r\n// http://stackoverflow.com/a/34015469/988941\r\ninjectTapEventPlugin();\r\nvar render = function (Component) {\r\n    ReactDOM.render(React.createElement(react_hot_loader_1.AppContainer, null,\r\n        React.createElement(Component, null)), document.getElementById(\"spaApp\"));\r\n};\r\nrender(Provider_1.default);\r\n// Hot Module Replacement API. Only used when running the dev server.\r\nif (module.hot) {\r\n    module.hot.accept('./Provider', function () {\r\n        render(Provider_1.default);\r\n    });\r\n}\r\n"
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar ReactDOM = require(\"react-dom\");\r\nvar react_hot_loader_1 = require(\"react-hot-loader\");\r\nvar Provider_1 = require(\"./Provider\");\r\nvar injectTapEventPlugin = require(\"react-tap-event-plugin\");\r\nrequire('./res/images/Icon_Family_128.png');\r\nrequire('./res/images/Icon_Family_144.png');\r\nrequire('./res/images/Icon_Family_152.png');\r\nrequire('./res/images/Icon_Family_192.png');\r\nrequire('./res/images/Icon_Family_256.png');\r\nrequire('./index.html');\r\nrequire('./style.css');\r\nrequire('./manifest.json');\r\nrequire(\"file-loader?name=[name].[ext]!./favicon.ico\");\r\n// Needed for onTouchTap\r\n// http://stackoverflow.com/a/34015469/988941\r\ninjectTapEventPlugin();\r\nvar render = function (Component) {\r\n    ReactDOM.render(React.createElement(react_hot_loader_1.AppContainer, null,\r\n        React.createElement(Component, null)), document.getElementById(\"spaApp\"));\r\n};\r\nrender(Provider_1.default);\r\n// Hot Module Replacement API. Only used when running the dev server.\r\nif (module.hot) {\r\n    module.hot.accept('./Provider', function () {\r\n        render(Provider_1.default);\r\n    });\r\n}\r\n"
     },
     {
       "id": "./src/lib/LinearGauge/index.ts",
@@ -34527,8 +34559,8 @@
       "id": "./src/manifest.json",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/manifest.json",
       "name": "./src/manifest.json",
-      "index": 686,
-      "index2": 684,
+      "index": 687,
+      "index2": 685,
       "size": 253,
       "cacheable": true,
       "built": true,
@@ -34552,7 +34584,7 @@
           "moduleName": "./src/index.tsx",
           "type": "cjs require",
           "userRequest": "./manifest.json",
-          "loc": "14:0-26"
+          "loc": "15:0-26"
         }
       ],
       "usedExports": true,
@@ -37952,32 +37984,6 @@
       "source": "module.exports = __webpack_public_path__ + \"d0b6b39e094c1e102a170f46167d34c5.jpg\";"
     },
     {
-      "id": 0,
-      "identifier": "multi ./src/index.tsx",
-      "name": "multi ./src/index.tsx",
-      "index": 0,
-      "index2": 687,
-      "size": 28,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        7
-      ],
-      "assets": [],
-      "issuer": null,
-      "issuerId": null,
-      "issuerName": null,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 0
-    },
-    {
       "id": "./src/res/images/videos/923136676001_3137710948001_vs-52ed411ee4b0d1f8aa9adb26-782203297001.jpg",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/url-loader/index.js?limit=2!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/images/videos/923136676001_3137710948001_vs-52ed411ee4b0d1f8aa9adb26-782203297001.jpg",
       "name": "./src/res/images/videos/923136676001_3137710948001_vs-52ed411ee4b0d1f8aa9adb26-782203297001.jpg",
@@ -38210,6 +38216,54 @@
       "providedExports": null,
       "depth": 6,
       "source": "module.exports = __webpack_public_path__ + \"90a1c3408ac10826b97f6e33d5f79ac6.jpg\";"
+    },
+    {
+      "id": "./src/style.css",
+      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/file-loader/index.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/style.css",
+      "name": "./src/style.css",
+      "index": 686,
+      "index2": 683,
+      "size": 82,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "04312762f51e2ceefa7ee046a1f1e37d.css"
+      ],
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/index.tsx",
+      "issuerId": "./src/index.tsx",
+      "issuerName": "./src/index.tsx",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "./src/index.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/index.tsx",
+          "module": "./src/index.tsx",
+          "moduleName": "./src/index.tsx",
+          "type": "cjs require",
+          "userRequest": "./style.css",
+          "loc": "14:0-22"
+        },
+        {
+          "moduleId": "./src/index.html",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/index.html",
+          "module": "./src/index.html",
+          "moduleName": "./src/index.html",
+          "type": "cjs require",
+          "userRequest": "./style.css",
+          "loc": "3:0-22"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 2,
+      "source": "module.exports = __webpack_public_path__ + \"04312762f51e2ceefa7ee046a1f1e37d.css\";"
     }
   ],
   "filteredModules": 0,
