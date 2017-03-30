@@ -4,13 +4,14 @@ import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
 import PageContainer from './containers/Main';
+import Debug from './containers/Debug';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
-import {registerPromise} from './lib/local-t2-sw-redux';
+import {registerPromise, appComponents} from './lib/local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
@@ -49,19 +50,6 @@ interface MyProps {
 
 interface MyState {
   [propName: string]: any;
-}
-
-function getDefaultModule() {
- return (comp: any) => comp.default
-}
-
-function errorLoading(err) {
- console.error('Dynamic page loading failed', err);
-}
-
-
-function loadRoute(cb) {
- return (module) => cb(null, module.default);
 }
 
 
@@ -121,6 +109,7 @@ const siteRoutes = [
     childRoutes: [
       syncRoute('/',PageContainer, quickRoutes, Home),
       syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
+      syncRoute('/debug',PageContainer, [],Debug),
       syncRoute('*',PageContainer,[],NotFound)
     ]
   }

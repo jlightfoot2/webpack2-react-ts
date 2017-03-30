@@ -1,42 +1,70 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import {
+  LogEntryInterface,
+} from '../reducers';
 
-/**
- * Alerts user to updates
- */
 
 export interface MyProps {
-  migrations: any;
-  app: any;
+  updates: any;
+  cache: any;
+  log: LogEntryInterface[]
 }
 
 export interface MyState {
-  
 }
-class AppStatusContainer extends React.Component<MyProps, MyState> {
+
+
+export default class AppStatusContainer extends React.Component<MyProps, MyState> {
+
+  timestameToDateString = (ms) => {
+    console.log(ms);
+    let d = new Date(0);
+    d.setUTCSeconds(ms);
+    var mm = d.getMonth() + 1; // getMonth() is zero-based
+    var dd = d.getDate();
+
+    let res =  [d.getFullYear(),
+              (mm>9 ? '' : '0') + mm,
+              (dd>9 ? '' : '0') + dd
+             ].join('-');
+
+    return res;
+  }
 
   render () {
-    var {migrations, app} = this.props;
-
+    var {updates,cache,log} = this.props;
+    console.log(log);
     return (
         <div>
-           <h3>local-t2-app-reduxt Status</h3>
-           <div>Migration Version# {migrations.version}</div>
+           <h1>Service Worker Status</h1>
+           <h3>Update Status</h3>
            <div>
              <pre>
-                {JSON.stringify(app, undefined, 3)}
+                {JSON.stringify(updates, undefined, 3)}
              </pre>
            </div>
+           <h3>Cache Status</h3>
+           <div>
+             <pre>
+                {JSON.stringify(cache, undefined, 3)}
+             </pre>
+           </div>
+           <h3>SW Event Logs</h3>
+        
+           {log.map((entry,i) => {
+             return (
+                 <div key={i}>
+                   <h4>{this.timestameToDateString(entry.timestamp)}: {entry.name}</h4>
+                   <div>
+                     <pre>
+                        {JSON.stringify(entry.info, undefined, 3)}
+                     </pre>
+                   </div>
+                 </div>
+               );
+           })}
         </div>
     );
   }
 }
-
-const stateToProps = (state, ownProps) => {
-  return {
-     app: state.app,
-     migrations: state.migrations // TODO remove me because migration not (currently) port of this bundle
-  }
-}
-
-export default connect(stateToProps)(AppStatusContainer);

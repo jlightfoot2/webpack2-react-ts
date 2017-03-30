@@ -1,16 +1,18 @@
-import {updatesAvailable, updateUserNotified, cacheStatusChange} from '../actions'
-
+import {updatesAvailable, updateUserNotified, cacheStatusChange, swLogEvent} from '../actions'
+import {LogEntryInterface} from '../reducers';
 export const registerPromise = function(registrationPromise, appStore){  // eg registerService(navigator.serviceWorker.register('./ad-service-worker.js'))
   return registrationPromise.then(function(reg){
         reg.onupdatefound = function () {
           // The updatefound event implies that reg.installing is set; see
           // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
           var installingWorker = reg.installing;
-
+          appStore.dispatch(swLogEvent('onupdatefound'));
           installingWorker.onstatechange = function () {
+            appStore.dispatch(swLogEvent('onstatechange'));
             switch (installingWorker.state) {
               case 'installed':
                 if (navigator.serviceWorker.controller) {
+                  appStore.dispatch(swLogEvent('installed','navigator.serviceWorker.controller is set'));
                   // At this point, the old content will have been purged and the fresh content will
                   // have been added to the cache.
                   // It's the perfect time to display a 'New content is available; please refresh.'
@@ -25,6 +27,7 @@ export const registerPromise = function(registrationPromise, appStore){  // eg r
                 } else {
                   // At this point, everything has been precached.
                   // It's the perfect time to display a 'Content is cached for offline use.' message.
+                  appStore.dispatch(swLogEvent('installed','navigator.serviceWorker.controller is NOT set'));
                   appStore.dispatch(cacheStatusChange(true));
                   appStore.dispatch(updatesAvailable(false,'avail offline'));
                   appStore.dispatch(updateUserNotified(true));
@@ -38,9 +41,12 @@ export const registerPromise = function(registrationPromise, appStore){  // eg r
                 if (__DEVTOOLS__) {
                   console.error('The installing service worker became redundant.');
                 }
+                appStore.dispatch(swLogEvent('redundant'));
                 appStore.dispatch(updateUserNotified(true));
                 appStore.dispatch(updatesAvailable(false,'redundant'));
                 break;
+              default:
+                appStore.dispatch(swLogEvent(installingWorker.state,'no action taken by app'));
             }
           };
         };
@@ -51,6 +57,7 @@ export const registerPromise = function(registrationPromise, appStore){  // eg r
           if (__DEVTOOLS__) {
             console.error('Error during service worker registration:', e);
           }
+          appStore.dispatch(swLogEvent('error',e));
           throw e;
   });
 };
