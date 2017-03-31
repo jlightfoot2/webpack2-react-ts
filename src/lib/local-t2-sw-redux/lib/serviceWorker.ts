@@ -18,7 +18,7 @@ export const registerPromise = function(registrationPromise, appStore){  // eg r
                   // It's the perfect time to display a 'New content is available; please refresh.'
                   // message in the page's interface.
                   if (__DEVTOOLS__) {
-                    console.log('New or updated content is available.');
+                    console.log('New or updated content is now available.');
                   }
 
                   appStore.dispatch(updatesAvailable(true,'new content'));
@@ -42,8 +42,8 @@ export const registerPromise = function(registrationPromise, appStore){  // eg r
                   console.error('The installing service worker became redundant.');
                 }
                 appStore.dispatch(swLogEvent('redundant'));
-                appStore.dispatch(updateUserNotified(true));
-                appStore.dispatch(updatesAvailable(false,'redundant'));
+                appStore.dispatch(updateUserNotified(false));
+                appStore.dispatch(updatesAvailable(true,'redundant'));
                 break;
               default:
                 appStore.dispatch(swLogEvent(installingWorker.state,'no action taken by app'));

@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
-import {registerPromise, appComponents} from './lib/local-t2-sw-redux';
+import {registerPromise} from './lib/local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
@@ -31,7 +31,7 @@ window.onresize = () => {
    }
    _timeOutResizeId = setTimeout(
           function(){
-              console.log('resize called');
+         
               store.dispatch(windowResize(window.innerWidth,window.innerHeight));
           },
         500);
@@ -55,7 +55,9 @@ interface MyState {
 
 if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NAME__ variables are used by webpack durring the build process. See <root>/webpack-production.config.js
   if ('serviceWorker' in navigator) {
-    console.log("Registering Service Worker");
+    if (__DEVTOOLS__) {
+      console.log("Registering Service Worker");
+    }
     /**
      * Service workers are not supported currently in an iOS browsers
      */
@@ -100,9 +102,7 @@ const mainSubRoutes = [
   asyncRoute('resources',System.import('./containers/Resources'),[],Dashboard),
 ];
 
-
 const siteRoutes = [
-
   {
     component: Theme,
     indexRoute: Home,

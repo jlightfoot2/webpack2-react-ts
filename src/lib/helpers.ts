@@ -14,7 +14,7 @@ export const asynRouteMaker = (config: any = {}) => {
 
   return (route: string,component: Promise<any>, childRoutes: any[] =[],indexComponent: any = null) => {
       return {
-       path: route,
+         path: route,
          getComponent(location, cb) {
             component.then(loadRoute(cb)).catch(errorLoading);
          },

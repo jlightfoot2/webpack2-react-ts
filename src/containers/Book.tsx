@@ -11,6 +11,7 @@ const stateToProps = (state,ownProps) => {
     isOpen: isOpen
   }
 }
+
 const dispatchToProps = (dispatch,ownProps) => {
   return {
     pageOpen: ownProps.pathOnTouchTap('/main/library/open')

@@ -9,6 +9,8 @@ import MenuItem from 'material-ui/MenuItem';
 import categoriesData from '../res/data/categories';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
+
+
 interface Props {
   appBarTitle(msg: string): any;
   categories: any[];

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import UpdateDialog from './UpdateDialog';
+import UpdateComponent from '../components/UpdateSnackBar';
 import { connect } from 'react-redux';
 
 import {updateUserNotified, updatesAvailable} from '../actions';
@@ -7,7 +7,8 @@ import {updateUserNotified, updatesAvailable} from '../actions';
 const stateToProps = (state, ownProps) => {
   return {
     open: state.app.updates.available && !state.app.updates.userNotified,
-    message: 'There are updates available for this app. This page will reload.'
+    message: state.app.updates.available ? 'There are updates available for this app.' : '',
+    autoHideDuration: 2000
   };
 };
 
@@ -15,7 +16,7 @@ const stateToDispatch = (dispatch, ownProps) => {
   return {
     onClick: () => {
       dispatch(updateUserNotified(true));
-      dispatch(updatesAvailable(false,'user dialog click'));
+      dispatch(updatesAvailable(false,'user update click'));
       setTimeout(function () {
         window.location.reload();
       }, 1000);
@@ -23,5 +24,5 @@ const stateToDispatch = (dispatch, ownProps) => {
   };
 };
 
-export default connect(stateToProps, stateToDispatch)(UpdateDialog);
+export default connect(stateToProps, stateToDispatch)(UpdateComponent);
 

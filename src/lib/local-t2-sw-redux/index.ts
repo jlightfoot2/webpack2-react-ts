@@ -1,7 +1,9 @@
 //require('babel-polyfill');
 import appReducer from './reducers';
 import appActions from './actions';
-import appComponents from './components';
+import UpdateDialog from './containers/UpdateDialog'
+import UpdateSnackBar from './containers/UpdateSnackBar';
+import AppStatus from './containers/AppStatus';
 
 import {registerPromise} from './lib/serviceWorker';
 const appMiddleware = store => next => {
@@ -16,8 +18,8 @@ export {
   appReducer,
   appActions,
   appMiddleware,
-  appComponents,
-  registerPromise
+  registerPromise,
+  UpdateSnackBar
 };
 
 export default registerPromise;
