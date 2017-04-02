@@ -17,6 +17,7 @@ import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
 import {windowResize} from './actions/device';
 import navigationConfig from './navigationConfig';
+
 let store = createStore(reducer,
     applyMiddleware(
         routerMiddleware(hashHistory),
