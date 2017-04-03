@@ -18,17 +18,21 @@ export default class Select extends React.Component<Props, State>{
 
     render() {
         const {item,value,error,handleChange} = this.props;
-        return (<SelectField 
-              floatingLabelText={item.title} 
-              hintText={'Select Here'} 
-              value={value}
-              fullWidth={true}
-              onChange={handleChange}
-             // ref={(input) => { (this as any).textInput = input; }}
-              errorText={error}>
+        return (
+          <div>
+              <h3>{item.title}</h3>
+              <SelectField 
+                  hintText={'Select One'} 
+                  value={value}
+                  fullWidth={true}
+                  onChange={handleChange}
+                 // ref={(input) => { (this as any).textInput = input; }}
+                  errorText={error}>
 
-             {item.choices.map(choice => <MenuItem key={choice.title} value={choice.value} primaryText={choice.title} />)}
+                 {item.choices.map(choice => <MenuItem key={choice.title} value={choice.value} primaryText={choice.title} />)}
 
-         </SelectField>);
+               </SelectField>
+           </div>
+         );
     }
 }

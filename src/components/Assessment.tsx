@@ -24,6 +24,7 @@ export default class Assessment extends React.Component<Props, State> {
       const {item} = this.props;
 
       this.props.appBarTitle(item.title);
+      
     }
 
     componentWillReceiveProps(nextProps) {
