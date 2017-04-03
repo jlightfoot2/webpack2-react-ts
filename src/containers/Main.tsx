@@ -31,7 +31,7 @@ const categoryItem = (categories,pathOnTouchTap) => {
     return (event) => {
       tapCount++;
       if(tapCount >= tapMax){
-        pathOnTouchTap(path)(event)();
+        pathOnTouchTap(path)(event);
       }
     }
   }
