@@ -24,7 +24,7 @@ let store = createStore(reducer,
         thunk,
         routerMiddleware(hashHistory),
         navigationCreateMiddleware(navigationConfig),
-        appMiddleware({url: 'http://localhost:8080/version.json',interval: 5000})
+        appMiddleware({url: 'http://localhost:3014/version.json',interval: 5000})
       )
   );
 
