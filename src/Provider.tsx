@@ -4,22 +4,27 @@ import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
 import PageContainer from './containers/Main';
+import Debug from './containers/Debug';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
-import {registerPromise} from './lib/local-t2-sw-redux';
+import {registerPromise,appMiddleware} from 'local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
 import {windowResize} from './actions/device';
 import navigationConfig from './navigationConfig';
+import thunk from 'redux-thunk';
+
 let store = createStore(reducer,
     applyMiddleware(
+        thunk,
         routerMiddleware(hashHistory),
-        navigationCreateMiddleware(navigationConfig)
+        navigationCreateMiddleware(navigationConfig),
+        appMiddleware({url: 'http://localhost:3014/version.json',interval: 30000})
       )
   );
 
@@ -30,7 +35,7 @@ window.onresize = () => {
    }
    _timeOutResizeId = setTimeout(
           function(){
-              console.log('resize called');
+         
               store.dispatch(windowResize(window.innerWidth,window.innerHeight));
           },
         500);
@@ -51,23 +56,12 @@ interface MyState {
   [propName: string]: any;
 }
 
-function getDefaultModule() {
- return (comp: any) => comp.default
-}
-
-function errorLoading(err) {
- console.error('Dynamic page loading failed', err);
-}
-
-
-function loadRoute(cb) {
- return (module) => cb(null, module.default);
-}
-
 
 if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NAME__ variables are used by webpack durring the build process. See <root>/webpack-production.config.js
   if ('serviceWorker' in navigator) {
-    console.log("Registering Service Worker");
+    if (__DEVTOOLS__) {
+      console.log("Registering Service Worker");
+    }
     /**
      * Service workers are not supported currently in an iOS browsers
      */
@@ -112,15 +106,14 @@ const mainSubRoutes = [
   asyncRoute('resources',System.import('./containers/Resources'),[],Dashboard),
 ];
 
-
 const siteRoutes = [
-
   {
     component: Theme,
     indexRoute: Home,
     childRoutes: [
       syncRoute('/',PageContainer, quickRoutes, Home),
       syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
+      syncRoute('/debug',PageContainer, [],Debug),
       syncRoute('*',PageContainer,[],NotFound)
     ]
   }

@@ -4,6 +4,7 @@ import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router';
 import ArrowNext from 'material-ui/svg-icons/navigation/arrow-forward';
 import ArrowPrevious from 'material-ui/svg-icons/navigation/arrow-back';
+import ClearIcon from 'material-ui/svg-icons/content/clear';
 import IconButton from 'material-ui/IconButton';
 import {flexParentRowStyle, flexRowItemStyle} from './commonStyles'
 
@@ -36,9 +37,9 @@ export default class Page extends React.Component<Props, State> {
 
     render() {
       const {page,pageIndex,numPages,next,previous,close} = this.props;
-      const previusButton =  <IconButton disabled={!(pageIndex > 0)} tooltip='Previous' onTouchTap={previous}><ArrowPrevious /></IconButton>;
-      const closeButton =  <FlatButton label='Close' onTouchTap={close} />;
-      const nextButton = <IconButton disabled={!(pageIndex + 1 < numPages )} tooltip='Next' onTouchTap={next}><ArrowNext /></IconButton>;
+      const previusButton =  <IconButton disabled={!(pageIndex > 0)}  onTouchTap={previous}><ArrowPrevious /></IconButton>;
+      const closeButton = <IconButton onTouchTap={close}><ClearIcon /></IconButton>;
+      const nextButton = <IconButton disabled={!(pageIndex + 1 < numPages )} onTouchTap={next}><ArrowNext /></IconButton>;
       const navigation = getNavigation(previusButton,closeButton,nextButton);
         return (<div>
 

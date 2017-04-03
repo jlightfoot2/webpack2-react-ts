@@ -18,6 +18,7 @@ export default class Assessment extends React.Component<Props, State> {
       //const {item} = this.props;
 
       this.props.appBarTitle("The result page");
+      window.scrollTo(0,0);
     }
 
     componentWillReceiveProps(nextProps) {

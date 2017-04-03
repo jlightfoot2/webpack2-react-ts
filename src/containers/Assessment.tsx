@@ -40,6 +40,7 @@ const dispatchToProps = (dispatch,ownProps) => {
     submitData: (data) => {
       dispatch(addAssessmentResult(ownProps.params.id,data));
       dispatch(push('/main/assessmentresult/' + ownProps.params.id));
+      window.scrollTo(0,0);
     },
     validateData: (data: any): ValidationResultInterface => {
       return validate(data);
