@@ -11,8 +11,9 @@ const stateToProps = (state, ownProps) => {
     
     actions: [
       {label: 'Assessments', action: ownProps.pathOnTouchTap('main/assessments')},
-      {label: 'Library', action: ownProps.pathOnTouchTap('main/library')},
-      {label: 'Videos', action: ownProps.pathOnTouchTap('main/videos')}
+      {label: 'Videos', action: ownProps.pathOnTouchTap('main/videos')},
+      {label: 'Library', action: ownProps.pathOnTouchTap('main/library')}
+      
     ]
   }
 }

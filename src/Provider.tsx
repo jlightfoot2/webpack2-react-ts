@@ -60,7 +60,7 @@ interface MyState {
 if(__INCLUDE_SERVICE_WORKER__){ // __INCLUDE_SERVICE_WORKER__ and other __VAR_NAME__ variables are used by webpack durring the build process. See <root>/webpack-production.config.js
   if ('serviceWorker' in navigator) {
     if (__DEVTOOLS__) {
-      console.log("Registering Service Worker");
+      console.log("Registering Service Worker !!");
     }
     /**
      * Service workers are not supported currently in an iOS browsers
