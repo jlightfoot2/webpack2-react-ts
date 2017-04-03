@@ -9,7 +9,7 @@ import MenuItem from 'material-ui/MenuItem';
 import categoriesData from '../res/data/categories';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
-
+import Divider from 'material-ui/Divider';
 
 interface Props {
   appBarTitle(msg: string): any;
@@ -25,14 +25,23 @@ interface State {
 
 const categoryItem = (categories,pathOnTouchTap) => {
 
-  const click = () => {
-
-  };
+  const secretTap = (path) => {
+    const tapMax = 3;
+    let tapCount = 0;
+    return (event) => {
+      tapCount++;
+      if(tapCount >= tapMax){
+        pathOnTouchTap(path)(event)();
+      }
+    }
+  }
   return(
         <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
           {categories.map(cat => {
             return <MenuItem key={cat.id} primaryText={cat.title} onTouchTap={pathOnTouchTap(cat.path)} />
           })}
+          <Divider />
+          <MenuItem innerDivStyle={{color: 'grey'}} key='version_num' primaryText={'v1.0.0'} onTouchTap={secretTap('debug')} />
         </MenuDrawer>
           );
 }
