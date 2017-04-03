@@ -11,17 +11,20 @@ import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
-import {registerPromise} from './lib/local-t2-sw-redux';
+import {registerPromise,appMiddleware} from 'local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
 import {windowResize} from './actions/device';
 import navigationConfig from './navigationConfig';
+import thunk from 'redux-thunk';
 
 let store = createStore(reducer,
     applyMiddleware(
+        thunk,
         routerMiddleware(hashHistory),
-        navigationCreateMiddleware(navigationConfig)
+        navigationCreateMiddleware(navigationConfig),
+        appMiddleware({url: 'http://localhost:8080/version.json',interval: 5000})
       )
   );
 

@@ -9,7 +9,7 @@ import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
 import MenuItem from 'material-ui/MenuItem';
-import AppSnackBarContainer from '../lib/local-t2-sw-redux/containers/UpdateSnackBar';
+import AppSnackBarContainer from 'local-t2-sw-redux/lib/containers/UpdateSnackBar';
 //import SnackBarNotice from './SnackBarNoticeComponent';
 //import AppBarMenuIcon from './AppBarMenuIconDrawer';
 import HomeIcon from 'material-ui/svg-icons/action/home';
