@@ -5,7 +5,7 @@
   "main": "src/index.tsx",
   "types": "./src/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack --config webpack.pwa.config.js",
     "start": "webpack-dev-server",
     "serve": "node server.js"
@@ -13,13 +13,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^19.2.2",
     "awesome-typescript-loader": "^3.0.7",
     "clean-webpack-plugin": "^0.1.16",
     "eslint": "^3.16.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",
     "html-loader": "^0.4.5",
+    "jest": "^19.0.2",
     "json-loader": "^0.5.4",
+    "react-addons-test-utils": "^15.4.2",
     "react-hot-loader": "^3.0.0-beta.6",
     "send-seekable": "^1.0.4",
     "source-map-loader": "^0.1.6",
@@ -47,7 +50,7 @@
     "d3": "^4.7.3",
     "isomorphic-fetch": "^2.2.1",
     "local-t2-sw-redux": "*",
-    "material-ui": "^0.17.0",
+    "material-ui": "^0.17.1",
     "normalizr": "^3.2.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -58,5 +61,18 @@
     "redux": "^3.6.0",
     "redux-saga": "^0.14.4",
     "redux-thunk": "^2.2.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/specs/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx|js)"
+    ]
   }
 }
