@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test NotFound Snapshot 1`] = `
+<div>
+  <h1>
+    Page Not Found
+  </h1>
+  <p>
+    <a
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Home
+    </a>
+  </p>
+</div>
+`;
