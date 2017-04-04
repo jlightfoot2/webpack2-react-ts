@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "jest": "*",
+    "react-addons-test-utils": "*",
+    "typescript": ">=1.6.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": ["**/__tests__/*.(ts|tsx|js)"]
+  }
+}
