@@ -96,14 +96,16 @@ const quickRoutes = [
 
 
 const mainSubRoutes = [
-  asyncRoute('library',System.import('./containers/Book'),[],Dashboard),
-  asyncRoute('library/:open',System.import('./containers/Book'),[],Dashboard),
-  asyncRoute('assessments',System.import('./containers/Assessments'),[],Dashboard),
-  asyncRoute('assessment/:id',System.import('./containers/Assessment'),[],Dashboard),
-  asyncRoute('assessmentresult/:id',System.import('./containers/AssessmentResult'),[],Dashboard),
-  asyncRoute('videos',System.import('./containers/Videos'),[],Dashboard),
-  asyncRoute('videos/:id',System.import('./containers/Video'),[],Dashboard),
-  asyncRoute('resources',System.import('./containers/Resources'),[],Dashboard),
+
+  asyncRoute('library',System.import('./containers/Book')),
+  asyncRoute('library/:open',System.import('./containers/Book')),
+  asyncRoute('assessments',System.import('./containers/Assessments')),
+  asyncRoute('assessment/:id',System.import('./containers/Assessment')),
+  asyncRoute('assessmentresult/:id',System.import('./containers/AssessmentResult')),
+  asyncRoute('videos',System.import('./containers/Videos')),
+  asyncRoute('videos/:id',System.import('./containers/Video')),
+  asyncRoute('resources',System.import('./containers/Resources'))
+
 ];
 
 const siteRoutes = [

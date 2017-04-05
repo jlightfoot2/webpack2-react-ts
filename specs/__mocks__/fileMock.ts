@@ -1,0 +1,1 @@
+export default '/fake/image/url';
