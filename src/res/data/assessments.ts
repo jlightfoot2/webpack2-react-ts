@@ -10,6 +10,7 @@ export interface ScoringInterface{
   id: number;
   min: number;
   max: number;
+  
   title: string;
   description: string;
   recommendations: string;
@@ -34,12 +35,13 @@ export interface AssessmentInterface{
   maxScore: number;
   middleScore: number;
   minScore: number;
+  scoringMode: number;
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
   image: string;
 }
 
-export const makeAssessment = (id,title, minScore: number,middleScore: number,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image=''):AssessmentInterface => {
+export const makeAssessment = (id,title, minScore: number,middleScore: number,maxScore: number, scoring: ScoringInterface[], scoringMode: number, questions: QuestionInterface[], image=''):AssessmentInterface => {
   return {
     id,
     title,
@@ -47,6 +49,7 @@ export const makeAssessment = (id,title, minScore: number,middleScore: number,ma
     middleScore,
     maxScore,
     scoring,
+    scoringMode,
     questions,
     image
   }
@@ -82,7 +85,7 @@ const MaritalSatisfactionScoring0 = makeScoring(1,100,158,'HIGH',
 
 
 
-const MaritalSatisfactionScoring1 = makeScoring(2,85,99,'MOD',
+const MaritalSatisfactionScoring1 = makeScoring(2,85,99,'MODERATE',
                                     `<p>Your score is in a range typically associated with some marital distress.</p><p>Your responses suggest that you have some dissatisfaction with your marital relationship based on the presence of conflict or disagreement.</p>`,
                                     `<p>Having some experiences of marital distress suggests that you should look into these concerns because they can become very upsetting and disruptive of your life if left unresolved.  We encourage you to check out the resources in the "Families and Friendships" topic. You will find information and exercises for developing skills and strategies that can help improve your marriage.</p><p>In addition to the materials on AfterDeployment, you may benefit from discussing your marriage with a healthcare provider. You can locate a provider or clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner of this page. If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of this page. Both the CALL and CHAT options are available 24/7.</p><p> We recommend that you retake the Marital Relationships assessment in a month to see how you are doing. If over time you find that problems aren’t improving, consult a professional. AfterDeployment is not a substitute for face to face support.</p><p>When there are marital difficulties present, problems are often present in other areas of life. A good way to determine if you’re having problems in other areas is to take additional assessments.</p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -454,12 +457,12 @@ interface AssessmentTreeInterface {
 }
 
 const assessmentsRaw: AssessmentInterface[] = [
-  makeAssessment(1,'Friendship Scale', 0, 17, 24,FriendshipScaleList,friendShipQuestions,friendsImage),
-  makeAssessment(2,'Marital Satisfaction', 2, 92, 158,MaritalSatisfactionList,maritalSatisfactionQuestions,marriageImage),
+  makeAssessment(1,'Friendship Scale', 0, 17, 24,FriendshipScaleList,0,friendShipQuestions,friendsImage),
+  makeAssessment(2,'Marital Satisfaction', 2, 92, 158,MaritalSatisfactionList,0,maritalSatisfactionQuestions,marriageImage),
 
-  makeAssessment(3,'Perceived Social Support', 7, 58, 84, PerceivedSocialSupportList,percSocialSupportQuestions, socialImage),
-  makeAssessment(4,'Post Deployment Social Support', 15, 49, 75,PostDeploymentSocialSupportList,postDepSupportQuestions,postDepSocialImage),
-  makeAssessment(5,'Parenting Confidence', 16, 60, 96,ParentingConfidenceList,parentingConfidenceAssessment,parentingConfidenceImage)
+  makeAssessment(3,'Perceived Social Support', 7, 58, 84, PerceivedSocialSupportList, 1, percSocialSupportQuestions, socialImage),
+  makeAssessment(4,'Post Deployment Social Support', 15, 49, 75,PostDeploymentSocialSupportList, 0, postDepSupportQuestions,postDepSocialImage),
+  makeAssessment(5,'Parenting Confidence', 16, 60, 96,ParentingConfidenceList,1,parentingConfidenceAssessment,parentingConfidenceImage)
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);
