@@ -39,9 +39,10 @@ export interface AssessmentInterface{
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
   image: string;
+  calcScore(values: any): number;
 }
 
-export const makeAssessment = (id,title, minScore: number,middleScore: number,maxScore: number, scoring: ScoringInterface[], scoringMode: number, questions: QuestionInterface[], image=''):AssessmentInterface => {
+export const makeAssessment = (id,title, minScore: number,middleScore: number,maxScore: number, scoring: ScoringInterface[], scoringMode: number, questions: QuestionInterface[], image='',calcScore: (any) => any = defaultCalcScore ):AssessmentInterface => {
   return {
     id,
     title,
@@ -51,7 +52,8 @@ export const makeAssessment = (id,title, minScore: number,middleScore: number,ma
     scoring,
     scoringMode,
     questions,
-    image
+    image,
+    calcScore
   }
 }
 
@@ -350,6 +352,16 @@ const choicesSet18: ChoicesInterface[] = [
       {title: 'in everything', value: '4', score: 10}
 ];
 
+const choicesSet19: ChoicesInterface[] = [
+      {title: 'Very Strongly Disagree', value: '1', score: 1},
+      {title: 'Strongly Disagree', value: '2', score: 2},
+      {title: 'Mildly Disagree', value: '3', score: 3},
+      {title: 'Neutral', value: '4', score: 4},
+      {title: 'Mildly Agree', value: '5', score: 5},
+      {title: 'Strongly Agree', value: '6', score: 6},
+      {title: 'Very Strongly Agree', value: '7', score: 7}
+];
+
 // (a) almost never 0 (b) rarely 2(c) in most things 10 (d) in everything 10 
 
 const friendShipQuestions: QuestionInterface[] = [
@@ -357,8 +369,8 @@ const friendShipQuestions: QuestionInterface[] = [
   makeQuestion(2,'I felt isolated from other people.','select',choicesSet3),
   makeQuestion(3,'I had someone to share my feelings with.','select',choicesSet2),
   makeQuestion(4,'I found it easy to get in touch with others when I needed to.','select',choicesSet2),
-  makeQuestion(6,'When with other people, I felt separate from them.','select',choicesSet3),
-  makeQuestion(7,'I felt alone and friendless.','select',choicesSet3)
+  makeQuestion(5,'When with other people, I felt separate from them.','select',choicesSet3),
+  makeQuestion(6,'I felt alone and friendless.','select',choicesSet3)
 ];
 
 const marraigeHappinessQuestion = makeQuestion(
@@ -381,26 +393,26 @@ const maritalSatisfactionQuestions: QuestionInterface[] = [
   makeQuestion(10,'When disagreements arise, they usually result in:','select', choicesSet13),
   makeQuestion(11,'Do you and your mate engage in outside interests together?','select', choicesSet14),
   makeQuestion(12,'In leisure time do you generally prefer:','select',choicesSet15),
-  makeQuestion(14,'Do you ever wish you had not married?','select',choicesSet16),
-  makeQuestion(15,'If you had your life to live over again, do you think you would:','select',choicesSet17),
-  makeQuestion(16,'Do you ever confide in your mate:','select',choicesSet18)
+  makeQuestion(13,'Do you ever wish you had not married?','select',choicesSet16),
+  makeQuestion(14,'If you had your life to live over again, do you think you would:','select',choicesSet17),
+  makeQuestion(15,'Do you ever confide in your mate:','select',choicesSet18)
 ];
 
 const percSocialSupportQuestions: QuestionInterface[] = [
-  makeQuestion(1,'There is a special person who is around when I am in need.','select',choicesSet2),
-  makeQuestion(2,'There is a special person with whom I can share my joys and sorrows.','select',choicesSet3),
-  makeQuestion(3,'My family really tries to help me.','select',choicesSet2),
-  makeQuestion(4,'I get the emotional help and support I need from my family.','select',choicesSet2),
-  makeQuestion(5,'I have a special person who is a real source of comfort to me.','select',choicesSet3),
-  makeQuestion(6,'My friends really try to help me.','select',choicesSet3),
+  makeQuestion(1,'There is a special person who is around when I am in need.','select',choicesSet19),
+  makeQuestion(2,'There is a special person with whom I can share my joys and sorrows.','select',choicesSet19),
+  makeQuestion(3,'My family really tries to help me.','select',choicesSet19),
+  makeQuestion(4,'I get the emotional help and support I need from my family.','select',choicesSet19),
+  makeQuestion(5,'I have a special person who is a real source of comfort to me.','select',choicesSet19),
+  makeQuestion(6,'My friends really try to help me.','select',choicesSet19),
 
-  makeQuestion(7,'I can count on my friends when things go wrong.','select',choicesSet3),
-  makeQuestion(8,'I can talk about my problems with my family.','select',choicesSet3),
-  makeQuestion(9,'I have friends with whom I can share my joys and sorrows.','select',choicesSet3),
+  makeQuestion(7,'I can count on my friends when things go wrong.','select',choicesSet19),
+  makeQuestion(8,'I can talk about my problems with my family.','select',choicesSet19),
+  makeQuestion(9,'I have friends with whom I can share my joys and sorrows.','select',choicesSet19),
 
-  makeQuestion(10,'There is a special person in my life who cares about my feelings.','select',choicesSet3),
-  makeQuestion(11,'My family is willing to help me make decisions.','select',choicesSet3),
-  makeQuestion(12,'I can talk about my problems with my friends.','select',choicesSet3)
+  makeQuestion(10,'There is a special person in my life who cares about my feelings.','select',choicesSet19),
+  makeQuestion(11,'My family is willing to help me make decisions.','select',choicesSet19),
+  makeQuestion(12,'I can talk about my problems with my friends.','select',choicesSet19)
 ];
 
 const postDepSupportQuestions: QuestionInterface[] = [
@@ -451,6 +463,32 @@ const socialImage  = require('../images/Perceived_Social_Support.jpg');
 const postDepSocialImage = require('../images/Post_Deployment_Social_Support.jpg');
 const parentingConfidenceImage = require('../images/Parenting_Confidence.jpg');
 
+const defaultCalcScore = function(values: any){
+
+
+    function tallyScore (answers, questions) {
+      var total = 0;
+   
+      Object.keys(questions).map(function (idx) {
+          let question = questions[idx];
+
+          let choiceValue = answers[question.id];
+          let choices = questions[idx].choices;
+          if(choices){
+            choices.map((choice) => {
+              if(choice.value === choiceValue){
+                total += parseInt(choice.score);
+              }
+            });
+          }
+      });
+
+      return total;
+    }
+
+
+    return tallyScore(values,this.questions);
+}
 
 interface AssessmentTreeInterface {
   [propName: string]: AssessmentInterface;
@@ -460,7 +498,7 @@ const assessmentsRaw: AssessmentInterface[] = [
   makeAssessment(1,'Friendship Scale', 0, 17, 24,FriendshipScaleList,0,friendShipQuestions,friendsImage),
   makeAssessment(2,'Marital Satisfaction', 2, 92, 158,MaritalSatisfactionList,0,maritalSatisfactionQuestions,marriageImage),
 
-  makeAssessment(3,'Perceived Social Support', 7, 58, 84, PerceivedSocialSupportList, 1, percSocialSupportQuestions, socialImage),
+  makeAssessment(3,'Perceived Social Support', 12, 58, 84, PerceivedSocialSupportList, 1, percSocialSupportQuestions, socialImage),
   makeAssessment(4,'Post Deployment Social Support', 15, 49, 75,PostDeploymentSocialSupportList, 0, postDepSupportQuestions,postDepSocialImage),
   makeAssessment(5,'Parenting Confidence', 16, 60, 96,ParentingConfidenceList,1,parentingConfidenceAssessment,parentingConfidenceImage)
 ]
