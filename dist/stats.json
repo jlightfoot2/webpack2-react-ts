@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "a3a8c134dfc095070d55",
+  "hash": "9cabdf90ea1d743f8b00",
   "publicPath": "/",
   "assetsByChunkName": {
     "main": "bundle.js"
@@ -558,7 +558,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 695959,
+      "size": 696483,
       "chunks": [
         7
       ],
@@ -786,14 +786,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1681422,
+      "size": 1682313,
       "names": [
         "main"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "9ae9467a4c16686c4428",
+      "hash": "8226f7b3631d7f2205d2",
       "parents": [],
       "origins": [
         {
@@ -1070,19 +1070,19 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1151,15 +1151,6 @@
           "loc": "19:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "19:22-78"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -1167,6 +1158,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "7:22-78"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "19:22-78"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -1223,6 +1223,15 @@
           "loc": "7:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -1236,15 +1245,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1340,19 +1340,19 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1394,15 +1394,6 @@
           "loc": "12:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -1412,10 +1403,10 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1428,6 +1419,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "7:22-78"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -1696,19 +1696,19 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -1777,15 +1777,6 @@
           "loc": "23:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "23:23-70"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -1793,6 +1784,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "11:23-70"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "23:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -1849,6 +1849,15 @@
           "loc": "11:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -1874,15 +1883,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "8:23-70"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/RaisedButton/RaisedButton.js",
@@ -1975,19 +1975,19 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -2029,15 +2029,6 @@
           "loc": "16:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -2047,10 +2038,10 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -2063,6 +2054,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "11:23-70"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -2156,19 +2156,19 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -2237,15 +2237,6 @@
           "loc": "27:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "27:20-64"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -2253,6 +2244,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "15:20-64"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "27:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -2309,6 +2309,15 @@
           "loc": "15:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -2334,15 +2343,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "12:20-64"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/RaisedButton/RaisedButton.js",
@@ -2435,19 +2435,19 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -2489,15 +2489,6 @@
           "loc": "20:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -2507,10 +2498,10 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -2523,6 +2514,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "15:20-64"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -2653,19 +2653,19 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2779,19 +2779,19 @@
           "loc": "11:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2833,19 +2833,19 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2905,15 +2905,6 @@
           "loc": "8:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/extends",
-          "loc": "7:16-56"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -2923,10 +2914,10 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2936,6 +2927,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClearFix.js",
           "module": "./~/material-ui/internal/ClearFix.js",
           "moduleName": "./~/material-ui/internal/ClearFix.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "7:16-56"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -3023,19 +3023,19 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3104,15 +3104,6 @@
           "loc": "35:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "35:17-58"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -3120,6 +3111,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "23:17-58"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "35:17-58"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -3176,6 +3176,15 @@
           "loc": "23:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -3189,15 +3198,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3293,19 +3293,19 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3347,15 +3347,6 @@
           "loc": "28:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -3365,10 +3356,10 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3381,6 +3372,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "23:17-58"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -3474,19 +3474,19 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3600,19 +3600,19 @@
           "loc": "7:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3654,19 +3654,19 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3717,15 +3717,6 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
-          "loc": "11:32-88"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -3735,10 +3726,10 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3748,6 +3739,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClearFix.js",
           "module": "./~/material-ui/internal/ClearFix.js",
           "moduleName": "./~/material-ui/internal/ClearFix.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
+          "loc": "11:32-88"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3844,19 +3844,19 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -3925,15 +3925,6 @@
           "loc": "31:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "31:34-92"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -3941,6 +3932,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "19:34-92"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "31:34-92"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -3997,6 +3997,15 @@
           "loc": "19:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -4010,15 +4019,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -4114,19 +4114,19 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -4168,15 +4168,6 @@
           "loc": "24:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -4186,10 +4177,10 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
-          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
-          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -4202,6 +4193,15 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "19:34-92"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/EnhancedTextarea.js",
+          "module": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "moduleName": "./~/material-ui/TextField/EnhancedTextarea.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -4813,15 +4813,6 @@
           "loc": "19:21-44"
         },
         {
-          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
-          "module": "./~/babel-runtime/~/core-js/library/modules/_set-proto.js",
-          "moduleName": "./~/babel-runtime/~/core-js/library/modules/_set-proto.js",
-          "type": "cjs require",
-          "userRequest": "./_an-object",
-          "loc": "4:15-38"
-        },
-        {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
           "module": "./~/babel-runtime/~/core-js/library/modules/_object-dp.js",
@@ -4838,6 +4829,15 @@
           "type": "cjs require",
           "userRequest": "./_an-object",
           "loc": "2:18-41"
+        },
+        {
+          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+          "module": "./~/babel-runtime/~/core-js/library/modules/_set-proto.js",
+          "moduleName": "./~/babel-runtime/~/core-js/library/modules/_set-proto.js",
+          "type": "cjs require",
+          "userRequest": "./_an-object",
+          "loc": "4:15-38"
         },
         {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-call.js",
@@ -5024,15 +5024,6 @@
           "loc": "2:17-47"
         },
         {
-          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js",
-          "module": "./~/babel-runtime/~/core-js/library/fn/object/keys.js",
-          "moduleName": "./~/babel-runtime/~/core-js/library/fn/object/keys.js",
-          "type": "cjs require",
-          "userRequest": "../../modules/_core",
-          "loc": "2:17-47"
-        },
-        {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
           "module": "./~/babel-runtime/~/core-js/library/fn/object/define-property.js",
@@ -5042,10 +5033,10 @@
           "loc": "2:14-44"
         },
         {
-          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
-          "module": "./~/babel-runtime/~/core-js/library/fn/object/set-prototype-of.js",
-          "moduleName": "./~/babel-runtime/~/core-js/library/fn/object/set-prototype-of.js",
+          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/fn/object/keys.js",
+          "module": "./~/babel-runtime/~/core-js/library/fn/object/keys.js",
+          "moduleName": "./~/babel-runtime/~/core-js/library/fn/object/keys.js",
           "type": "cjs require",
           "userRequest": "../../modules/_core",
           "loc": "2:17-47"
@@ -5058,6 +5049,15 @@
           "type": "cjs require",
           "userRequest": "../../modules/_core",
           "loc": "2:14-44"
+        },
+        {
+          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+          "module": "./~/babel-runtime/~/core-js/library/fn/object/set-prototype-of.js",
+          "moduleName": "./~/babel-runtime/~/core-js/library/fn/object/set-prototype-of.js",
+          "type": "cjs require",
+          "userRequest": "../../modules/_core",
+          "loc": "2:17-47"
         },
         {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/fn/array/from.js",
@@ -5087,15 +5087,6 @@
           "loc": "5:17-47"
         },
         {
-          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js",
-          "module": "./~/babel-runtime/~/core-js/library/modules/_object-sap.js",
-          "moduleName": "./~/babel-runtime/~/core-js/library/modules/_object-sap.js",
-          "type": "cjs require",
-          "userRequest": "./_core",
-          "loc": "3:14-32"
-        },
-        {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
           "module": "./~/babel-runtime/~/core-js/library/modules/_export.js",
@@ -5103,6 +5094,15 @@
           "type": "cjs require",
           "userRequest": "./_core",
           "loc": "2:16-34"
+        },
+        {
+          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/_object-sap.js",
+          "module": "./~/babel-runtime/~/core-js/library/modules/_object-sap.js",
+          "moduleName": "./~/babel-runtime/~/core-js/library/modules/_object-sap.js",
+          "type": "cjs require",
+          "userRequest": "./_core",
+          "loc": "3:14-32"
         },
         {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/core.get-iterator-method.js",
@@ -5519,22 +5519,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-      "issuerId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-      "issuerName": "./~/babel-runtime/~/core-js/library/modules/es6.object.set-prototype-of.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "issuerId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "issuerName": "./~/babel-runtime/~/core-js/library/modules/es6.object.define-property.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-          "module": "./~/babel-runtime/~/core-js/library/modules/es6.object.set-prototype-of.js",
-          "moduleName": "./~/babel-runtime/~/core-js/library/modules/es6.object.set-prototype-of.js",
-          "type": "cjs require",
-          "userRequest": "./_export",
-          "loc": "2:14-34"
-        },
         {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
@@ -5552,6 +5543,15 @@
           "type": "cjs require",
           "userRequest": "./_export",
           "loc": "1:14-34"
+        },
+        {
+          "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+          "module": "./~/babel-runtime/~/core-js/library/modules/es6.object.set-prototype-of.js",
+          "moduleName": "./~/babel-runtime/~/core-js/library/modules/es6.object.set-prototype-of.js",
+          "type": "cjs require",
+          "userRequest": "./_export",
+          "loc": "2:14-34"
         },
         {
           "moduleId": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.from.js",
@@ -9373,22 +9373,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/fbjs/lib/warning.js",
-      "issuerId": "./node_modules/fbjs/lib/warning.js",
-      "issuerName": "./~/fbjs/lib/warning.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactChildren.js",
+      "issuerId": "./node_modules/react/lib/ReactChildren.js",
+      "issuerName": "./~/react/lib/ReactChildren.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/fbjs/lib/warning.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/fbjs/lib/warning.js",
-          "module": "./~/fbjs/lib/warning.js",
-          "moduleName": "./~/fbjs/lib/warning.js",
-          "type": "cjs require",
-          "userRequest": "./emptyFunction",
-          "loc": "13:20-46"
-        },
         {
           "moduleId": "./node_modules/react/lib/ReactChildren.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactChildren.js",
@@ -9406,6 +9397,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "17:20-53"
+        },
+        {
+          "moduleId": "./node_modules/fbjs/lib/warning.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/fbjs/lib/warning.js",
+          "module": "./~/fbjs/lib/warning.js",
+          "moduleName": "./~/fbjs/lib/warning.js",
+          "type": "cjs require",
+          "userRequest": "./emptyFunction",
+          "loc": "13:20-46"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
@@ -9518,36 +9518,27 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
-      "issuerId": "./node_modules/react-dom/lib/ReactMount.js",
-      "issuerName": "./~/react-dom/lib/ReactMount.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
+      "issuerId": "./node_modules/react/lib/ReactComponent.js",
+      "issuerName": "./~/react/lib/ReactComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
-          "module": "./~/react-dom/lib/ReactMount.js",
-          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "moduleId": "./node_modules/react/lib/ReactComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
+          "module": "./~/react/lib/ReactComponent.js",
+          "moduleName": "./~/react/lib/ReactComponent.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
-          "loc": "31:18-49"
+          "loc": "18:18-49"
         },
         {
           "moduleId": "./node_modules/react/lib/ReactPureComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactPureComponent.js",
           "module": "./~/react/lib/ReactPureComponent.js",
           "moduleName": "./~/react/lib/ReactPureComponent.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyObject",
-          "loc": "18:18-49"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/ReactComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
-          "module": "./~/react/lib/ReactComponent.js",
-          "moduleName": "./~/react/lib/ReactComponent.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
           "loc": "18:18-49"
@@ -9560,6 +9551,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
           "loc": "21:18-49"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
+          "module": "./~/react-dom/lib/ReactMount.js",
+          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyObject",
+          "loc": "31:18-49"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactCompositeComponent.js",
@@ -9857,6 +9857,33 @@
           "loc": "21:16-45"
         },
         {
+          "moduleId": "./node_modules/react/lib/ReactComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
+          "module": "./~/react/lib/ReactComponent.js",
+          "moduleName": "./~/react/lib/ReactComponent.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "19:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/ReactClass.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactClass.js",
+          "module": "./~/react/lib/ReactClass.js",
+          "moduleName": "./~/react/lib/ReactClass.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "22:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/onlyChild.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/onlyChild.js",
+          "module": "./~/react/lib/onlyChild.js",
+          "moduleName": "./~/react/lib/onlyChild.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "16:16-45"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "module": "./~/react-dom/lib/ReactDOMComponentTree.js",
@@ -9893,33 +9920,6 @@
           "loc": "20:16-45"
         },
         {
-          "moduleId": "./node_modules/react/lib/ReactComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
-          "module": "./~/react/lib/ReactComponent.js",
-          "moduleName": "./~/react/lib/ReactComponent.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "19:16-45"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/ReactClass.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactClass.js",
-          "module": "./~/react/lib/ReactClass.js",
-          "moduleName": "./~/react/lib/ReactClass.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "22:16-45"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/onlyChild.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/onlyChild.js",
-          "module": "./~/react/lib/onlyChild.js",
-          "moduleName": "./~/react/lib/onlyChild.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "16:16-45"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
           "module": "./~/react-dom/lib/EventPluginUtils.js",
@@ -9942,6 +9942,24 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/accumulateInto.js",
           "module": "./~/react-dom/lib/accumulateInto.js",
           "moduleName": "./~/react-dom/lib/accumulateInto.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "16:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
+          "module": "./~/react/lib/traverseAllChildren.js",
+          "moduleName": "./~/react/lib/traverseAllChildren.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "19:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/PooledClass.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/PooledClass.js",
+          "module": "./~/react/lib/PooledClass.js",
+          "moduleName": "./~/react/lib/PooledClass.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "16:16-45"
@@ -10010,15 +10028,6 @@
           "loc": "21:16-45"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
-          "module": "./~/react-dom/lib/CallbackQueue.js",
-          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "20:16-45"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/PooledClass.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/PooledClass.js",
           "module": "./~/react-dom/lib/PooledClass.js",
@@ -10026,6 +10035,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "16:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
+          "module": "./~/react-dom/lib/CallbackQueue.js",
+          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "20:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/Transaction.js",
@@ -10044,24 +10062,6 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "18:16-45"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/PooledClass.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/PooledClass.js",
-          "module": "./~/react/lib/PooledClass.js",
-          "moduleName": "./~/react/lib/PooledClass.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "16:16-45"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
-          "module": "./~/react/lib/traverseAllChildren.js",
-          "moduleName": "./~/react/lib/traverseAllChildren.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "19:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMInput.js",
@@ -10440,22 +10440,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOM.js",
-      "issuerId": "./node_modules/react-dom/lib/ReactDOM.js",
-      "issuerName": "./~/react-dom/lib/ReactDOM.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/React.js",
+      "issuerId": "./node_modules/react/lib/React.js",
+      "issuerName": "./~/react/lib/React.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactDOM.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOM.js",
-          "module": "./~/react-dom/lib/ReactDOM.js",
-          "moduleName": "./~/react-dom/lib/ReactDOM.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "25:14-41"
-        },
         {
           "moduleId": "./node_modules/react/lib/React.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/React.js",
@@ -10466,31 +10457,13 @@
           "loc": "25:14-41"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
-          "module": "./~/react-dom/lib/ReactMount.js",
-          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "moduleId": "./node_modules/react-dom/lib/ReactDOM.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOM.js",
+          "module": "./~/react-dom/lib/ReactDOM.js",
+          "moduleName": "./~/react-dom/lib/ReactDOM.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
-          "loc": "36:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactReconciler.js",
-          "module": "./~/react-dom/lib/ReactReconciler.js",
-          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "16:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/findDOMNode.js",
-          "module": "./~/react-dom/lib/findDOMNode.js",
-          "moduleName": "./~/react-dom/lib/findDOMNode.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "21:14-41"
+          "loc": "25:14-41"
         },
         {
           "moduleId": "./node_modules/react/lib/ReactComponent.js",
@@ -10529,6 +10502,33 @@
           "loc": "19:14-41"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
+          "module": "./~/react-dom/lib/ReactMount.js",
+          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "36:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactReconciler.js",
+          "module": "./~/react-dom/lib/ReactReconciler.js",
+          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "16:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/findDOMNode.js",
+          "module": "./~/react-dom/lib/findDOMNode.js",
+          "moduleName": "./~/react-dom/lib/findDOMNode.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "21:14-41"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
           "module": "./~/react-dom/lib/EventPluginUtils.js",
@@ -10545,6 +10545,24 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
           "loc": "18:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
+          "module": "./~/react/lib/traverseAllChildren.js",
+          "moduleName": "./~/react/lib/traverseAllChildren.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "21:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactNoopUpdateQueue.js",
+          "module": "./~/react/lib/ReactNoopUpdateQueue.js",
+          "moduleName": "./~/react/lib/ReactNoopUpdateQueue.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "13:14-41"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
@@ -10572,24 +10590,6 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
           "loc": "22:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
-          "module": "./~/react/lib/traverseAllChildren.js",
-          "moduleName": "./~/react/lib/traverseAllChildren.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "21:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactNoopUpdateQueue.js",
-          "module": "./~/react/lib/ReactNoopUpdateQueue.js",
-          "moduleName": "./~/react/lib/ReactNoopUpdateQueue.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "13:14-41"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
@@ -12813,10 +12813,10 @@
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/calc.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/calc.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/calc.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/calc.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -12831,19 +12831,10 @@
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "type": "cjs require",
-          "userRequest": "../utils/getPrefixedValue",
-          "loc": "8:24-60"
-        },
-        {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flex.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/flex.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/flex.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/calc.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/calc.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/calc.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/calc.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -12853,6 +12844,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/sizing.js",
           "module": "./~/inline-style-prefixer/lib/plugins/sizing.js",
           "moduleName": "./~/inline-style-prefixer/lib/plugins/sizing.js",
+          "type": "cjs require",
+          "userRequest": "../utils/getPrefixedValue",
+          "loc": "8:24-60"
+        },
+        {
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/inline-style-prefixer/lib/plugins/flex.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/flex.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/flex.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -13170,19 +13170,19 @@
           "loc": "6:0-34"
         },
         {
-          "moduleId": "./node_modules/react-router/es/withRouter.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/withRouter.js",
-          "module": "./~/react-router/es/withRouter.js",
-          "moduleName": "./~/react-router/es/withRouter.js",
+          "moduleId": "./node_modules/react-router/es/IndexRedirect.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/IndexRedirect.js",
+          "module": "./~/react-router/es/IndexRedirect.js",
+          "moduleName": "./~/react-router/es/IndexRedirect.js",
           "type": "harmony import",
           "userRequest": "invariant",
           "loc": "3:0-34"
         },
         {
-          "moduleId": "./node_modules/react-router/es/IndexRedirect.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/IndexRedirect.js",
-          "module": "./~/react-router/es/IndexRedirect.js",
-          "moduleName": "./~/react-router/es/IndexRedirect.js",
+          "moduleId": "./node_modules/react-router/es/withRouter.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/withRouter.js",
+          "module": "./~/react-router/es/withRouter.js",
+          "moduleName": "./~/react-router/es/withRouter.js",
           "type": "harmony import",
           "userRequest": "invariant",
           "loc": "3:0-34"
@@ -13344,22 +13344,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-      "issuerId": "./node_modules/material-ui/Menu/Menu.js",
-      "issuerName": "./~/material-ui/Menu/Menu.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
+      "issuerId": "./node_modules/material-ui/Drawer/Drawer.js",
+      "issuerName": "./~/material-ui/Drawer/Drawer.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "keycode",
-          "loc": "59:15-33"
-        },
         {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
@@ -13368,6 +13359,15 @@
           "type": "cjs require",
           "userRequest": "keycode",
           "loc": "43:15-33"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "keycode",
+          "loc": "59:15-33"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -13443,15 +13443,6 @@
           "loc": "5:16-37"
         },
         {
-          "moduleId": "./node_modules/local-t2-sw-redux/lib/lib/helpers.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/local-t2-sw-redux/lib/lib/helpers.js",
-          "module": "./~/local-t2-sw-redux/lib/lib/helpers.js",
-          "moduleName": "./~/local-t2-sw-redux/lib/lib/helpers.js",
-          "type": "cjs require",
-          "userRequest": "../actions",
-          "loc": "5:16-37"
-        },
-        {
           "moduleId": "./node_modules/local-t2-sw-redux/lib/lib/serviceWorker.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/local-t2-sw-redux/lib/lib/serviceWorker.js",
           "module": "./~/local-t2-sw-redux/lib/lib/serviceWorker.js",
@@ -13459,6 +13450,15 @@
           "type": "cjs require",
           "userRequest": "../actions",
           "loc": "3:16-37"
+        },
+        {
+          "moduleId": "./node_modules/local-t2-sw-redux/lib/lib/helpers.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/local-t2-sw-redux/lib/lib/helpers.js",
+          "module": "./~/local-t2-sw-redux/lib/lib/helpers.js",
+          "moduleName": "./~/local-t2-sw-redux/lib/lib/helpers.js",
+          "type": "cjs require",
+          "userRequest": "../actions",
+          "loc": "5:16-37"
         },
         {
           "moduleId": "./node_modules/local-t2-sw-redux/lib/reducers/index.js",
@@ -14028,7 +14028,7 @@
           "moduleName": "./src/components/MenuDrawer.tsx",
           "type": "cjs require",
           "userRequest": "material-ui/svg-icons/navigation/menu",
-          "loc": "17:13-61"
+          "loc": "16:13-61"
         },
         {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
@@ -14940,8 +14940,8 @@
       "id": "./node_modules/material-ui/Divider/Divider.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Divider/Divider.js",
       "name": "./~/material-ui/Divider/Divider.js",
-      "index": 526,
-      "index2": 520,
+      "index": 540,
+      "index2": 535,
       "size": 1787,
       "cacheable": true,
       "built": true,
@@ -14977,8 +14977,8 @@
       "id": "./node_modules/material-ui/Divider/index.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Divider/index.js",
       "name": "./~/material-ui/Divider/index.js",
-      "index": 525,
-      "index2": 521,
+      "index": 539,
+      "index2": 536,
       "size": 332,
       "cacheable": true,
       "built": true,
@@ -15003,15 +15003,6 @@
           "type": "cjs require",
           "userRequest": "material-ui/Divider",
           "loc": "23:16-46"
-        },
-        {
-          "moduleId": "./src/components/MenuDrawer.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/MenuDrawer.tsx",
-          "module": "./src/components/MenuDrawer.tsx",
-          "moduleName": "./src/components/MenuDrawer.tsx",
-          "type": "cjs require",
-          "userRequest": "material-ui/Divider",
-          "loc": "18:16-46"
         }
       ],
       "usedExports": true,
@@ -15023,8 +15014,8 @@
       "id": "./node_modules/material-ui/Drawer/Drawer.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
       "name": "./~/material-ui/Drawer/Drawer.js",
-      "index": 528,
-      "index2": 524,
+      "index": 526,
+      "index2": 522,
       "size": 15151,
       "cacheable": true,
       "built": true,
@@ -15060,8 +15051,8 @@
       "id": "./node_modules/material-ui/Drawer/index.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/index.js",
       "name": "./~/material-ui/Drawer/index.js",
-      "index": 527,
-      "index2": 525,
+      "index": 525,
+      "index2": 523,
       "size": 327,
       "cacheable": true,
       "built": true,
@@ -15085,7 +15076,7 @@
           "moduleName": "./src/components/MenuDrawer.tsx",
           "type": "cjs require",
           "userRequest": "material-ui/Drawer",
-          "loc": "19:15-44"
+          "loc": "17:15-44"
         }
       ],
       "usedExports": true,
@@ -15565,7 +15556,7 @@
           "moduleName": "./src/components/MenuDrawer.tsx",
           "type": "cjs require",
           "userRequest": "material-ui/IconButton",
-          "loc": "16:19-52"
+          "loc": "15:19-52"
         },
         {
           "moduleId": "./src/components/Page.tsx",
@@ -15952,15 +15943,6 @@
           "type": "cjs require",
           "userRequest": "material-ui/MenuItem",
           "loc": "19:17-48"
-        },
-        {
-          "moduleId": "./src/components/MenuDrawer.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/MenuDrawer.tsx",
-          "module": "./src/components/MenuDrawer.tsx",
-          "moduleName": "./src/components/MenuDrawer.tsx",
-          "type": "cjs require",
-          "userRequest": "material-ui/MenuItem",
-          "loc": "15:17-48"
         },
         {
           "moduleId": "./src/components/Book.tsx",
@@ -16681,15 +16663,6 @@
           "loc": "15:15-39"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "type": "cjs require",
-          "userRequest": "../../SvgIcon",
-          "loc": "15:15-39"
-        },
-        {
           "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
           "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
@@ -16699,10 +16672,10 @@
           "loc": "15:15-39"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
           "type": "cjs require",
           "userRequest": "../../SvgIcon",
           "loc": "15:15-39"
@@ -16712,6 +16685,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-more.js",
           "module": "./~/material-ui/svg-icons/navigation/expand-more.js",
           "moduleName": "./~/material-ui/svg-icons/navigation/expand-more.js",
+          "type": "cjs require",
+          "userRequest": "../../SvgIcon",
+          "loc": "15:15-39"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
           "type": "cjs require",
           "userRequest": "../../SvgIcon",
           "loc": "15:15-39"
@@ -16957,8 +16939,8 @@
       "id": "./node_modules/material-ui/internal/AutoLockScrolling.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/AutoLockScrolling.js",
       "name": "./~/material-ui/internal/AutoLockScrolling.js",
-      "index": 530,
-      "index2": 522,
+      "index": 528,
+      "index2": 520,
       "size": 3520,
       "cacheable": true,
       "built": true,
@@ -17252,8 +17234,8 @@
       "id": "./node_modules/material-ui/internal/Overlay.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
       "name": "./~/material-ui/internal/Overlay.js",
-      "index": 529,
-      "index2": 523,
+      "index": 527,
+      "index2": 521,
       "size": 4363,
       "cacheable": true,
       "built": true,
@@ -17876,15 +17858,6 @@
           "loc": "51:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
-          "type": "cjs require",
-          "userRequest": "../styles/transitions",
-          "loc": "51:19-51"
-        },
-        {
           "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
           "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
@@ -17894,19 +17867,37 @@
           "loc": "47:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "../styles/transitions",
-          "loc": "15:19-51"
+          "loc": "51:19-51"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
+          "type": "cjs require",
+          "userRequest": "../styles/transitions",
+          "loc": "39:19-51"
         },
         {
           "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
           "module": "./~/material-ui/TextField/TextFieldLabel.js",
           "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "type": "cjs require",
+          "userRequest": "../styles/transitions",
+          "loc": "15:19-51"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "15:19-51"
@@ -17919,15 +17910,6 @@
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "15:19-51"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "type": "cjs require",
-          "userRequest": "../styles/transitions",
-          "loc": "39:19-51"
         }
       ],
       "usedExports": true,
@@ -18832,19 +18814,19 @@
           "loc": "61:17-46"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
           "type": "cjs require",
           "userRequest": "../utils/propTypes",
           "loc": "63:17-46"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
           "type": "cjs require",
           "userRequest": "../utils/propTypes",
           "loc": "63:17-46"
@@ -19338,15 +19320,6 @@
           "loc": "13:14-38"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactUpdates.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactUpdates.js",
-          "module": "./~/react-dom/lib/ReactUpdates.js",
-          "moduleName": "./~/react-dom/lib/ReactUpdates.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "14:14-38"
-        },
-        {
           "moduleId": "./node_modules/react/lib/ReactPureComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactPureComponent.js",
           "module": "./~/react/lib/ReactPureComponent.js",
@@ -19374,6 +19347,15 @@
           "loc": "13:14-38"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/ReactUpdates.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactUpdates.js",
+          "module": "./~/react-dom/lib/ReactUpdates.js",
+          "moduleName": "./~/react-dom/lib/ReactUpdates.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "14:14-38"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -19392,15 +19374,6 @@
           "loc": "13:14-38"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js",
-          "module": "./~/react-dom/lib/ReactDefaultBatchingStrategy.js",
-          "moduleName": "./~/react-dom/lib/ReactDefaultBatchingStrategy.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "13:14-38"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMTextComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDOMTextComponent.js",
           "module": "./~/react-dom/lib/ReactDOMTextComponent.js",
@@ -19408,6 +19381,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "14:14-38"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js",
+          "module": "./~/react-dom/lib/ReactDefaultBatchingStrategy.js",
+          "moduleName": "./~/react-dom/lib/ReactDefaultBatchingStrategy.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:14-38"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactEventListener.js",
@@ -19803,15 +19785,6 @@
           "loc": "43:16-36"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react-dom",
-          "loc": "47:16-36"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -19819,6 +19792,15 @@
           "type": "cjs require",
           "userRequest": "react-dom",
           "loc": "35:16-36"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "loc": "47:16-36"
         },
         {
           "moduleId": "./node_modules/material-ui/Popover/Popover.js",
@@ -19893,19 +19875,19 @@
           "loc": "43:16-36"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
-          "module": "./~/material-ui/TextField/TextField.js",
-          "moduleName": "./~/material-ui/TextField/TextField.js",
+          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
           "type": "cjs require",
           "userRequest": "react-dom",
           "loc": "43:16-36"
         },
         {
-          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextField.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
+          "module": "./~/material-ui/TextField/TextField.js",
+          "moduleName": "./~/material-ui/TextField/TextField.js",
           "type": "cjs require",
           "userRequest": "react-dom",
           "loc": "43:16-36"
@@ -25532,19 +25514,19 @@
           "loc": "13:21-52"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
-          "module": "./~/react-dom/lib/CallbackQueue.js",
-          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
+          "moduleId": "./node_modules/react-dom/lib/PooledClass.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/PooledClass.js",
+          "module": "./~/react-dom/lib/PooledClass.js",
+          "moduleName": "./~/react-dom/lib/PooledClass.js",
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "14:21-52"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/PooledClass.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/PooledClass.js",
-          "module": "./~/react-dom/lib/PooledClass.js",
-          "moduleName": "./~/react-dom/lib/PooledClass.js",
+          "moduleId": "./node_modules/react-dom/lib/CallbackQueue.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/CallbackQueue.js",
+          "module": "./~/react-dom/lib/CallbackQueue.js",
+          "moduleName": "./~/react-dom/lib/CallbackQueue.js",
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "14:21-52"
@@ -27037,8 +27019,8 @@
       "id": "./node_modules/react-router-redux/lib/actions.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router-redux/lib/actions.js",
       "name": "./~/react-router-redux/lib/actions.js",
-      "index": 538,
-      "index2": 533,
+      "index": 536,
+      "index2": 531,
       "size": 1264,
       "cacheable": true,
       "built": true,
@@ -27083,8 +27065,8 @@
       "id": "./node_modules/react-router-redux/lib/index.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router-redux/lib/index.js",
       "name": "./~/react-router-redux/lib/index.js",
-      "index": 536,
-      "index2": 536,
+      "index": 534,
+      "index2": 534,
       "size": 1968,
       "cacheable": true,
       "built": true,
@@ -27156,8 +27138,8 @@
       "id": "./node_modules/react-router-redux/lib/middleware.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router-redux/lib/middleware.js",
       "name": "./~/react-router-redux/lib/middleware.js",
-      "index": 540,
-      "index2": 535,
+      "index": 538,
+      "index2": 533,
       "size": 1018,
       "cacheable": true,
       "built": true,
@@ -27193,8 +27175,8 @@
       "id": "./node_modules/react-router-redux/lib/reducer.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router-redux/lib/reducer.js",
       "name": "./~/react-router-redux/lib/reducer.js",
-      "index": 537,
-      "index2": 532,
+      "index": 535,
+      "index2": 530,
       "size": 1271,
       "cacheable": true,
       "built": true,
@@ -27239,8 +27221,8 @@
       "id": "./node_modules/react-router-redux/lib/sync.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router-redux/lib/sync.js",
       "name": "./~/react-router-redux/lib/sync.js",
-      "index": 539,
-      "index2": 534,
+      "index": 537,
+      "index2": 532,
       "size": 5799,
       "cacheable": true,
       "built": true,
@@ -29588,13 +29570,22 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
-      "issuerId": "./node_modules/react-dom/lib/ReactMount.js",
-      "issuerName": "./~/react-dom/lib/ReactMount.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
+      "issuerId": "./node_modules/react/lib/ReactElement.js",
+      "issuerName": "./~/react/lib/ReactElement.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
+        {
+          "moduleId": "./node_modules/react/lib/ReactElement.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
+          "module": "./~/react/lib/ReactElement.js",
+          "moduleName": "./~/react/lib/ReactElement.js",
+          "type": "cjs require",
+          "userRequest": "./ReactCurrentOwner",
+          "loc": "15:24-54"
+        },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-dom/lib/ReactMount.js",
@@ -29614,10 +29605,10 @@
           "loc": "15:24-62"
         },
         {
-          "moduleId": "./node_modules/react/lib/ReactElement.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactElement.js",
-          "module": "./~/react/lib/ReactElement.js",
-          "moduleName": "./~/react/lib/ReactElement.js",
+          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
+          "module": "./~/react/lib/traverseAllChildren.js",
+          "moduleName": "./~/react/lib/traverseAllChildren.js",
           "type": "cjs require",
           "userRequest": "./ReactCurrentOwner",
           "loc": "15:24-54"
@@ -29630,15 +29621,6 @@
           "type": "cjs require",
           "userRequest": "react/lib/ReactCurrentOwner",
           "loc": "15:24-62"
-        },
-        {
-          "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
-          "module": "./~/react/lib/traverseAllChildren.js",
-          "moduleName": "./~/react/lib/traverseAllChildren.js",
-          "type": "cjs require",
-          "userRequest": "./ReactCurrentOwner",
-          "loc": "15:24-54"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactMultiChild.js",
@@ -29760,15 +29742,6 @@
           "loc": "14:19-44"
         },
         {
-          "moduleId": "./node_modules/react/lib/ReactDOMFactories.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactDOMFactories.js",
-          "module": "./~/react/lib/ReactDOMFactories.js",
-          "moduleName": "./~/react/lib/ReactDOMFactories.js",
-          "type": "cjs require",
-          "userRequest": "./ReactElement",
-          "loc": "13:19-44"
-        },
-        {
           "moduleId": "./node_modules/react/lib/ReactClass.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactClass.js",
           "module": "./~/react/lib/ReactClass.js",
@@ -29776,6 +29749,15 @@
           "type": "cjs require",
           "userRequest": "./ReactElement",
           "loc": "17:19-44"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/ReactDOMFactories.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactDOMFactories.js",
+          "module": "./~/react/lib/ReactDOMFactories.js",
+          "moduleName": "./~/react/lib/ReactDOMFactories.js",
+          "type": "cjs require",
+          "userRequest": "./ReactElement",
+          "loc": "13:19-44"
         },
         {
           "moduleId": "./node_modules/react/lib/ReactPropTypes.js",
@@ -29908,22 +29890,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactPureComponent.js",
-      "issuerId": "./node_modules/react/lib/ReactPureComponent.js",
-      "issuerName": "./~/react/lib/ReactPureComponent.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
+      "issuerId": "./node_modules/react/lib/ReactComponent.js",
+      "issuerName": "./~/react/lib/ReactComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/react/lib/ReactPureComponent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactPureComponent.js",
-          "module": "./~/react/lib/ReactPureComponent.js",
-          "moduleName": "./~/react/lib/ReactPureComponent.js",
-          "type": "cjs require",
-          "userRequest": "./ReactNoopUpdateQueue",
-          "loc": "16:27-60"
-        },
         {
           "moduleId": "./node_modules/react/lib/ReactComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactComponent.js",
@@ -29932,6 +29905,15 @@
           "type": "cjs require",
           "userRequest": "./ReactNoopUpdateQueue",
           "loc": "15:27-60"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/ReactPureComponent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/ReactPureComponent.js",
+          "module": "./~/react/lib/ReactPureComponent.js",
+          "moduleName": "./~/react/lib/ReactPureComponent.js",
+          "type": "cjs require",
+          "userRequest": "./ReactNoopUpdateQueue",
+          "loc": "16:27-60"
         },
         {
           "moduleId": "./node_modules/react/lib/ReactClass.js",
@@ -30432,15 +30414,6 @@
           "loc": "12:21-52"
         },
         {
-          "moduleId": "./node_modules/react/lib/PooledClass.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/PooledClass.js",
-          "module": "./~/react/lib/PooledClass.js",
-          "moduleName": "./~/react/lib/PooledClass.js",
-          "type": "cjs require",
-          "userRequest": "./reactProdInvariant",
-          "loc": "14:21-52"
-        },
-        {
           "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/traverseAllChildren.js",
           "module": "./~/react/lib/traverseAllChildren.js",
@@ -30448,6 +30421,15 @@
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "13:21-52"
+        },
+        {
+          "moduleId": "./node_modules/react/lib/PooledClass.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react/lib/PooledClass.js",
+          "module": "./~/react/lib/PooledClass.js",
+          "moduleName": "./~/react/lib/PooledClass.js",
+          "type": "cjs require",
+          "userRequest": "./reactProdInvariant",
+          "loc": "14:21-52"
         },
         {
           "moduleId": "./node_modules/react/lib/ReactComponentTreeHook.js",
@@ -30687,6 +30669,24 @@
           "loc": "13:12-28"
         },
         {
+          "moduleId": "./src/components/Assessment.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Assessment.tsx",
+          "module": "./src/components/Assessment.tsx",
+          "moduleName": "./src/components/Assessment.tsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "13:12-28"
+        },
+        {
+          "moduleId": "./src/components/AssessmentResult.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/AssessmentResult.tsx",
+          "module": "./src/components/AssessmentResult.tsx",
+          "moduleName": "./src/components/AssessmentResult.tsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "13:12-28"
+        },
+        {
           "moduleId": "./src/components/Videos.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Videos.tsx",
           "module": "./src/components/Videos.tsx",
@@ -30712,24 +30712,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "21:12-28"
-        },
-        {
-          "moduleId": "./src/components/AssessmentResult.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/AssessmentResult.tsx",
-          "module": "./src/components/AssessmentResult.tsx",
-          "moduleName": "./src/components/AssessmentResult.tsx",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "13:12-28"
-        },
-        {
-          "moduleId": "./src/components/Assessment.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Assessment.tsx",
-          "module": "./src/components/Assessment.tsx",
-          "moduleName": "./src/components/Assessment.tsx",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "13:12-28"
         },
         {
           "moduleId": "./node_modules/material-ui/styles/MuiThemeProvider.js",
@@ -30777,15 +30759,6 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/LinearGauge.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/LinearGauge.tsx",
-          "module": "./src/components/LinearGauge.tsx",
-          "moduleName": "./src/components/LinearGauge.tsx",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "13:12-28"
-        },
-        {
           "moduleId": "./src/components/Form.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/Form.tsx",
           "module": "./src/components/Form.tsx",
@@ -30793,6 +30766,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "21:12-28"
+        },
+        {
+          "moduleId": "./src/components/LinearGauge.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/LinearGauge.tsx",
+          "module": "./src/components/LinearGauge.tsx",
+          "moduleName": "./src/components/LinearGauge.tsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "13:12-28"
         },
         {
           "moduleId": "./node_modules/react-router/es/Router.js",
@@ -30822,15 +30804,6 @@
           "loc": "3:0-26"
         },
         {
-          "moduleId": "./node_modules/react-router/es/withRouter.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/withRouter.js",
-          "module": "./~/react-router/es/withRouter.js",
-          "moduleName": "./~/react-router/es/withRouter.js",
-          "type": "harmony import",
-          "userRequest": "react",
-          "loc": "4:0-26"
-        },
-        {
           "moduleId": "./node_modules/react-router/es/IndexRedirect.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/IndexRedirect.js",
           "module": "./~/react-router/es/IndexRedirect.js",
@@ -30838,6 +30811,15 @@
           "type": "harmony import",
           "userRequest": "react",
           "loc": "1:0-26"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/withRouter.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/react-router/es/withRouter.js",
+          "module": "./~/react-router/es/withRouter.js",
+          "moduleName": "./~/react-router/es/withRouter.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "4:0-26"
         },
         {
           "moduleId": "./node_modules/react-router/es/IndexRoute.js",
@@ -31047,19 +31029,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -31128,15 +31110,6 @@
           "loc": "45:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "43:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -31144,6 +31117,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "43:13-29"
         },
         {
           "moduleId": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -31245,6 +31227,15 @@
           "loc": "31:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -31263,15 +31254,6 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "39:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/RaisedButton/RaisedButton.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/RaisedButton/RaisedButton.js",
           "module": "./~/material-ui/RaisedButton/RaisedButton.js",
@@ -31281,19 +31263,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
+          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
+          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
-          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
-          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
@@ -31335,19 +31317,19 @@
           "loc": "35:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-more.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-more.js",
+          "module": "./~/material-ui/svg-icons/navigation/expand-more.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/expand-more.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-more.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-more.js",
-          "module": "./~/material-ui/svg-icons/navigation/expand-more.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/expand-more.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
@@ -31407,19 +31389,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -31488,6 +31470,15 @@
           "loc": "34:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/TextField/TextField.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
           "module": "./~/material-ui/TextField/TextField.js",
@@ -31497,13 +31488,31 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleId": "./node_modules/material-ui/internal/ClearFix.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClearFix.js",
+          "module": "./~/material-ui/internal/ClearFix.js",
+          "moduleName": "./~/material-ui/internal/ClearFix.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "39:13-29"
+          "loc": "15:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "module": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "31:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
@@ -31515,19 +31524,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
+          "module": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "11:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
-          "module": "./~/material-ui/TextField/TextFieldLabel.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "11:13-29"
@@ -31540,33 +31549,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "11:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "module": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-drop-down.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "7:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/ClearFix.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/ClearFix.js",
-          "module": "./~/material-ui/internal/ClearFix.js",
-          "moduleName": "./~/material-ui/internal/ClearFix.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "15:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "31:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -31845,15 +31827,6 @@
           "loc": "11:12-37"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
-          "type": "cjs require",
-          "userRequest": "recompose/pure",
-          "loc": "11:12-37"
-        },
-        {
           "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
           "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-up.js",
@@ -31863,10 +31836,10 @@
           "loc": "11:12-37"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
-          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleId": "./node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "module": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
+          "moduleName": "./~/material-ui/svg-icons/hardware/keyboard-arrow-down.js",
           "type": "cjs require",
           "userRequest": "recompose/pure",
           "loc": "11:12-37"
@@ -31876,6 +31849,15 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-more.js",
           "module": "./~/material-ui/svg-icons/navigation/expand-more.js",
           "moduleName": "./~/material-ui/svg-icons/navigation/expand-more.js",
+          "type": "cjs require",
+          "userRequest": "recompose/pure",
+          "loc": "11:12-37"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/svg-icons/navigation/expand-less.js",
+          "module": "./~/material-ui/svg-icons/navigation/expand-less.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/expand-less.js",
           "type": "cjs require",
           "userRequest": "recompose/pure",
           "loc": "11:12-37"
@@ -32508,19 +32490,19 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
+          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
+          "module": "./~/material-ui/Card/CardHeader.js",
+          "moduleName": "./~/material-ui/Card/CardHeader.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/CardHeader.js",
-          "module": "./~/material-ui/Card/CardHeader.js",
-          "moduleName": "./~/material-ui/Card/CardHeader.js",
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32589,15 +32571,6 @@
           "loc": "41:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "39:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -32605,6 +32578,15 @@
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "27:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "39:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
@@ -32661,19 +32643,19 @@
           "loc": "27:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32742,19 +32724,19 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32805,6 +32787,15 @@
           "loc": "35:20-44"
         },
         {
+          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
+          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "35:20-44"
+        },
+        {
           "moduleId": "./node_modules/material-ui/TextField/TextField.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextField.js",
           "module": "./~/material-ui/TextField/TextField.js",
@@ -32814,13 +32805,13 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/DropDownMenu/DropDownMenu.js",
-          "module": "./~/material-ui/DropDownMenu/DropDownMenu.js",
-          "moduleName": "./~/material-ui/DropDownMenu/DropDownMenu.js",
+          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
+          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
+          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
-          "loc": "35:20-44"
+          "loc": "27:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/TextField/EnhancedTextarea.js",
@@ -32832,19 +32823,19 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
+          "module": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
-          "module": "./~/material-ui/TextField/TextFieldLabel.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldLabel.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
@@ -32857,15 +32848,6 @@
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/material-ui/Popover/PopoverAnimationVertical.js",
-          "module": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "moduleName": "./~/material-ui/Popover/PopoverAnimationVertical.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "27:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -33127,15 +33109,6 @@
           "loc": "5:15-33"
         },
         {
-          "moduleId": "./node_modules/history/lib/PathUtils.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/PathUtils.js",
-          "module": "./~/history/lib/PathUtils.js",
-          "moduleName": "./~/history/lib/PathUtils.js",
-          "type": "cjs require",
-          "userRequest": "warning",
-          "loc": "6:15-33"
-        },
-        {
           "moduleId": "./node_modules/history/lib/LocationUtils.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/LocationUtils.js",
           "module": "./~/history/lib/LocationUtils.js",
@@ -33143,6 +33116,15 @@
           "type": "cjs require",
           "userRequest": "warning",
           "loc": "14:15-33"
+        },
+        {
+          "moduleId": "./node_modules/history/lib/PathUtils.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/history/lib/PathUtils.js",
+          "module": "./~/history/lib/PathUtils.js",
+          "moduleName": "./~/history/lib/PathUtils.js",
+          "type": "cjs require",
+          "userRequest": "warning",
+          "loc": "6:15-33"
         },
         {
           "moduleId": "./node_modules/history/lib/HashProtocol.js",
@@ -33902,8 +33884,8 @@
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/components/MenuDrawer.tsx",
       "name": "./src/components/MenuDrawer.tsx",
       "index": 506,
-      "index2": 526,
-      "size": 2844,
+      "index2": 524,
+      "size": 2449,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -33932,7 +33914,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "\"use strict\";\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = Object.setPrototypeOf ||\r\n        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar Menu_1 = require(\"material-ui/Menu\");\r\nvar MenuItem_1 = require(\"material-ui/MenuItem\");\r\nvar IconButton_1 = require(\"material-ui/IconButton\");\r\nvar menu_1 = require(\"material-ui/svg-icons/navigation/menu\");\r\nvar Divider_1 = require(\"material-ui/Divider\");\r\nvar Drawer_1 = require(\"material-ui/Drawer\");\r\nvar AppBarMenuIconDrawer = (function (_super) {\r\n    __extends(AppBarMenuIconDrawer, _super);\r\n    function AppBarMenuIconDrawer(props, context) {\r\n        var _this = _super.call(this, props) || this;\r\n        _this.handleToggle = function (event) {\r\n            event.preventDefault();\r\n            event.stopPropagation();\r\n            _this.setState({ open: !_this.state.open });\r\n        };\r\n        _this.handleClosePath = function (path) {\r\n            var pathOnTouchTap = _this.props.pathOnTouchTap;\r\n            return function (event) {\r\n                pathOnTouchTap(path)(event);\r\n                _this.setState({ open: false });\r\n            };\r\n        };\r\n        _this.handleClose = function () {\r\n            _this.setState({ open: false });\r\n        };\r\n        _this.state = { open: false };\r\n        return _this;\r\n    }\r\n    AppBarMenuIconDrawer.prototype.render = function () {\r\n        var _this = this;\r\n        var pathOnTouchTap = this.props.pathOnTouchTap;\r\n        return (React.createElement(\"div\", null,\r\n            React.createElement(IconButton_1.default, { onTouchTap: this.handleToggle },\r\n                React.createElement(menu_1.default, null)),\r\n            React.createElement(Drawer_1.default, { docked: false, width: 200, open: this.state.open, onRequestChange: function (open) { return _this.setState({ open: open }); }, containerStyle: { paddingTop: 60 } },\r\n                React.createElement(Menu_1.default, { onItemTouchTap: this.handleClose },\r\n                    React.createElement(Divider_1.default, null),\r\n                    React.createElement(MenuItem_1.default, { key: 'static_home', primaryText: \"Home\", onTouchTap: pathOnTouchTap('/') }),\r\n                    React.createElement(Divider_1.default, null),\r\n                    this.props.children))));\r\n    };\r\n    return AppBarMenuIconDrawer;\r\n}(React.Component));\r\nexports.default = AppBarMenuIconDrawer;\r\n"
+      "source": "\"use strict\";\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = Object.setPrototypeOf ||\r\n        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar Menu_1 = require(\"material-ui/Menu\");\r\nvar IconButton_1 = require(\"material-ui/IconButton\");\r\nvar menu_1 = require(\"material-ui/svg-icons/navigation/menu\");\r\nvar Drawer_1 = require(\"material-ui/Drawer\");\r\nvar AppBarMenuIconDrawer = (function (_super) {\r\n    __extends(AppBarMenuIconDrawer, _super);\r\n    function AppBarMenuIconDrawer(props, context) {\r\n        var _this = _super.call(this, props) || this;\r\n        _this.handleToggle = function (event) {\r\n            event.preventDefault();\r\n            event.stopPropagation();\r\n            _this.setState({ open: !_this.state.open });\r\n        };\r\n        _this.handleClosePath = function (path) {\r\n            var pathOnTouchTap = _this.props.pathOnTouchTap;\r\n            return function (event) {\r\n                pathOnTouchTap(path)(event);\r\n                _this.setState({ open: false });\r\n            };\r\n        };\r\n        _this.handleClose = function () {\r\n            _this.setState({ open: false });\r\n        };\r\n        _this.state = { open: false };\r\n        return _this;\r\n    }\r\n    AppBarMenuIconDrawer.prototype.render = function () {\r\n        var _this = this;\r\n        var pathOnTouchTap = this.props.pathOnTouchTap;\r\n        return (React.createElement(\"div\", null,\r\n            React.createElement(IconButton_1.default, { onTouchTap: this.handleToggle },\r\n                React.createElement(menu_1.default, null)),\r\n            React.createElement(Drawer_1.default, { docked: false, width: 200, open: this.state.open, onRequestChange: function (open) { return _this.setState({ open: open }); }, containerStyle: { paddingTop: 60 } },\r\n                React.createElement(Menu_1.default, { onItemTouchTap: this.handleClose }, this.props.children))));\r\n    };\r\n    return AppBarMenuIconDrawer;\r\n}(React.Component));\r\nexports.default = AppBarMenuIconDrawer;\r\n"
     },
     {
       "id": "./src/components/NotFound.tsx",
@@ -34559,7 +34541,7 @@
       "name": "./src/containers/Main.tsx",
       "index": 485,
       "index2": 537,
-      "size": 3647,
+      "size": 4054,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34588,7 +34570,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 3,
-      "source": "\"use strict\";\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = Object.setPrototypeOf ||\r\n        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar AppBarPage_1 = require(\"../components/AppBarPage\");\r\nvar IconButton_1 = require(\"material-ui/IconButton\");\r\nvar arrow_back_1 = require(\"material-ui/svg-icons/navigation/arrow-back\");\r\nvar react_router_1 = require(\"react-router\");\r\nvar MenuDrawer_1 = require(\"../components/MenuDrawer\");\r\nvar MenuItem_1 = require(\"material-ui/MenuItem\");\r\nvar categories_1 = require(\"../res/data/categories\");\r\nvar react_redux_1 = require(\"react-redux\");\r\nvar react_router_redux_1 = require(\"react-router-redux\");\r\nvar Divider_1 = require(\"material-ui/Divider\");\r\nvar categoryItem = function (categories, pathOnTouchTap) {\r\n    var secretTap = function (path) {\r\n        var tapMax = 3;\r\n        var tapCount = 0;\r\n        return function (event) {\r\n            tapCount++;\r\n            if (tapCount >= tapMax) {\r\n                pathOnTouchTap(path)(event);\r\n            }\r\n        };\r\n    };\r\n    return (React.createElement(MenuDrawer_1.default, { pathOnTouchTap: pathOnTouchTap },\r\n        categories.map(function (cat) {\r\n            return React.createElement(MenuItem_1.default, { key: cat.id, primaryText: cat.title, onTouchTap: pathOnTouchTap(cat.path) });\r\n        }),\r\n        React.createElement(Divider_1.default, null),\r\n        React.createElement(MenuItem_1.default, { innerDivStyle: { color: 'grey' }, key: 'version_num', primaryText: 'v1.0.0', onTouchTap: secretTap('debug') })));\r\n};\r\nvar backIcon = function (path) {\r\n    return React.createElement(react_router_1.Link, { to: path },\r\n        React.createElement(IconButton_1.default, null,\r\n            React.createElement(arrow_back_1.default, null)));\r\n};\r\nvar AppContainer = (function (_super) {\r\n    __extends(AppContainer, _super);\r\n    function AppContainer() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    AppContainer.prototype.render = function () {\r\n        var _a = this.props, categories = _a.categories, pathOnTouchTap = _a.pathOnTouchTap, appConfig = _a.appConfig, parentRoute = _a.parentRoute;\r\n        var leftIcon = !parentRoute ? categoryItem(categories, pathOnTouchTap) : backIcon(parentRoute.pathname);\r\n        return React.createElement(AppBarPage_1.default, { leftIcon: leftIcon, categories: categories, pathOnTouchTap: pathOnTouchTap, appConfig: appConfig }, this.props.children);\r\n    };\r\n    return AppContainer;\r\n}(React.Component));\r\nvar stateToProps = function (state) {\r\n    return {\r\n        categories: categories_1.default,\r\n        appConfig: {\r\n            parentSite: 'http://afterdeployment.dcoe.mil'\r\n        },\r\n        parentRoute: state.navigation.paths.parent\r\n    };\r\n};\r\nvar dispatchToProps = function (distatch, ownProps) {\r\n    return {\r\n        pathOnTouchTap: function (path) {\r\n            return function (event) {\r\n                event.preventDefault();\r\n                event.stopPropagation();\r\n                distatch(react_router_redux_1.push(path));\r\n            };\r\n        }\r\n    };\r\n};\r\nexports.default = react_redux_1.connect(stateToProps, dispatchToProps)(AppContainer);\r\n"
+      "source": "\"use strict\";\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = Object.setPrototypeOf ||\r\n        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar AppBarPage_1 = require(\"../components/AppBarPage\");\r\nvar IconButton_1 = require(\"material-ui/IconButton\");\r\nvar arrow_back_1 = require(\"material-ui/svg-icons/navigation/arrow-back\");\r\nvar react_router_1 = require(\"react-router\");\r\nvar MenuDrawer_1 = require(\"../components/MenuDrawer\");\r\nvar MenuItem_1 = require(\"material-ui/MenuItem\");\r\nvar categories_1 = require(\"../res/data/categories\");\r\nvar react_redux_1 = require(\"react-redux\");\r\nvar react_router_redux_1 = require(\"react-router-redux\");\r\nvar Divider_1 = require(\"material-ui/Divider\");\r\nvar createMenuItems = function (categories, pathOnTouchTap) {\r\n    var secretTap = function (path) {\r\n        var tapMax = 3;\r\n        var tapCount = 0;\r\n        return function (event) {\r\n            tapCount++;\r\n            if (tapCount >= tapMax) {\r\n                pathOnTouchTap(path)(event);\r\n            }\r\n        };\r\n    };\r\n    return (React.createElement(MenuDrawer_1.default, { pathOnTouchTap: pathOnTouchTap },\r\n        categories.map(function (cat) {\r\n            switch (cat.type) {\r\n                case 'divider':\r\n                    return React.createElement(Divider_1.default, null);\r\n                case 'link':\r\n                    return React.createElement(MenuItem_1.default, { key: cat.item.id, primaryText: cat.item.title, onTouchTap: pathOnTouchTap(cat.item.path) });\r\n                case 'link_absolute':\r\n                    return React.createElement(MenuItem_1.default, { key: cat.item.id, primaryText: cat.item.title, href: cat.item.path });\r\n            }\r\n        }),\r\n        React.createElement(MenuItem_1.default, { innerDivStyle: { color: 'grey' }, key: 'version_num', primaryText: 'v1.0.0', onTouchTap: secretTap('debug') })));\r\n};\r\nvar backIcon = function (path) {\r\n    return React.createElement(react_router_1.Link, { to: path },\r\n        React.createElement(IconButton_1.default, null,\r\n            React.createElement(arrow_back_1.default, null)));\r\n};\r\nvar AppContainer = (function (_super) {\r\n    __extends(AppContainer, _super);\r\n    function AppContainer() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    AppContainer.prototype.render = function () {\r\n        var _a = this.props, menuItems = _a.menuItems, categories = _a.categories, pathOnTouchTap = _a.pathOnTouchTap, appConfig = _a.appConfig, parentRoute = _a.parentRoute;\r\n        var leftIcon = !parentRoute ? createMenuItems(menuItems, pathOnTouchTap) : backIcon(parentRoute.pathname);\r\n        return React.createElement(AppBarPage_1.default, { leftIcon: leftIcon, categories: categories, pathOnTouchTap: pathOnTouchTap, appConfig: appConfig }, this.props.children);\r\n    };\r\n    return AppContainer;\r\n}(React.Component));\r\nvar stateToProps = function (state) {\r\n    return {\r\n        menuItems: categories_1.mainMenu,\r\n        categories: categories_1.default,\r\n        appConfig: {\r\n            parentSite: 'http://afterdeployment.dcoe.mil'\r\n        },\r\n        parentRoute: state.navigation.paths.parent\r\n    };\r\n};\r\nvar dispatchToProps = function (distatch, ownProps) {\r\n    return {\r\n        pathOnTouchTap: function (path) {\r\n            return function (event) {\r\n                event.preventDefault();\r\n                event.stopPropagation();\r\n                distatch(react_router_redux_1.push(path));\r\n            };\r\n        }\r\n    };\r\n};\r\nexports.default = react_redux_1.connect(stateToProps, dispatchToProps)(AppContainer);\r\n"
     },
     {
       "id": "./src/containers/Resources.tsx",
@@ -35268,9 +35250,9 @@
       "id": "./src/res/data/categories.ts",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/categories.ts",
       "name": "./src/res/data/categories.ts",
-      "index": 531,
-      "index2": 531,
-      "size": 659,
+      "index": 529,
+      "index2": 529,
+      "size": 1538,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -35299,7 +35281,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar categories = [\r\n    { id: 1, title: 'Videos', path: 'main/videos', featured: true, img: require('../images/film-596011_640.png') },\r\n    { id: 2, title: 'Assessments', path: 'main/assessments', featured: false, img: require('../images/2000px-Checklist_Noun_project_5166.svg.png') },\r\n    { id: 3, title: 'Library', path: 'main/library', featured: false, img: require('../images/2000px-Book_font_awesome.svg.png') },\r\n    { id: 4, title: 'Resources', path: 'main/resources', featured: false, img: require('../images/Sharing-icon.svg.png') }\r\n];\r\nexports.default = categories;\r\n"
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar categories = [\r\n    { id: 7, title: 'Home', path: '/', featured: true, img: require('../images/film-596011_640.png') },\r\n    { id: 1, title: 'Videos', path: 'main/videos', featured: true, img: require('../images/film-596011_640.png') },\r\n    { id: 2, title: 'Assessments', path: 'main/assessments', featured: false, img: require('../images/2000px-Checklist_Noun_project_5166.svg.png') },\r\n    { id: 3, title: 'Library', path: 'main/library', featured: false, img: require('../images/2000px-Book_font_awesome.svg.png') },\r\n    { id: 4, title: 'Resources', path: 'main/resources', featured: false, img: require('../images/Sharing-icon.svg.png') },\r\n    { id: 5, title: 'App Hub', path: 'https://apphub.tee2.org', featured: false, img: require('../images/Sharing-icon.svg.png') }\r\n];\r\nvar categoriesMap = categories.reduce(function (acc, cat) {\r\n    acc[cat.id] = cat;\r\n    return acc;\r\n}, {});\r\nexports.mainMenu = [\r\n    { id: 1, type: 'divider', item: {} },\r\n    { id: 2, type: 'link', item: categoriesMap[7] },\r\n    { id: 3, type: 'divider', item: {} },\r\n    { id: 4, type: 'link', item: categoriesMap[1] },\r\n    { id: 5, type: 'link', item: categoriesMap[2] },\r\n    { id: 6, type: 'link', item: categoriesMap[3] },\r\n    { id: 7, type: 'link', item: categoriesMap[4] },\r\n    { id: 8, type: 'divider', item: {} },\r\n    { id: 9, type: 'link_absolute', item: categoriesMap[5] },\r\n    { id: 10, type: 'divider', item: {} }\r\n];\r\nexports.default = categories;\r\n"
     },
     {
       "id": "./src/res/data/page.ts",
@@ -35434,8 +35416,8 @@
       "id": "./src/res/images/2000px-Book_font_awesome.svg.png",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/url-loader/index.js?limit=2!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/images/2000px-Book_font_awesome.svg.png",
       "name": "./src/res/images/2000px-Book_font_awesome.svg.png",
-      "index": 534,
-      "index2": 529,
+      "index": 532,
+      "index2": 527,
       "size": 82,
       "cacheable": true,
       "built": true,
@@ -35461,7 +35443,7 @@
           "moduleName": "./src/res/data/categories.ts",
           "type": "cjs require",
           "userRequest": "../images/2000px-Book_font_awesome.svg.png",
-          "loc": "6:75-128"
+          "loc": "7:75-128"
         }
       ],
       "usedExports": true,
@@ -35473,8 +35455,8 @@
       "id": "./src/res/images/2000px-Checklist_Noun_project_5166.svg.png",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/url-loader/index.js?limit=2!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/images/2000px-Checklist_Noun_project_5166.svg.png",
       "name": "./src/res/images/2000px-Checklist_Noun_project_5166.svg.png",
-      "index": 533,
-      "index2": 528,
+      "index": 531,
+      "index2": 526,
       "size": 82,
       "cacheable": true,
       "built": true,
@@ -35500,7 +35482,7 @@
           "moduleName": "./src/res/data/categories.ts",
           "type": "cjs require",
           "userRequest": "../images/2000px-Checklist_Noun_project_5166.svg.png",
-          "loc": "5:83-146"
+          "loc": "6:83-146"
         }
       ],
       "usedExports": true,
@@ -35965,8 +35947,8 @@
       "id": "./src/res/images/Sharing-icon.svg.png",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/url-loader/index.js?limit=2!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/images/Sharing-icon.svg.png",
       "name": "./src/res/images/Sharing-icon.svg.png",
-      "index": 535,
-      "index2": 530,
+      "index": 533,
+      "index2": 528,
       "size": 82,
       "cacheable": true,
       "built": true,
@@ -35992,7 +35974,16 @@
           "moduleName": "./src/res/data/categories.ts",
           "type": "cjs require",
           "userRequest": "../images/Sharing-icon.svg.png",
-          "loc": "7:79-120"
+          "loc": "8:79-120"
+        },
+        {
+          "moduleId": "./src/res/data/categories.ts",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/categories.ts",
+          "module": "./src/res/data/categories.ts",
+          "moduleName": "./src/res/data/categories.ts",
+          "type": "cjs require",
+          "userRequest": "../images/Sharing-icon.svg.png",
+          "loc": "9:86-127"
         }
       ],
       "usedExports": true,
@@ -36043,8 +36034,8 @@
       "id": "./src/res/images/film-596011_640.png",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/url-loader/index.js?limit=2!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/images/film-596011_640.png",
       "name": "./src/res/images/film-596011_640.png",
-      "index": 532,
-      "index2": 527,
+      "index": 530,
+      "index2": 525,
       "size": 82,
       "cacheable": true,
       "built": true,
@@ -36070,7 +36061,16 @@
           "moduleName": "./src/res/data/categories.ts",
           "type": "cjs require",
           "userRequest": "../images/film-596011_640.png",
-          "loc": "4:72-112"
+          "loc": "4:60-100"
+        },
+        {
+          "moduleId": "./src/res/data/categories.ts",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-family-pwa/src/res/data/categories.ts",
+          "module": "./src/res/data/categories.ts",
+          "moduleName": "./src/res/data/categories.ts",
+          "type": "cjs require",
+          "userRequest": "../images/film-596011_640.png",
+          "loc": "5:72-112"
         }
       ],
       "usedExports": true,
