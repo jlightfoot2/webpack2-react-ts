@@ -68,9 +68,6 @@ export default class AppBarMenuIconDrawer extends React.Component<MyProps, MySta
               containerStyle={{paddingTop: 60}}
             >
               <Menu onItemTouchTap={this.handleClose} >
-                 <Divider />
-                  <MenuItem key={'static_home'} primaryText="Home" onTouchTap={pathOnTouchTap('/')}   />
-                  <Divider />
                  {this.props.children}
               </Menu>
             </Drawer>
