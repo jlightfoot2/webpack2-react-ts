@@ -1,5 +1,5 @@
 import * as React from "react";
-import LinearGauge from './LinearGauge';
+import LinearGauge from 'local-t2-linear-gage';
 export interface Props { 
   appBarTitle(msg: string): any;
   minScore: number;
@@ -7,6 +7,8 @@ export interface Props {
   score: number;
   assessment: any;
   result: any;
+  middleScore: number;
+  highIsGood: boolean;
 }
 
 export interface State { 
@@ -27,12 +29,13 @@ export default class Assessment extends React.Component<Props, State> {
       this.props.appBarTitle("The result page");
     }
     render() {
-        const {minScore,maxScore,score,result} = this.props;
-        console.log(score,result);
+        const {minScore,maxScore,middleScore,highIsGood,score,result} = this.props;
+   
 
         return (
           <div>
-            <LinearGauge minScore={minScore} maxScore={maxScore} result={score} />
+            <LinearGauge middleScore={middleScore} highIsGood={highIsGood} minScore={minScore} maxScore={maxScore} result={score} />
+
             <h2>{result.title}</h2>
             <div dangerouslySetInnerHTML={{__html: result.description}} />
             <h3>Recommendations</h3>

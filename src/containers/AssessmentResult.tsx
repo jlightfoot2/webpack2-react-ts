@@ -67,7 +67,9 @@ const stateToProps = (state,ownProps) => {
     maxScore: assessment.maxScore,
     score: score,
     result: description,
-    assessment: assessment
+    assessment: assessment,
+    middleScore: assessment.middleScore,
+    highIsGood: assessment.scoringMode === 1
   }
 }
 const dispatchToProps = (dispatch) => {
