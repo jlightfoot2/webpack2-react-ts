@@ -1,4 +1,6 @@
-export default {
+import {navigationCreateMiddleware}  from '../';
+import {CONFIG_T2_NAVIGATION}  from '../actions';
+let testConfig = {
   '1': {
     id: '1',
     name: 'Home',
@@ -16,12 +18,12 @@ export default {
     pathname: '/main/assessments',
     childrenIds: ['6']
   },
-  '3': {
-    id: '3',
+  '9': {
+    id: '9',
     name: 'Videos',
     routes: [new RegExp('/main/videos/[0-9]*')],
     level: 1,
-    pathname: '/main/videos',
+    pathname: '/main/videos/',
     childrenIds: ['5']
   },
   '4': {
@@ -46,7 +48,7 @@ export default {
     routes: [new RegExp('/main/video/[0-9]+')],
     level: 2,
     pathname: '/main/video',
-    childrenIds: []
+    childrenIds: [],
   },
   '6': {
     id: '6',
@@ -65,3 +67,27 @@ export default {
     childrenIds: []
   }
 };
+
+
+describe('Middleware Testing', () => {
+  it('should return correct initialization event data)', () => {
+      const storeMock = {} as any;
+      storeMock.dispatch = jest.fn();
+      const blankNext = jest.fn();
+
+       navigationCreateMiddleware(testConfig)(storeMock)(blankNext);
+       const callArgs = storeMock.dispatch.mock.calls[0]; 
+       //callArgs == The arguments past to storeMock.dispatch
+       let action = callArgs[0].type
+       let config = callArgs[0].config
+       expect(action).toEqual(CONFIG_T2_NAVIGATION);
+       //based on testConfig nodes should link to correct parents
+       expect(config.tree['8'].parentId).toEqual('6');
+       expect(config.tree['5'].parentId).toEqual('9');
+       expect(config.tree['6'].parentId).toEqual('2');
+  })
+})
+
+
+
+

@@ -1,5 +1,5 @@
 import {LOCATION_CHANGE} from 'react-router-redux';
-import {CONFIG_T2_NAVIGATION, T2_REPLACE_CHILD, T2_REPLACE_CHILDREN} from '../actions';
+import {CONFIG_T2_NAVIGATION} from '../actions';
 
 /**
  * Eventually this data will come from api
@@ -16,7 +16,7 @@ var defaultNav = {
   childrenIds: []
 };
 
-const navigatinDefaults = {
+export const navigatinDefaults = {
   tree: {},
   treeIds: [],
   menus: {
@@ -29,7 +29,7 @@ const navigatinDefaults = {
   }
 };
 
-function findRoute (path) {
+export function findRoute (path) {
 
   for (var id in navigationIds) {
     var navItem = navigationTree[navigationIds[id]];
@@ -41,7 +41,7 @@ function findRoute (path) {
   return false;
 }
 
-function getRouteNodeId(path, cb){
+export function getRouteNodeId(path, cb){
   for (var id in navigationIds) {
     var navItem = navigationTree[navigationIds[id]];
     var foundRoute = navHasPath(navItem, path);
@@ -52,7 +52,7 @@ function getRouteNodeId(path, cb){
   return false;
 }
 
-function navHasPath (navItem, path) {
+export function navHasPath (navItem, path) {
   var routes = navItem.routes;
   if (routes.indexOf(path) > -1) {
     return navItem;
@@ -68,7 +68,7 @@ function navHasPath (navItem, path) {
   }
 }
 
-function getParent (route,lastRoute) {
+export function getParent (route,lastRoute) {
   let parent = typeof navigationTree[route.parentId] !== 'undefined' ? {...navigationTree[route.parentId]} : null;
   if(parent && parent.id === lastRoute.id){
     parent = {...parent,pathname: lastRoute.pathname}
@@ -77,11 +77,24 @@ function getParent (route,lastRoute) {
 }
 
 
-function paths (state, action) {
+export function paths (state, action) {
   switch (action.type) {
     case LOCATION_CHANGE:
+      if(action.payload.action.toLowerCase() !== 'push'){
+        return state;
+      }
+     
       var newRoute = findRoute(action.payload.pathname);
       if (state.current && newRoute && newRoute.id !== state.current.id) {
+        return {
+          ...state,
+          current: {...newRoute, pathname: action.payload.pathname},
+          last: state.current,
+          parent: getParent(newRoute,state.current)
+        };
+      }
+      if (state.current && newRoute && newRoute.id === state.current.id && 
+          state.last.pathname !== newRoute.pathname) {
         return {
           ...state,
           current: {...newRoute, pathname: action.payload.pathname},
@@ -107,34 +120,11 @@ export const navigation = (state = navigatinDefaults, action) => {
         paths: paths(state.paths, action)
       };
     case LOCATION_CHANGE:
+      //console.log(LOCATION_CHANGE,action);
+      console.log(LOCATION_CHANGE);
       if (action.payload.pathname !== state.paths.current) {
         return {...state, paths: paths(state.paths, action)};
       }
-      /* meh
-    case T2_REPLACE_CHILD:
-      if (parent_id = getRouteNodeId(action.parentRoute)) {
-          const parentRoute = navigationTree[parent_id];
-          const childRoute = action.route; // interface{ routes: string[], name: string }
-          const routeId = '_' + childRoute.routes[0];
-          const replaceRoute = {
-            id: routeId,
-            name: childRoute.name
-            routes: childRoute.routes,
-            level: parentRoute.level + 1,
-            pathname: childRoute.routes[0],
-            childrenIds: []
-          }
-          navigationTree[replaceRoute.id]
-          if(!parentRoute.childrenIds.find(replaceRoute.id)){
-            parentRoute.childrenIds.push(replaceRoute.id);
-          }
-          return {
-            ...state,
-            tree: {...navigationTree}
-          };
-      }
-    case T2_REPLACE_CHILDREN:
-      */
 
   }
   return state;
