@@ -3,7 +3,7 @@ import {routerReducer} from 'react-router-redux';
 import {assessmentResults,assessmentResultIds} from './assessment';
 import {device} from './device';
 import {appReducer} from 'local-t2-sw-redux';
-import {navigationReducer} from '../lib/local-t2-navigation';
+import {navigationReducer} from 'local-t2-navigation-redux';
 
 
 const defaultUser = {

@@ -10,7 +10,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import {Router, hashHistory, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
-import {navigationCreateMiddleware} from './lib/local-t2-navigation';
+import {navigationCreateMiddleware} from 'local-t2-navigation-redux';
 import {registerPromise,appMiddleware} from 'local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
