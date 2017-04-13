@@ -4,6 +4,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin'),
     PathRewriterPlugin = require('webpack-path-rewriter');
 module.exports = {
     entry: [
+        'babel-polyfill',
         'react-hot-loader/patch',
         'webpack-dev-server/client?http://localhost:8080',
         //'webpack-hot-middleware/client',
