@@ -7,6 +7,7 @@ var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlug
 var CleanWebpackPlugin = require('clean-webpack-plugin');   
 module.exports = {
     entry: [
+        'babel-polyfill',
         "./src/index.tsx"
     ],
 

@@ -24,7 +24,7 @@ let store = createStore(reducer,
         thunk,
         routerMiddleware(hashHistory),
         navigationCreateMiddleware(navigationConfig),
-        appMiddleware({url: 'http://localhost:3014/version.json',interval: 30000})
+        appMiddleware({url: 'https://family.tee2.org/version.json',interval: 30000})
       )
   );
 

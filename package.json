@@ -16,6 +16,7 @@
     "@types/enzyme": "^2.7.7",
     "@types/jest": "^19.2.2",
     "awesome-typescript-loader": "^3.0.7",
+    "babel-polyfill": "^6.23.0",
     "clean-webpack-plugin": "^0.1.16",
     "enzyme": "^2.8.0",
     "eslint": "^3.16.1",
