@@ -10,9 +10,9 @@ const stateToProps = (state, ownProps) => {
     image: homePage.image && !(state.device.width > 600 || state.device.width > state.device.height)? homePage.image : '',
     
     actions: [
-      {label: 'Assessments', action: ownProps.pathOnTouchTap('main/assessments')},
-      {label: 'Videos', action: ownProps.pathOnTouchTap('main/videos')},
-      {label: 'Library', action: ownProps.pathOnTouchTap('main/library')}
+      {label: 'Assessments', action: ownProps.pathOnTouchTap('/main/assessments')},
+      {label: 'Videos', action: ownProps.pathOnTouchTap('/main/videos')},
+      {label: 'Library', action: ownProps.pathOnTouchTap('/main/library')}
       
     ]
   }

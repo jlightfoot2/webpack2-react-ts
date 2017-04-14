@@ -56,7 +56,7 @@
     "d3": "^4.7.3",
     "isomorphic-fetch": "^2.2.1",
     "local-t2-linear-gage": "*",
-    "local-t2-navigation-redux": "*",
+    "local-t2-navigation-redux": "0.0.32",
     "local-t2-sw-redux": "*",
     "material-ui": "^0.17.1",
     "normalizr": "^3.2.2",

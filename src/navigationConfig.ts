@@ -27,7 +27,7 @@ export default {
   '4': {
     id: '4',
     name: 'Library',
-    routes: ['/main/library'],
+    routes: ['/main/library','/main/library/open'],
     pathname: '/main/library',
     level: 1,
     childrenIds: []
