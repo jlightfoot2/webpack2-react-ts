@@ -43,11 +43,11 @@ const createMenuItems = (categories,pathOnTouchTap) => {
    
             switch(cat.type){
               case 'divider':
-                return <Divider />;
+                return <Divider key={cat.id} />;
               case 'link':
-                return <MenuItem key={cat.item.id} primaryText={cat.item.title} onTouchTap={pathOnTouchTap(cat.item.path)} />;
+                return <MenuItem key={cat.id} primaryText={cat.item.title} onTouchTap={pathOnTouchTap(cat.item.path)} />;
               case 'link_absolute':
-                return <MenuItem key={cat.item.id} primaryText={cat.item.title} href={cat.item.path} />;
+                return <MenuItem key={cat.id} primaryText={cat.item.title} href={cat.item.path} />;
             }
 
           })}

@@ -19,7 +19,7 @@ export default {
   '3': {
     id: '3',
     name: 'Videos',
-    routes: [new RegExp('/main/videos/[0-9]*')],
+    routes: [new RegExp('/main/videos/[0-9]*'),new RegExp('/main/videos')],
     level: 1,
     pathname: '/main/videos',
     childrenIds: ['5']

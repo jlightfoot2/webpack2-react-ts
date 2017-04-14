@@ -24,7 +24,7 @@ let store = createStore(reducer,
         thunk,
         routerMiddleware(hashHistory),
         navigationCreateMiddleware(navigationConfig),
-        appMiddleware({url: 'https://family.tee2.org/version.json',interval: 30000})
+        appMiddleware({url: '',interval: 30000})
       )
   );
 
@@ -44,7 +44,7 @@ window.onresize = () => {
 
 if (__DEVTOOLS__) {
   store.subscribe(() => {
-    console.log(store.getState()); // list entire state of app in js console. Essential for debugging.
+    console.log((store as any).getState().navigation.paths); // list entire state of app in js console. Essential for debugging.
   });
 }
 
