@@ -49,7 +49,7 @@ module.exports = {
     },
 
     plugins: [
-    /*
+    
           new BundleAnalyzerPlugin({
   // Can be `server`, `static` or `disabled`. 
   // In `server` mode analyzer will start HTTP server to show bundle report. 
@@ -78,7 +78,7 @@ module.exports = {
   logLevel: 'info'
           
         }),
-        */
+      
         new webpack.DefinePlugin({
           'process.env': {
             'NODE_ENV': JSON.stringify('production')
@@ -97,7 +97,7 @@ module.exports = {
 
         new webpack.optimize.CommonsChunkPlugin({
           children: true, // Look for common dependencies in all children,
-          minChunks: 2 // How many times a dependency must come up before being extracted
+          minChunks: 4 // How many times a dependency must come up before being extracted
         }),
 
         // This plugins optimizes chunks and modules by

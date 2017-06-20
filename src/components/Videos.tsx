@@ -54,7 +54,6 @@ export default class Videos extends React.Component<MyProps, MyState> {
          
         ))}
       </GridList>
-
     </div>);
   }
 

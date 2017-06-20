@@ -18,6 +18,7 @@ import {asynRouteMaker,syncRoute} from './lib/helpers';
 import {windowResize} from './actions/device';
 import navigationConfig from './navigationConfig';
 import thunk from 'redux-thunk';
+import {createPlainRoutes, AssessmentInterface} from 'local-t2-assessment-suite';
 
 let store = createStore(reducer,
     applyMiddleware(
@@ -44,7 +45,7 @@ window.onresize = () => {
 
 if (__DEVTOOLS__) {
   store.subscribe(() => {
-    console.log((store as any).getState().navigation.paths); // list entire state of app in js console. Essential for debugging.
+    console.log((store as any).getState()); // list entire state of app in js console. Essential for debugging.
   });
 }
 
@@ -94,18 +95,30 @@ const quickRoutes = [
 
 ];
 
+export const itemCb = (assessment: AssessmentInterface) => {
+  //console.log(assessment);
+  hashHistory.push('/main/assessment/'+assessment.id);
+}
 
-const mainSubRoutes = [
+const configSubroutes = {
+  ids: [1,2,3,4,5],
+  itemClick: itemCb,
+  loadImages: true,
+  onCancel: (error,assessment: AssessmentInterface) => {
+    hashHistory.push('/main/assessments');
+  }
+};
+
+const {AssessmentsRoute,AssessmentPageRoute} = createPlainRoutes(configSubroutes);
+
+let mainSubRoutes = [
 
   asyncRoute('library',System.import('./containers/Book')),
   asyncRoute('library/:open',System.import('./containers/Book')),
-  asyncRoute('assessments',System.import('./containers/Assessments')),
-  asyncRoute('assessment/:id',System.import('./containers/Assessment')),
-  asyncRoute('assessmentresult/:id',System.import('./containers/AssessmentResult')),
   asyncRoute('videos(/:pageOffset)',System.import('./containers/Videos')),
   asyncRoute('video/:id',System.import('./containers/Video')),
-  asyncRoute('resources',System.import('./containers/Resources'))
-
+  asyncRoute('resources',System.import('./containers/Resources')),
+  AssessmentsRoute,AssessmentPageRoute
 ];
 
 const siteRoutes = [

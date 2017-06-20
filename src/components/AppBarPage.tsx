@@ -46,6 +46,10 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
   static contextTypes: any = {
                                 router: React.PropTypes.object.isRequired
                               };
+  public static defaultProps: Partial<MyProps> = {
+
+  }
+
   constructor (props: any) {
     super(props);
 
@@ -92,7 +96,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                  />
                 <div style={{'padding': '5px'} as any}>
                   <div>
-                    {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle, categories, pathOnTouchTap, appConfig: appConfig })}
+                    {React.cloneElement((this.props as any).children, { setPageTitle: this.handleTitle, appBarTitle: this.handleTitle, categories, pathOnTouchTap, appConfig: appConfig })}
                   </div>
                 </div>
                 <AppSnackBarContainer />

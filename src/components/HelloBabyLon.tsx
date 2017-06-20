@@ -94,7 +94,7 @@ export default class HelloBabylon extends React.Component<HelloProps, HelloState
     }
 
     render() {
-        return (<div style={styles.container}>
+        return (<div style={styles.container as any}>
                   
                     <canvas style={styles.canvas} ref={(canvas) => (this as any).canvas = canvas}></canvas>
 

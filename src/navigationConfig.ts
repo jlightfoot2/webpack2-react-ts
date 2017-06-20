@@ -54,7 +54,7 @@ export default {
     routes: [new RegExp('/main/assessment/[0-9]+')],
     level: 2,
     pathname: '/main/assessment',
-    childrenIds: ['8']
+    childrenIds: []
   },
   '8': {
     id: '8',

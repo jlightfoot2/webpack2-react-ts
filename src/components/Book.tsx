@@ -44,6 +44,10 @@ export default class Book extends React.Component<Props, State> {
     componentWillMount () {
       const {title} = this.props;
       this.props.appBarTitle(title);
+
+      (require as any).ensure([],(require) => {
+          require('d3');
+      })
     }
 
     componentWillReceiveProps(nextProps) {
